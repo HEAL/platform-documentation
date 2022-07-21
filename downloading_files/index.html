@@ -756,33 +756,33 @@ hide:
 <p>Download and configure the Gen3-client<br />
     a. Follow the download instructions of the Gen3-client <a href="https://gen3.org/resources/user/gen3-client/#1-installation-instructions">here</a>. The client can be downloaded <a href="https://github.com/uc-cdis/cdis-data-client/releases/latest">here</a>.  </p>
 <p>b. In your terminal, configure your profile using the following command:  </p>
-<p><code>shell
-gen3-client configure --profile=&lt;profile_name&gt; --cred=&lt;credentials.json&gt; --apiendpoint=&lt;api_endpoint_url&gt;`</code></p>
+<div class="highlight"><pre><span></span><code>gen3-client configure --profile<span class="o">=</span>&lt;profile_name&gt; --cred<span class="o">=</span>&lt;credentials.json&gt; --apiendpoint<span class="o">=</span>&lt;api_endpoint_url&gt;<span class="sb">`</span>
+</code></pre></div>
 <p>Mac/Linux:   </p>
-<p><code>bash
-gen3-client configure --profile=demo   --cred=~/Downloads/demo-credentials.json --apiendpoint=https://healdata.org/</code></p>
+<div class="highlight"><pre><span></span><code>gen3-client configure --profile<span class="o">=</span>demo   --cred<span class="o">=</span>~/Downloads/demo-credentials.json --apiendpoint<span class="o">=</span>https://healdata.org/
+</code></pre></div>
 <p>Windows:   </p>
-<p><code>ps
-gen3-client configure --profile=demo   --cred=C:\Users\demo\Downloads\demo-credentials.json --apiendpoint=https://healdata.org/</code></p>
+<div class="highlight"><pre><span></span><code>gen3-client configure --profile=demo   --cred=C:\Users\demo\Downloads\demo-credentials.json --apiendpoint=https://healdata.org/
+</code></pre></div>
 <p>If the command was succesful, you should get the following output:</p>
 <p><code>10:08:20 Profile 'demo' has been configured successfully.</code></p>
 <p>If successfully executed, a configuration file will be stored under the directory the user specified under “cred”. For troubleshooting, refer to the instructions found <a href="https://gen3.org/resources/user/gen3-client/#2-configure-a-profile-with-credentials">here</a>.  </p>
 <p>c. Download files by using the following command, which references the manifest file name and its location:  </p>
-<p><code>bash
-gen3-client download-multiple --profile=&lt;profile_name&gt; --manifest=&lt;manifest_file&gt; --download-path=&lt;path_for_files&gt;</code>
+<p><div class="highlight"><pre><span></span><code>gen3-client download-multiple --profile<span class="o">=</span>&lt;profile_name&gt; --manifest<span class="o">=</span>&lt;manifest_file&gt; --download-path<span class="o">=</span>&lt;path_for_files&gt;
+</code></pre></div>
 For example:
-<code>bash
-gen3-client download-multiple --profile=demo --manifest=manifest.json --download-path=downloads</code></p>
-<p><code>bash 
-2021/06/03 16:48:46 Reading manifest...   200 B / 200 B [===================] 100.00% 0s  
-WARNING: flag "rename" was set to false in "original" mode, duplicated files under "downloads/" will be overwritten   
-Proceed? [y/n]:</code></p>
+<div class="highlight"><pre><span></span><code>gen3-client download-multiple --profile<span class="o">=</span>demo --manifest<span class="o">=</span>manifest.json --download-path<span class="o">=</span>downloads
+</code></pre></div></p>
+<div class="highlight"><pre><span></span><code><span class="m">2021</span>/06/03 <span class="m">16</span>:48:46 Reading manifest...   <span class="m">200</span> B / <span class="m">200</span> B <span class="o">[===================]</span> <span class="m">100</span>.00% 0s  
+WARNING: flag <span class="s2">&quot;rename&quot;</span> was <span class="nb">set</span> to <span class="nb">false</span> <span class="k">in</span> <span class="s2">&quot;original&quot;</span> mode, duplicated files under <span class="s2">&quot;downloads/&quot;</span> will be overwritten   
+Proceed? <span class="o">[</span>y/n<span class="o">]</span>:
+</code></pre></div>
 <p>Enter:</p>
-<p><code>bash
-y</code></p>
+<div class="highlight"><pre><span></span><code>y
+</code></pre></div>
 <p>Output:</p>
-<p><code>bash
-2021/06/03 16:48:47 Total number of GUIDs: 1   2021/06/03 16:48:47 Preparing file info for each file, please wait...   1 / 1 [============================================] 100.00% 0s   2021/06/03 16:48:47 File info prepared successfully   arcos_all_washpost.tsv.gz 6.41 GiB / 6.41 GiB [=======================================================] 100.00% 0s</code></p>
+<div class="highlight"><pre><span></span><code><span class="m">2021</span>/06/03 <span class="m">16</span>:48:47 Total number of GUIDs: <span class="m">1</span>   <span class="m">2021</span>/06/03 <span class="m">16</span>:48:47 Preparing file info <span class="k">for</span> each file, please wait...   <span class="m">1</span> / <span class="m">1</span> <span class="o">[============================================]</span> <span class="m">100</span>.00% 0s   <span class="m">2021</span>/06/03 <span class="m">16</span>:48:47 File info prepared successfully   arcos_all_washpost.tsv.gz <span class="m">6</span>.41 GiB / <span class="m">6</span>.41 GiB <span class="o">[=======================================================]</span> <span class="m">100</span>.00% 0s
+</code></pre></div>
 </li>
 </ol>
 <h3 id="download-data-files-in-workspaces-using-the-python-sdk">Download Data Files in Workspaces using the Python SDK<a class="headerlink" href="#download-data-files-in-workspaces-using-the-python-sdk" title="Permanent link">&para;</a></h3>
@@ -817,8 +817,8 @@ y</code></p>
 <li>
 <ul>
 <li>Type in the following command to download the file to the terminal:<br />
-<code>bash
-    gen3 drs-pull object "guid"</code></li>
+    <div class="highlight"><pre><span></span><code>gen3 drs-pull object <span class="s2">&quot;guid&quot;</span>
+</code></pre></div></li>
 </ul>
 <p><img alt="workspace_terminal_download" src="../img/workspace_terminal_download.png" />  </p>
 <ul>
