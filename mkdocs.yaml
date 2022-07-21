@@ -41,7 +41,6 @@ theme:
     - navigation.tracking
     #- navigation.sections
     #- toc.integrate
-    - pymdownx.details
   favicon: img/heal_logo.png
 extra_css:
   - stylesheets/extra.css
@@ -55,6 +54,8 @@ markdown_extensions:
   - toc:
       permalink: True
       baselevel: 1
+  - pymdownx.superfences
+  - pymdownx.details
 plugins:
   - search
   - mkdocs-video:
