@@ -1,0 +1,79 @@
+:root {
+    --primary-color: #99286B;
+    --secondary-color: #402264;
+  
+    --primary-color_light: #E0C4D2;
+    --secondary-color_light: #C2BACD;
+  
+    --g3-color__bg-cloud: #F5F5F5;
+    --g3-color__bg-coal: #4A4A4A;
+    --g3-color__gray: #606060;
+    --g3-color__lightgray: #9B9B9B;
+    --g3-color__smoke: #D1D1D1;
+    --g3-color__silver: #E7E7E7;
+    --g3-color__black: #000000;
+    --g3-color__white: #FFFFFF;
+  
+    --g3-primary-btn__color: var(--g3-color__white);
+    --g3-primary-btn__bg-color: var(--secondary-color);
+    --g3-primary-btn__bg-color--hover: var(--secondary-color_light);
+    --g3-primary-btn__border-color: var(--g3-color__lightgray);
+    --g3-primary-btn__border-color--hover: var(--g3-color__gray);
+    --g3-primary-btn__border-color--active: var(--g3-color__lightgray);
+  
+    --g3-secondary-btn__color: var(--g3-color__white);
+    --g3-secondary-btn__bg-color: var(--secondary-color);
+    --g3-secondary-btn__bg-color--hover: var(--secondary-color_light);
+    --g3-secondary-btn__border-color: var(--g3-color__lightgray);
+    --g3-secondary-btn__border-color--hover: var(--g3-color__gray);
+    --g3-secondary-btn__border-color--active: var(--g3-color__lightgray);
+  
+    --g3-default-btn__color: var(--g3-color__gray);
+    --g3-default-btn__color--hover: var(--g3-color__black);
+    --g3-default-btn__color--active: var(--g3-color_lightgray);
+    --g3-default-btn__bg-color: var(--g3-color__white);
+    --g3-default-btn__border-color: var(--g3-color__gray);
+    --g3-default-btn__border-color--hover: var(--g3-color__black);
+  
+    --g3-disabled-btn__color: var(--g3-color__lightgray);
+    --g3-disabled-btn__bg-color: var(--g3-color__white);
+    --g3-disabled-btn__border-color: var(--g3-color__silver);
+  
+    --g3-dropdown-item__bg-color: var(--g3-color__gray);
+    --g3-dropdown-item__color: var(--g3-color__white);
+    --g3-dropdown-menu__border-color: var(--g3-color__gray);
+  
+    --g3-footer-color: var(--g3-color__bg-coal);
+    --g3-font__medium-weight: 500;
+    --g3-font__semi-bold-weight: 600;
+  }
+  
+  h1, h2, h3, h4,
+  body,
+  .caption,
+  .form-h1, .form-h2, .form-caption,
+  .introduction,
+  .body,
+  .special-number,
+  .form-body,
+  .form-special-number {
+      font-family: 'Montserrat';
+  }
+
+
+body {
+    margin: 0;
+    /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #534957;
+    /* text-align: left; */
+    background-color: var(--g3-color__silver);
+}
+
+.bg-primary {
+    background-image: red !important;
+    background-color: var(--g3-color_lightgray);
+    background-repeat: no-repeat;
+}

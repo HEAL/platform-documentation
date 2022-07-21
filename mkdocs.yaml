@@ -1,0 +1,68 @@
+#https://www.mkdocs.org/user-guide/configuration/#
+site_name: HEAL Platform Documentation
+site_url: https://heal-docs-dev.io
+repo_url: 
+nav:
+  - Home: index.md
+  - Return to Platform: https://healdata.org/
+  - login.md
+  - Study Registration:
+    - study-registration/index.md
+    - study-registration/requesting-access.md
+    - study-registration/registering-your-study.md
+  - Data and Repositories:
+    - Types of Hosted Data: hosted_data_types.md
+    - Data Management and Repositories: data_mgmt_and_repos.md
+  - HEAL Platform Features:
+    - Discovery Page: platform_discovery_page.md
+    - Access check/request: platform_request_access.md
+    - Workspaces: platform_workspaces.md
+    - Example Analysis Page: platform_example_analyses.md
+    - Profile Page: platform_profile_page.md
+  - Data File Downloads: downloading_files.md
+  - Tutorial Videos: platform_tutorial_videos.md
+  
+  - FAQs: faqs.md
+  - Contact: contact.md
+
+theme:
+  name: material
+  palette:
+    scheme: heal_platform
+  font:
+    text: Montserrat
+  logo: assets/HEAL_Initiative_White.svg
+  features:
+    - navigation.indexes
+    - navigation.instant
+    - navigation.indexes
+    #- navigation.tabs
+    #- navigation.tabs.sticky
+    - navigation.tracking
+    #- navigation.sections
+    #- toc.integrate
+  favicon: img/heal_logo.png
+extra_css:
+  - stylesheets/extra.css
+extra:
+  homepage: https://healdata.org
+use_directory_urls: true
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: True
+      baselevel: 1
+plugins:
+  - search
+  - mkdocs-video:
+      css_style:
+        height: "50vh"
+        width: "100%"
+
+# TODO: add footer (this may be included in the custom jinja template?)
+#    [![](img/gen3.png)](https://ctds.uchicago.edu/gen3)[![](img/createdby.png)](https://ctds.uchicago.edu/)
+#   [![image alt text](image URL link)](anchor link)
+
+# function readMore() { var dots = document.getElementById("dots"); var moreText = document.getElementById("more"); var btnText = document.getElementById("read-more-btn"); var btnText = document.getElementById("read-more-explorer"); if (dots.style.display === "none") { dots.style.display = "inline"; btnText.innerHTML = "Read more"; moreText.style.display = "none"; } else { dots.style.display = "none"; btnText.innerHTML = "Read less"; moreText.style.display = "inline"; } }
