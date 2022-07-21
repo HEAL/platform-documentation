@@ -1,0 +1,919 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="canonical" href="https://heal-docs-dev.io/platform_example_analyses/">
+      
+      <link rel="icon" href="../img/heal_logo.png">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-7.3.6">
+    
+    
+      
+        <title>Example Analysis Page - HEAL Platform Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.a57b2b03.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.3f5d1f46.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,700%7C&display=fallback">
+        <style>:root{--md-text-font-family:"Montserrat";--md-code-font-family:""}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    
+      
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="heal_platform" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    <script>function __prefix(e){return new URL("..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#example-analyses" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="https://healdata.org" title="HEAL Platform Documentation" class="md-header__button md-logo" aria-label="HEAL Platform Documentation" data-md-component="logo">
+      
+  <img src="../assets/HEAL_Initiative_White.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            HEAL Platform Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Example Analysis Page
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://healdata.org" title="HEAL Platform Documentation" class="md-nav__button md-logo" aria-label="HEAL Platform Documentation" data-md-component="logo">
+      
+  <img src="../assets/HEAL_Initiative_White.svg" alt="logo">
+
+    </a>
+    HEAL Platform Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://healdata.org/" class="md-nav__link">
+        Return to Platform
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../login/" class="md-nav__link">
+        Login
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../study-registration/">Study Registration</a>
+          
+            <label for="__nav_4">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Study Registration" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Study Registration
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../study-registration/requesting-access/" class="md-nav__link">
+        Requesting Access
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../study-registration/registering-your-study/" class="md-nav__link">
+        Registering Your Study
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Data and Repositories
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Data and Repositories" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Data and Repositories
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hosted_data_types/" class="md-nav__link">
+        Types of Hosted Data
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../data_mgmt_and_repos/" class="md-nav__link">
+        Data Management and Repositories
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" checked>
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          HEAL Platform Features
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="HEAL Platform Features" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          HEAL Platform Features
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../platform_discovery_page/" class="md-nav__link">
+        Discovery Page
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../platform_request_access/" class="md-nav__link">
+        Access check/request
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../platform_workspaces/" class="md-nav__link">
+        Workspaces
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Example Analysis Page
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Example Analysis Page
+      </a>
+      
+        
+
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#example-analyses" class="md-nav__link">
+    Example Analyses
+  </a>
+  
+    <nav class="md-nav" aria-label="Example Analyses">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#heal-example-analysis" class="md-nav__link">
+    HEAL Example Analysis
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-tutorial-notebooks" class="md-nav__link">
+    Why tutorial Notebooks?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#currently-available-notebooks" class="md-nav__link">
+    Currently available Notebooks
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#working-with-the-tutorial-notebooks-in-interactive-mode" class="md-nav__link">
+    Working with the Tutorial Notebooks in interactive mode
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#demo-how-to-find-data-and-work-on-the-tutorial-notebooks" class="md-nav__link">
+    Demo - How to find data and work on the Tutorial Notebooks
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../platform_profile_page/" class="md-nav__link">
+        Profile Page
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../downloading_files/" class="md-nav__link">
+        Data File Downloads
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../platform_tutorial_videos/" class="md-nav__link">
+        Tutorial Videos
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faqs/" class="md-nav__link">
+        FAQs
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contact/" class="md-nav__link">
+        Contact
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#example-analyses" class="md-nav__link">
+    Example Analyses
+  </a>
+  
+    <nav class="md-nav" aria-label="Example Analyses">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#heal-example-analysis" class="md-nav__link">
+    HEAL Example Analysis
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-tutorial-notebooks" class="md-nav__link">
+    Why tutorial Notebooks?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#currently-available-notebooks" class="md-nav__link">
+    Currently available Notebooks
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#working-with-the-tutorial-notebooks-in-interactive-mode" class="md-nav__link">
+    Working with the Tutorial Notebooks in interactive mode
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#demo-how-to-find-data-and-work-on-the-tutorial-notebooks" class="md-nav__link">
+    Demo - How to find data and work on the Tutorial Notebooks
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  <h1>Example Analysis Page</h1>
+                
+                <h2 id="example-analyses">Example Analyses<a class="headerlink" href="#example-analyses" title="Permanent link">&para;</a></h2>
+<p><a href="https://healdata.org/resource-browser">The Example Analysis page</a> contains a collection of view-only tutorial Jupyter Notebooks that provide demo analyses of datasets published on the HEAL platform.</p>
+<blockquote>
+<p>This tab acts as a <a href="#CurrentlyAvailableNotebooks">'visual table of contents’</a> of available HEAL datasets.</p>
+</blockquote>
+<h3 id="heal-example-analysis">HEAL Example Analysis<a class="headerlink" href="#heal-example-analysis" title="Permanent link">&para;</a></h3>
+<p>This video introduces users to the Example Analysis page, where users can browse Jupyter notebook demos to explore previous data analyses on the HEAL platform.  </p>
+<!-- TODO: use mkdocs-videos -->
+<!-- ![type:video](videos/HEAL_UI_Demo_July_2021.mp4) -->
+<video controls width="600">
+<source src="videos/Opioid_Ovderdose_Traj_CDCWonder_Demo_2021-07-21.mp4" type="video/mp4">
+<source src="videos/Opioid_Ovderdose_Traj_CDCWonder_Demo_2021-07-21.mp4" type="video/webm">
+</video>
+
+<p>If your Browser does not support watching this video, here's a <a href="../videos/Opioid_Ovderdose_Traj_CDCWonder_Demo_2021-07-21.mp4">link to the video</a> instead.  </p>
+<p>Currently available static Jupter Notebooks:</p>
+<p><img alt="grid_notebooks_color" src="../img/grid_notebooks_color.png" /></p>
+<h3 id="why-tutorial-notebooks">Why tutorial Notebooks?<a class="headerlink" href="#why-tutorial-notebooks" title="Permanent link">&para;</a></h3>
+<p>These notebooks will allow users to learn how to analyze and visualize data available on the HEAL platform - without having to take the additional steps of finding and exporting the data used by the tutorial first.</p>
+<blockquote>
+<p>All tutorial notebooks are static, view-only, and can be downloaded as <code>.html</code> files.<br />
+Find the notebooks in interactive mode in the <a href="#Workspaces">Workspace tab</a>.<br />
+Find below a description of how to <a href="#WorkingTutorialNotebooksInteractively">work with the tutorials in the workspaces</a>.  </p>
+</blockquote>
+<p>These tutorial notebooks are meant to:</p>
+<ul>
+<li>Give users a sense for how the platform can be used to analyze data.</li>
+<li>Bring complementary datasets together.</li>
+<li>Be used as a launching point for the users’ own custom analysis.</li>
+<li>Spark imagination about how users can incorporate the platform data access, analysis, and collaboration tools into their own research and data analysis process and pipelines.</li>
+</ul>
+<p>The “Example Analysis” tab will be regularly updated with new and exciting tutorial data analysis notebooks, as more datasets are published and brought together in novel ways on the Platform.</p>
+<h3 id="currently-available-notebooks">Currently available Notebooks<a class="headerlink" href="#currently-available-notebooks" title="Permanent link">&para;</a></h3>
+<p>Find below a list of notebooks that are currently available and which datasets they’re based on.</p>
+<blockquote>
+<p>Click <a href="#Tutorials">here</a> to watch demo videos about how to use the tutorial Jupyter Notebooks as a launching point for your own custom analysis.</p>
+</blockquote>
+<p>Please link your account to <a href="#LinkingAccessTo">all FAIR repositories</a> before working with the Notebooks in interactive mode.</p>
+<table>
+<thead>
+<tr>
+<th>Notebook Name</th>
+<th>Project Title</th>
+<th>Project Number</th>
+<th>Datasets used</th>
+<th>Language</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BACPAC Synthetic Data Analysis</td>
+<td>Back Pain Consortium (BACPAC) Research Program Data Integration, Algorithm Development and Operations Management Center</td>
+<td>1U24AR076730-01</td>
+<td>1) participant_ SMART.tsv 2) substance_use_ SMART.tsv 3) physical_function_ SMART.tsv</td>
+<td>Python</td>
+</tr>
+<tr>
+<td>JCOIN Tracking Opioid Stigma</td>
+<td>Methodology and Advanced Analytics Resource Center</td>
+<td>1U2CDA050098-01_a</td>
+<td>1) JCOIN_NORC_ Omnibus_SURVEY1_ Feb2020.sav 2) JCOIN_NORC_ Omnibus_SURVEY2_ April2020.sav 3) JCOIN_NORC_ Omnibus_SURVEY3_ June2020.sav 4) JCOIN_NORC_ Omnibus_SURVEY4_ Oct2020.sav</td>
+<td>Python</td>
+</tr>
+<tr>
+<td>Opioid Prevalence And Overdoses</td>
+<td>1) Drug Enforcement Administration Controlled Substances Tracking (DEA ARCOS)  2) Prescription Drug Abuse Policy System  2b) 3) CDC Wide-ranging Online Data for Epidemiologic Research (CDC WONDER) Mortality Multiple Cause-of-Death Public Use Record</td>
+<td>1) deaarcos1  2) 57b45d83d6 c9e7e8693ccdfd  3) cdcwonder</td>
+<td>1a) dea_arcos_drug_list.tsv 1b) dea_arcos_county_ population.tsv 1c) dea_arcos_combined_ county_annual.tsv 1d) dea_arcos_state_population.tsv  2a) 20170216-RM-Stat-Data.xlsx 2b) Naloxone_Data_09112020.xlsx 2c) 20180810_Good_Samaritan_ Law_Stat_Data.xlsx  3a) CDC_WONDER_unintentional_ overdoses.tsv 3b) CDC_WONDER_suicide_ overdoses.tsv 3c) monthly_unintentional_ overdoses.tsv</td>
+<td>Python</td>
+</tr>
+<tr>
+<td>Opioid Environment Toolkit and OEPS R (Watch tutorial)</td>
+<td>Methodology and Advanced Analytics Resource Center</td>
+<td>1U2CDA050098-01_b</td>
+<td>1) ZIP_COUNTY.xlsx 2) us-wide-moudsCleaned.csv 3) zctas2018.shp</td>
+<td>RStudio</td>
+</tr>
+<tr>
+<td>Opioid Overdose Trajectories (Watch tutorial)</td>
+<td>CDC Wide-ranging Online Data for Epidemiologic Research (CDC WONDER) Mortality Multiple Cause-of-Death Public Use Record</td>
+<td>cdcwonder</td>
+<td>1) deaths_gender.xlsx 2) deaths_age_cat.xlsx 3) deaths_type_opioid.xlsx 4) cdc_wonder_year_cause_ hedegaard_et_al_2020.txt 5) cdc_wonder_year_cause_ state_hedegaard_et_al_2020.txt</td>
+<td>Python</td>
+</tr>
+</tbody>
+</table>
+<h3 id="working-with-the-tutorial-notebooks-in-interactive-mode">Working with the Tutorial Notebooks in interactive mode<a class="headerlink" href="#working-with-the-tutorial-notebooks-in-interactive-mode" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p>Notebooks require linked access to all FAIR enabled repositories, as described <a href="#LinkingAccessTo">here</a>.</p>
+</li>
+<li>
+<p>Code in the notebooks is editable, and users can import additional datasets and extend their analysis.</p>
+</li>
+</ul>
+<h3 id="demo-how-to-find-data-and-work-on-the-tutorial-notebooks">Demo - How to find data and work on the Tutorial Notebooks<a class="headerlink" href="#demo-how-to-find-data-and-work-on-the-tutorial-notebooks" title="Permanent link">&para;</a></h3>
+<p>Below we describe the steps to export data from the Discovery Page tutorial Jupyter notebooks for one example tutorial notebook BACPAC_Synthetic_Data_Analysis.ipynb (“BACPAC synthetic data analysis”)</p>
+<p>Users must be logged in and have their accounts linked to the <a href="#LinkingAccessTo">FAIR repositories</a> in order to follow the steps below.</p>
+<ol>
+<li>
+<p>Go to the <a href="https://healdata.org/workspace">Workspace tab</a> and click “Launch” on the “BACPAC Synthetic Data Analysis Notebook”. This may take a few minutes to load.<br />
+    Note, that depending on the chosen notebook, this step varies to align with the name of the notebook/workspace.<br />
+<img alt="static_notebook_bacpac_demo_1" src="../img/static_notebook_bacpac_demo_1.png" />  </p>
+</li>
+<li>
+<p>Find and open the notebook in the landing directory by clicking on “BACPAC_Synthetic_Data_Analysis.ipynb".<br />
+<img alt="notebook_browser_notebook1" src="../img/static_notebook_bacpac_demo.png" />  </p>
+</li>
+<li>
+<p>Click the first two cells and run them by clicking into the cell and either using shift+enter on the keyboard or selecting “Run”. Uncomment the commands as displayed below to install necessary packages.<br />
+<img alt="notebook_browser_run_cell" src="../img/notebook_browser_run_cell.png" />  </p>
+</li>
+<li>
+<p>Run the next cell to import the data files.<br />
+<img alt="static_notebook_bacpac_manifestname" src="../img/static_notebook_bacpac_manifestname.png" />  </p>
+</li>
+<li>
+<p>Explore the rest of the notebook. If you want to make changes, make sure to save the notebook as a new file in the directory "pd".  </p>
+</li>
+<li>
+<p>Make sure to terminate the workspace when the work is finished to reduce computational costs.</p>
+</li>
+</ol>
+<p>Note: Work must be saved in the directory "/pd" in order to remain accessible after workspace termination. Note, that Workspaces automatically shut down after 90 minutes of <a href="#AutomaticWorkspaceShutdown">idle time.</a></p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../platform_workspaces/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Workspaces" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Workspaces
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../platform_profile_page/" class="md-footer__link md-footer__link--next" aria-label="Next: Profile Page" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Profile Page
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        
+          Made with
+          <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+            Material for MkDocs
+          </a>
+        
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.indexes", "navigation.instant", "navigation.indexes", "navigation.tracking"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.fcfe8b6d.min.js", "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.b1047164.min.js"></script>
+      
+    
+  </body>
+</html>

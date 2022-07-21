@@ -1,0 +1,926 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="canonical" href="https://heal-docs-dev.io/downloading_files/">
+      
+      <link rel="icon" href="../img/heal_logo.png">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-7.3.6">
+    
+    
+      
+        <title>Data File Downloads - HEAL Platform Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.a57b2b03.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.3f5d1f46.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,700%7C&display=fallback">
+        <style>:root{--md-text-font-family:"Montserrat";--md-code-font-family:""}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    
+      
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="heal_platform" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    <script>function __prefix(e){return new URL("..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#data-file-downloads" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="https://healdata.org" title="HEAL Platform Documentation" class="md-header__button md-logo" aria-label="HEAL Platform Documentation" data-md-component="logo">
+      
+  <img src="../assets/HEAL_Initiative_White.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            HEAL Platform Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Data File Downloads
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://healdata.org" title="HEAL Platform Documentation" class="md-nav__button md-logo" aria-label="HEAL Platform Documentation" data-md-component="logo">
+      
+  <img src="../assets/HEAL_Initiative_White.svg" alt="logo">
+
+    </a>
+    HEAL Platform Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://healdata.org/" class="md-nav__link">
+        Return to Platform
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../login/" class="md-nav__link">
+        Login
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../study-registration/">Study Registration</a>
+          
+            <label for="__nav_4">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Study Registration" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Study Registration
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../study-registration/requesting-access/" class="md-nav__link">
+        Requesting Access
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../study-registration/registering-your-study/" class="md-nav__link">
+        Registering Your Study
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Data and Repositories
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Data and Repositories" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Data and Repositories
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hosted_data_types/" class="md-nav__link">
+        Types of Hosted Data
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../data_mgmt_and_repos/" class="md-nav__link">
+        Data Management and Repositories
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          HEAL Platform Features
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="HEAL Platform Features" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          HEAL Platform Features
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../platform_discovery_page/" class="md-nav__link">
+        Discovery Page
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../platform_request_access/" class="md-nav__link">
+        Access check/request
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../platform_workspaces/" class="md-nav__link">
+        Workspaces
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../platform_example_analyses/" class="md-nav__link">
+        Example Analysis Page
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../platform_profile_page/" class="md-nav__link">
+        Profile Page
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Data File Downloads
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Data File Downloads
+      </a>
+      
+        
+
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#data-file-downloads" class="md-nav__link">
+    Data File Downloads
+  </a>
+  
+    <nav class="md-nav" aria-label="Data File Downloads">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#download-data-files-from-the-discovery-page" class="md-nav__link">
+    Download Data Files from the Discovery Page
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#download-data-files-using-the-gen3-client" class="md-nav__link">
+    Download Data Files using the Gen3-client
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#download-data-files-in-workspaces-using-the-python-sdk" class="md-nav__link">
+    Download Data Files in Workspaces using the Python SDK
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../platform_tutorial_videos/" class="md-nav__link">
+        Tutorial Videos
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faqs/" class="md-nav__link">
+        FAQs
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contact/" class="md-nav__link">
+        Contact
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#data-file-downloads" class="md-nav__link">
+    Data File Downloads
+  </a>
+  
+    <nav class="md-nav" aria-label="Data File Downloads">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#download-data-files-from-the-discovery-page" class="md-nav__link">
+    Download Data Files from the Discovery Page
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#download-data-files-using-the-gen3-client" class="md-nav__link">
+    Download Data Files using the Gen3-client
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#download-data-files-in-workspaces-using-the-python-sdk" class="md-nav__link">
+    Download Data Files in Workspaces using the Python SDK
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  <h1>Data File Downloads</h1>
+                
+                <!-- ---
+hide:
+  - navigation
+--- -->
+
+<h2 id="data-file-downloads">Data File Downloads<a class="headerlink" href="#data-file-downloads" title="Permanent link">&para;</a></h2>
+<p>Users can download data files associated with a study by downloading the files directly from the Discovery page, or leveraging the CTDS-owned python software development kit (SDK) and the tool “Gen3-client” if the file size exceeds 250 MB.</p>
+<p>Note that current studies that have datasets of more than 250 MB are those with the following project numbers: a) cdcwonder and b) deaarcos1.</p>
+<p>Note, that accessing data files requires linked access to all FAIR enabled repositories, as described <a href="#LinkingAccessTo">here</a>. A pop-up window will remind users:</p>
+<p><img alt="workspace_login_other_commons_discovery" src="../img/workspace_login_other_commons_discovery.png" /></p>
+<p>Users are reminded to link the account to all other FAIR enabled repositories, as described <a href="#LinkingAccessTo">here</a>.</p>
+<h3 id="download-data-files-from-the-discovery-page">Download Data Files from the Discovery Page<a class="headerlink" href="#download-data-files-from-the-discovery-page" title="Permanent link">&para;</a></h3>
+<p>Users can download data files up to sizes of 250 MB directly from the Discovery Page.  </p>
+<p>Below you find the simple steps to do so.</p>
+<ol>
+<li>
+<p>Navigate to the <a href="#Discovery">Discovery Page</a>. Link your accounts to FAIR repositories as described <a href="#LinkingAccessTo">here</a>.  </p>
+</li>
+<li>
+<p>Find the study of interest by using the <a href="#SearchFeatures">search features</a> or the <a href="#FindAvailableDatasets">list of accessible studies</a>.  </p>
+</li>
+<li>
+<p>Select the clickable box next to the study.<br />
+    Click on "Download ZIP", which will initiate the data download.<br />
+<img alt="download_discovery_prepared_1" src="../img/download_discovery_prepared_1.png" /></p>
+<p>Select the study and click "Download ZIP".</p>
+</li>
+<li>
+<p>Users will be prompted with a window that shows the download is being prepared.<br />
+    Please do not navigate away from this page until the download is complete.<br />
+<img alt="download_discovery_prepared_2" src="../img/download_discovery_prepared_2.png" /></p>
+<p>After clicking "Download ZIP", your download is being prepared. Please do not navigate away from this page until the download is complete.</p>
+</li>
+<li>
+<p>Users will be notified once the download is ready. If the download doesn't start automatically, please follow the link prompted.<br />
+<img alt="download_discovery_prepared_3" src="../img/download_discovery_prepared_3.png" /></p>
+<p>Users will be notified once the download is ready. Save the file(s) by selecting the directory using the prompted window.</p>
+</li>
+<li>
+<p>If the file size exceeds 250 MB, users will be notified to deselect studies to reduce the size or use other tools:<br />
+<img alt="download_discovery_failed" src="../img/download_discovery_failed.png" /></p>
+<p>Users are advised to use other tools to download the files if the total file size exceeds 250 MB. <a href="#DownloadFilesClientSDK">Please see the next section for a step-by-step guide using these tools</a>.</p>
+</li>
+</ol>
+<h3 id="download-data-files-using-the-gen3-client">Download Data Files using the Gen3-client<a class="headerlink" href="#download-data-files-using-the-gen3-client" title="Permanent link">&para;</a></h3>
+<p>In order to download data files above 250 MB, users will need to utilize the Gen3-client command line tool developed by the University of Chicago’s Center for Translational Data Science.</p>
+<p>The current studies that have datasets of more than 250 MB are those with the following project numbers: a) cdcwonder and b) deaarcos1.</p>
+<p>Find below a guide to download data files using the Gen3-client:</p>
+<ol>
+<li>
+<p>Log in to the HEAL Platform on <a href="https://healdata.org/login">healdata.org/login</a>. Link your accounts to FAIR repositories as described <a href="#LinkingAccessTo">here</a>.  </p>
+</li>
+<li>
+<p>Find and select one or multiple studies of interest on the <a href="https://healdata.org/discovery">Discovery Page</a>. For multiple studies, select "Data Availability" in the top right corner, click “Available”, and choose multiple studies.</p>
+</li>
+<li>
+<p>Click on the button “Download Manifest".</p>
+</li>
+</ol>
+<p><img alt="discovery_select_study_download_manifest" src="../img/discovery_select_study_download_manifest.png" /></p>
+<p>Select a study of interest, then click on the button “Download Manifest".</p>
+<ol>
+<li>Create and download an API key from your <a href="https://healdata.org/identity">Profile Page</a>. Note where you save the API key on your local machine.  </li>
+</ol>
+<p><img alt="profile_APIkey" src="../img/profile_APIkey.png" /></p>
+<p>Create an API key on the profile page.</p>
+<p><img alt="profile_APIkey_created" src="../img/profile_APIkey_created.png" /></p>
+<p>Download the API key as json file and note the directory where the API key was saved for step 6.</p>
+<ol>
+<li>
+<p>Download and configure the Gen3-client<br />
+    a. Follow the download instructions of the Gen3-client <a href="https://gen3.org/resources/user/gen3-client/#1-installation-instructions">here</a>. The client can be downloaded <a href="https://github.com/uc-cdis/cdis-data-client/releases/latest">here</a>.  </p>
+<p>b. In your terminal, configure your profile using the following command:  </p>
+<p><code>shell
+gen3-client configure --profile=&lt;profile_name&gt; --cred=&lt;credentials.json&gt; --apiendpoint=&lt;api_endpoint_url&gt;`</code></p>
+<p>Mac/Linux:   </p>
+<p><code>bash
+gen3-client configure --profile=demo   --cred=~/Downloads/demo-credentials.json --apiendpoint=https://healdata.org/</code></p>
+<p>Windows:   </p>
+<p><code>ps
+gen3-client configure --profile=demo   --cred=C:\Users\demo\Downloads\demo-credentials.json --apiendpoint=https://healdata.org/</code></p>
+<p>If the command was succesful, you should get the following output:</p>
+<p><code>10:08:20 Profile 'demo' has been configured successfully.</code></p>
+<p>If successfully executed, a configuration file will be stored under the directory the user specified under “cred”. For troubleshooting, refer to the instructions found <a href="https://gen3.org/resources/user/gen3-client/#2-configure-a-profile-with-credentials">here</a>.  </p>
+<p>c. Download files by using the following command, which references the manifest file name and its location:  </p>
+<p><code>bash
+gen3-client download-multiple --profile=&lt;profile_name&gt; --manifest=&lt;manifest_file&gt; --download-path=&lt;path_for_files&gt;</code>
+For example:
+<code>bash
+gen3-client download-multiple --profile=demo --manifest=manifest.json --download-path=downloads</code></p>
+<p><code>bash 
+2021/06/03 16:48:46 Reading manifest...   200 B / 200 B [===================] 100.00% 0s  
+WARNING: flag "rename" was set to false in "original" mode, duplicated files under "downloads/" will be overwritten   
+Proceed? [y/n]:</code></p>
+<p>Enter:</p>
+<p><code>bash
+y</code></p>
+<p>Output:</p>
+<p><code>bash
+2021/06/03 16:48:47 Total number of GUIDs: 1   2021/06/03 16:48:47 Preparing file info for each file, please wait...   1 / 1 [============================================] 100.00% 0s   2021/06/03 16:48:47 File info prepared successfully   arcos_all_washpost.tsv.gz 6.41 GiB / 6.41 GiB [=======================================================] 100.00% 0s</code></p>
+</li>
+</ol>
+<h3 id="download-data-files-in-workspaces-using-the-python-sdk">Download Data Files in Workspaces using the Python SDK<a class="headerlink" href="#download-data-files-in-workspaces-using-the-python-sdk" title="Permanent link">&para;</a></h3>
+<p>Users can download data files to the workspaces by leveraging the CTDS-owned python software development kit (SDK). Follow instructions below.</p>
+<ol>
+<li>
+<p>Log in to the Data Commons on <a href="https://healdata.org/login">healdata.org/login</a>. Link your accounts to FAIR repositories as described <a href="#LinkingAccessTo">here</a>.  </p>
+</li>
+<li>
+<p>Find and select one or multiple studies of interest on the <a href="https://healdata.org/discovery">Discovery Page</a>. Select "Data Availability" in the top right corner and click on “Available” to see all available studies.  </p>
+</li>
+<li>
+<p>Select a study and click on "Open in Workspace".<br />
+<img alt="static_notebook_bacpac" src="../img/static_notebook_bacpac.png" />  </p>
+</li>
+<li>
+<p>Select a workspace VM and click "Launch". Choose the "(Generic) Jupyter Notebook with R kernel" if you are familiar with setting up Python- or R-based Notebooks, or if you just exported one or multiple studies from the Discovery Page and want to start your custom analysis. Choose a VM with the name of the Notebook if you selected the studies relevant to a specific Notebook and want to work on the Notebook in interactive mode.<br />
+<img alt="Workspace_flavors" src="../img/workspace_flavors.png" /></p>
+<p>Available workspaces on the HEAL Platform (top). Users need to link accounts from other repositories (bottom; click <a href="#LinkingAccessTo">here to see how</a>).</p>
+</li>
+<li>
+<p>Find all files under /data/healdata.org/ with the ending "PLACEHOLDER". These files can be directly downloaded either in the terminal or in a notebook cell.<br />
+<img alt="workspace_placeholder" src="../img/workspace_placeholder.png" />  </p>
+</li>
+<li>
+<p>Click on one file and copy the command and GUID.<br />
+<img alt="workspace_placeholder_guid" src="../img/workspace_placeholder_guid.png" />  </p>
+</li>
+<li>
+<p>Open a new terminal under "New". <img alt="workspace_terminal" src="../img/workspace_terminal.png" />  </p>
+</li>
+<li>
+<ul>
+<li>Type in the following command to download the file to the terminal:<br />
+<code>bash
+    gen3 drs-pull object "guid"</code></li>
+</ul>
+<p><img alt="workspace_terminal_download" src="../img/workspace_terminal_download.png" />  </p>
+<ul>
+<li>If you are working in a notebook, type in the following command into a code cell to download the file:  </li>
+</ul>
+<blockquote>
+<p><code>!gen3 drs-pull object "guid"</code>  </p>
+</blockquote>
+<p><img alt="workspace_download_one_file_sdk" src="../img/workspace_download_one_file_sdk.png" />  </p>
+<ul>
+<li>
+<p>If you use the R kernel, change the command into <code>system("gen3 drs-pull object 'guid'")</code>  </p>
+</li>
+<li>
+<p>Note, that you can also use the manifest.json to download in batches, see below: <img alt="workspace_download_from_manifest_sdk" src="../img/workspace_download_from_manifest_sdk.png" /></p>
+<p>Download files in batches with a file manifest using the commands shown above.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>The file(s) should be downloaded and is ready to be worked with in your Notebook.<br />
+<img alt="workspace_terminal_downloaded" src="../img/workspace_terminal_downloaded.png" /></p>
+<p>Downloaded files can be found in your home directory.</p>
+</li>
+</ol>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../platform_profile_page/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Profile Page" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Profile Page
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../platform_tutorial_videos/" class="md-footer__link md-footer__link--next" aria-label="Next: Tutorial Videos" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Tutorial Videos
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        
+          Made with
+          <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+            Material for MkDocs
+          </a>
+        
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.indexes", "navigation.instant", "navigation.indexes", "navigation.tracking"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.fcfe8b6d.min.js", "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.b1047164.min.js"></script>
+      
+    
+  </body>
+</html>
