@@ -1,5 +1,5 @@
 
-## Discovery Page
+# Discovery Page
 
 [The Discovery Page](https://healdata.org/discovery) provides users a venue to search and find studies and datasets displayed in the HEAL Platform. Users can browse through the publicly accessible study-level metadata without requiring authorization.
 
@@ -9,7 +9,7 @@
 
 The Discovery Page of the HEAL Platform. Browse through datasets and study-level metadata and find studies using tags or the free text search field.
 
-### Search Features
+## Search Features
 
 <!-- MBK: deleted the "Click here: these sections shoudl probably
 be embedded into the subsequent sections or have their own sections -->
@@ -26,7 +26,7 @@ Different features such as free text search bar and tags on the Discovery Page h
 7.  Documentation. This brings you to this page you are currently on.
 8.  Login Page. Login on the HEAL Platform to leverage all features. [Read further here](platform_login.md).
 
-### Find available Study-level Metadata
+## Find available Study-level Metadata
 
 Finding available study-level metadata on the HEAL Platform is made easy by clicking on a study.
 
@@ -34,7 +34,7 @@ Finding available study-level metadata on the HEAL Platform is made easy by clic
 
 Clicking on any study will display the available study-level and dataset metadata.
 
-### Find accessible Datasets
+## Find accessible Datasets
 
 Users can select and filter studies from multiple resources and conduct analyses on the selected datasets in a workspace. Users can find search only available data they have access to by selecting the data access button in the top right corner of the study page and selecting “Data Availability" - "Available" as shown below. The Discovery Page will automatically update the list of studies that have available datasets.
 
@@ -42,7 +42,7 @@ Users can select and filter studies from multiple resources and conduct analyses
 
 Select the symbol next to Data Availability to open all options. Three options are available. Find available datasets by clicking on the “Available” button.
 
-### Data Availability Options
+## Data Availability Options
 
 Different options for Data Availability exist and will be explained below.
 
@@ -65,7 +65,7 @@ Once available, each study can be selected and exported to workspace or download
 *   Pending: This option will display studies located on any data resource or repository, for which attached datasets will be added in the near future. The checkbox next to the study will be greyed out and non-clickable as shown above.  
       
  
-### Select Files on the Discovery Page and bring them to the Workspace
+## Select Files on the Discovery Page and bring them to the Workspace
 
 ![Discovery_exporting_to_workspace](img/discovery_exporting_to_workspace.gif)
 

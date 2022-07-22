@@ -1,11 +1,11 @@
 
-## Example Analyses
+# Example Analyses
 
 [The Example Analysis page](https://healdata.org/resource-browser) contains a collection of view-only tutorial Jupyter Notebooks that provide demo analyses of datasets published on the HEAL platform.
 
 > This tab acts as a ['visual table of contents’](#CurrentlyAvailableNotebooks) of available HEAL datasets.
 
-### HEAL Example Analysis
+## HEAL Example Analysis
 
 This video introduces users to the Example Analysis page, where users can browse Jupyter notebook demos to explore previous data analyses on the HEAL platform.  
 
@@ -23,7 +23,7 @@ Currently available static Jupter Notebooks:
 
 ![grid_notebooks_color](img/grid_notebooks_color.png)
 
-### Why tutorial Notebooks?
+## Why tutorial Notebooks?
 
 These notebooks will allow users to learn how to analyze and visualize data available on the HEAL platform - without having to take the additional steps of finding and exporting the data used by the tutorial first.
 
@@ -40,7 +40,7 @@ These tutorial notebooks are meant to:
 
 The “Example Analysis” tab will be regularly updated with new and exciting tutorial data analysis notebooks, as more datasets are published and brought together in novel ways on the Platform.
 
-### Currently available Notebooks
+## Currently available Notebooks
 
 Find below a list of notebooks that are currently available and which datasets they’re based on.
 
@@ -56,13 +56,13 @@ Please link your account to [all FAIR repositories](#LinkingAccessTo) before wor
 | Opioid Environment Toolkit and OEPS R (Watch tutorial) | Methodology and Advanced Analytics Resource Center | 1U2CDA050098-01_b | 1) ZIP_COUNTY.xlsx 2) us-wide-moudsCleaned.csv 3) zctas2018.shp | RStudio |
 | Opioid Overdose Trajectories (Watch tutorial) | CDC Wide-ranging Online Data for Epidemiologic Research (CDC WONDER) Mortality Multiple Cause-of-Death Public Use Record | cdcwonder | 1) deaths_gender.xlsx 2) deaths_age_cat.xlsx 3) deaths_type_opioid.xlsx 4) cdc_wonder_year_cause_ hedegaard_et_al_2020.txt 5) cdc_wonder_year_cause_ state_hedegaard_et_al_2020.txt | Python |
 
-### Working with the Tutorial Notebooks in interactive mode
+## Working with the Tutorial Notebooks in interactive mode
 
 *   Notebooks require linked access to all FAIR enabled repositories, as described [here](#LinkingAccessTo).
 
 *   Code in the notebooks is editable, and users can import additional datasets and extend their analysis.
 
-### Demo - How to find data and work on the Tutorial Notebooks
+## Demo - How to find data and work on the Tutorial Notebooks
 
 Below we describe the steps to export data from the Discovery Page tutorial Jupyter notebooks for one example tutorial notebook BACPAC\_Synthetic\_Data\_Analysis.ipynb (“BACPAC synthetic data analysis”)
 

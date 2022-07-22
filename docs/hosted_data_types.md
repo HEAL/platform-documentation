@@ -1,4 +1,4 @@
-## Types of Hosted Data
+# Types of Hosted Data
 
 As part of the NIH HEAL Initiative, the HEAL Platform aims to transform opioid research into a virtual, annotated, searchable catalog where data from different studies can be analyzed, compared, and combined.
 

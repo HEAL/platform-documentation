@@ -13,7 +13,7 @@ hide:
 
 [![](img/NIH_HEAL_header.jpg)](https://healdata.org/)
 
-## The HEAL Platform
+# The HEAL Platform
 
 The [HEAL Platform](https://healdata.org/) is a cloud-based and multifunctional web interface that provides a secure environment for discovery and analysis of [NIH HEAL](https://heal.nih.gov/) results and data. It is designed to serve users with a variety of objectives, backgrounds, and specialties.
 
