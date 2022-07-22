@@ -3,7 +3,7 @@ hide:
   - navigation
 --- -->
 
-## Data File Downloads
+# Data File Downloads
 
 Users can download data files associated with a study by downloading the files directly from the Discovery page, or leveraging the CTDS-owned python software development kit (SDK) and the tool “Gen3-client” if the file size exceeds 250 MB.
 
@@ -15,7 +15,7 @@ Note, that accessing data files requires linked access to all FAIR enabled repos
 
 Users are reminded to link the account to all other FAIR enabled repositories, as described [here](#LinkingAccessTo).
 
-### Download Data Files from the Discovery Page
+## Download Data Files from the Discovery Page
 
 Users can download data files up to sizes of 250 MB directly from the Discovery Page.  
 
@@ -58,7 +58,7 @@ Below you find the simple steps to do so.
       
     
 
-### Download Data Files using the Gen3-client
+## Download Data Files using the Gen3-client
 
 In order to download data files above 250 MB, users will need to utilize the Gen3-client command line tool developed by the University of Chicago’s Center for Translational Data Science.
 
@@ -150,7 +150,7 @@ Download the API key as json file and note the directory where the API key was s
     ```
   
 
-### Download Data Files in Workspaces using the Python SDK
+## Download Data Files in Workspaces using the Python SDK
 
 Users can download data files to the workspaces by leveraging the CTDS-owned python software development kit (SDK). Follow instructions below.
 

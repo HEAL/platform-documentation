@@ -1,4 +1,4 @@
-## Check and request access
+# Check and request access
 
 Users can find out to which projects they have access to by navigating to [the Discovery Page](https://healdata.org/discovery) and by selecting “Data Availability" - "Available" - ”OK” as shown below.
 
@@ -6,7 +6,7 @@ Users can find out to which projects they have access to by navigating to [the D
 
 Available data can be found when the box next to "Available" is selected.
 
-### Access to individual Studies
+## Access to individual Studies
 
 You can check access by clicking on a study in the Discovery Page, as shown below:
 
@@ -20,7 +20,7 @@ If you have access, a green box will show “You have access to this study”.
 
 Access is displayed as a yellow box on top of each Study Page.
 
-### Current (open-access) studies
+## Current (open-access) studies
 
 Current open-access studies will be shown when navigating to the Discovery Page.  
 Users can download and/or export open-access study files after logging in. Currently, the HEAL Platform hosts the following studies. All are open-access except when noted.
@@ -40,7 +40,7 @@ Note, that different studies relate to different [Data Resources](#DataManagemen
 | b)   1U2CDA050098-01_b | a) JCOIN 026: Amerispeak Brief   Stigma Survey | JCOIN  |
 |   | b) The Opioid Environment Policy   Scan |JCOIN  |
 
-### Overview of access to Datasets and Studies
+## Overview of access to Datasets and Studies
 
 Users can visit the ["Profile” page](https://healdata.org/identity) to view a list of studies they have access to under the “You have access to the following project(s)” section, as shown in the figure below.
 
@@ -60,7 +60,7 @@ From here users can also view if they have access to projects or workspaces
 *   /workspace: You have access to the workspace.
 *   /programs/open: You have access to open-access projects.
 
-### Linking access to FAIR enabled repositories
+## Linking access to FAIR enabled repositories
 
 The HEAL Platform securely exposes data stored on multiple [HEAL-approved FAIR repositories](#DataManagementRepositories).
 

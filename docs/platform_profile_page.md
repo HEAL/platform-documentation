@@ -1,4 +1,4 @@
-## Profile Page
+# Profile Page
 
 On the profile page users will find information regarding their access to projects, access to Gen3-specific tools (e.g. access to the /workspace), and the function to create API keys for credential downloads. API keys are necessary for the downloadof files using the Gen3-client; for more information see chapter 4.
 
