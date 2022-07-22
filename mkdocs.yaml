@@ -5,7 +5,7 @@ repo_url:
 nav:
   - Home: index.md
   - Return to Platform: https://healdata.org/
-  - login.md
+  - Logging In: logging-in.md
   - Study Registration:
     - study-registration/index.md
     - study-registration/requesting-access.md
