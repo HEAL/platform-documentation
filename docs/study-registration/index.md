@@ -1,4 +1,19 @@
+---
+hide:
+  - toc
+---
+
 # Study Registration
+
+!!! success inline end "Registering Your Study"
+    
+    Registering your study is a simple, three-step process:
+    
+    1. Request access
+    2. Complete study registration
+    3. Enter study-level metadata into CEDAR
+    
+    [Request access](requesting-access.md){ .md-button .md-button--primary }
 
 The HEAL Data Platform provides a single interface where users can browse and
 search for all HEAL-funded studies as well as other HEAL-relevant datasets. In
@@ -32,14 +47,6 @@ Principal Investigator or another member of the research team.
     submit data to a repository. Registering your study increases its
     visibility on the Platform and allows the Platform and data repository to
     anticipate and plan for your subsequent data submission.
-
-Registering your study is a simple, three-step process:
-
-1. Request access
-2. Complete study registration
-3. Enter study-level metadata into CEDAR
-
-[Request access to register your study](requesting-access.md){ .md-button .md-button--primary }
 
 <!-- ??? success "A study-level metadata instance within CEDAR"
 
