@@ -10,7 +10,7 @@ New to Jupyter? Learn more about the popular tool for data scientists on [Jupyte
 
     Workspace access requires authorization. Please contact [HEAL Support](mailto:heal-support@data-commons.io) for more information.
 
-1. After navigating to [healdata.org/workspace](https://healdata.org/workspace), users will discover a list of pre-configured virtual machine (VM) images, as shown below.  
+1. After navigating to [healdata.org/portal/workspace](https://healdata.org/portal/workspace), users will discover a list of pre-configured virtual machine (VM) images, as shown below.  
 
 ![Workspace_flavors](img/workspace_flavors.png)
 
@@ -20,7 +20,7 @@ Available workspaces on the HEAL Platform (top). Users may need to link their ac
 * **(Generic, User-licensed) Stata Notebook:** Choose this VM if you are familiar with STATA-based data analysis. This notebook requires a STATA license.
 * **Tutorial Notebooks:** Explore our Jupyter Notebook tutorials written in Python or RStudio, which pull data from various sources of the HEAL Data Ecosystem to leverage statistical programs and data analysis tools.  
 
-All interactive tutorial notebooks can be also found as [static version on the Notebook Browser tab](https://healdata.org/resource-browser); read more in the section ["Example Analysis"](#StaticNotebooks).  
+All interactive tutorial notebooks can be also found as [static version on the Notebook Browser tab](https://healdata.org/portal/resource-browser); read more in the section ["Example Analysis"](#StaticNotebooks).  
 
 Feel free to edit and experiment with this collection of notebooks. They are your personal copies!  
 

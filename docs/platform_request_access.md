@@ -1,6 +1,6 @@
 # Check and request access
 
-Users can find out to which projects they have access to by navigating to [the Discovery Page](https://healdata.org/discovery) and by selecting “Data Availability" - "Available" - ”OK” as shown below.
+Users can find out to which projects they have access to by navigating to [the Discovery Page](https://healdata.org/portal/discovery) and by selecting “Data Availability" - "Available" - ”OK” as shown below.
 
 ![Access_Data](img/access_box_1.png)
 
@@ -42,7 +42,7 @@ Note, that different studies relate to different [Data Resources](#DataManagemen
 
 ## Overview of access to Datasets and Studies
 
-Users can visit the ["Profile” page](https://healdata.org/identity) to view a list of studies they have access to under the “You have access to the following project(s)” section, as shown in the figure below.
+Users can visit the ["Profile” page](https://healdata.org/portal/identity) to view a list of studies they have access to under the “You have access to the following project(s)” section, as shown in the figure below.
 
 ![Profile_Access](img/profile_access.png)
 
@@ -70,7 +70,7 @@ Users need to link their account to currently all FAIR repositories in order to:
 2.  _export_ data that is stored on FAIR repositories from the [Discovery Page to the Workspaces](#SelectBringFilesDiscoveryToWorkspace).
 3.  _download_ data that is stored on FAIR repositories from the [Discovery Page](#DownloadFilesfromDiscovery).
 
-In order to link the account to the involved FAIR repositories, navigate to the [Profile Page](https://healdata.org/identity) and link the account to all current login options by clicking on the "Refresh \[..\] Google Login" buttons as shown below.
+In order to link the account to the involved FAIR repositories, navigate to the [Profile Page](https://healdata.org/portal/identity) and link the account to all current login options by clicking on the "Refresh \[..\] Google Login" buttons as shown below.
 
 ![workspace_login_other_commons](img/workspace_login_other_commons.png)
 
@@ -78,12 +78,12 @@ Linking access options on the Profile Page for data stored on FAIR enabled repos
 
 Access needs to be renewed after 30 days, as indicated after "Status: expires in \[..\] days".
 
-As a reminder, users will be prompted with a banner on [healdata.org/workspace](https://healdata.org/workspace) and a pop-up window on [healdata.org/discovery](https://healdata.org/discovery).
+As a reminder, users will be prompted with a banner on [healdata.org/portal/workspace](https://healdata.org/portal/workspace) and a pop-up window on [healdata.org/portal/discovery](https://healdata.org/portal/discovery).
 
 ![workspace_login_other_commons_top_banner](img/workspace_login_other_commons_top_banner.png)
 
-Users are reminded on [healdata.org/workspace](https://healdata.org/workspace) to link the account to all other FAIR enabled repositories on the Profile Page.
+Users are reminded on [healdata.org/portal/workspace](https://healdata.org/portal/workspace) to link the account to all other FAIR enabled repositories on the Profile Page.
 
 ![workspace_login_other_commons_discovery](img/workspace_login_other_commons_discovery.png)
 
-Users are reminded on [the Discovery Page](https://healdata.org/discovery) to link the account to all other FAIR enabled repositories.
+Users are reminded on [the Discovery Page](https://healdata.org/portal/discovery) to link the account to all other FAIR enabled repositories.
