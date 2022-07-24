@@ -17,7 +17,7 @@ New to Jupyter? Learn more about the popular tool for data scientists on [Jupyte
 Available workspaces on the HEAL Platform (top). Users may need to link their accounts from other repositories (bottom); click [here to see how](platform_request_access.md#linking-access-to-fair-enabled-repositories).
 
 * **(Generic) Jupyter Notebook with R kernel:** Choose this VM if you are familiar with setting up Python- or R-based Notebooks, or if you just exported one or multiple studies from the Discovery Page and want to start your custom analysis.
-* **(Generic, User-licensed) Stata Notebook:** Choose this VM if you are familiar with STATA-based data analysis. This notebook requires a STATA license.
+* **(Generic, User-licensed) Stata Notebook:** Choose this VM if you are familiar with Stata-based data analysis. This notebook requires a Stata license.
 * **Tutorial Notebooks:** Explore our Jupyter Notebook tutorials written in Python or RStudio, which pull data from various sources of the HEAL Data Ecosystem to leverage statistical programs and data analysis tools.  
 
 All interactive tutorial notebooks can be also found as [static version on the Notebook Browser tab](https://healdata.org/portal/resource-browser); read more in the section ["Example Analysis"](platform_example_analyses.md).  
@@ -115,7 +115,7 @@ The following **programmatic languages** are available in Jupyter Notebooks:
 
 *   RStudio ([read more](#python-3-and-rstudio-in-jupyter))
 *   Python 3 ([read more](#python-3-and-rstudio-in-jupyter))
-*   STATA ([read more](#stata-in-jupyter))
+*   Stata ([read more](#stata-in-jupyter))
 
 The following **tools** are available in Jupyter Notebooks:
 
@@ -131,14 +131,14 @@ Users can expect to be able to use typical Python or RStudio packages, such as P
 </figure>
 
 
-## STATA in Jupyter
+## Stata in Jupyter
 
-STATA is available as language in Jupyter notebooks (either in Python or R kernels), but requires a license and a specific workspace.
+Stata is available as language in Jupyter notebooks (either in Python or R kernels), but requires a license and a specific workspace.
 
-Users need to first choose the following workspace "(Generic, User-licensed) Stata Notebook" in order to be able to use STATA:
+Users need to first choose the following workspace "(Generic, User-licensed) Stata Notebook" in order to be able to use Stata:
 <figure markdown>
   ![stata_user_licensed](img/stata_user_licensed.png)
-  <figcaption> Select this workspace to use STATA in the notebook. </figcaption>
+  <figcaption> Select this workspace to use Stata in the notebook. </figcaption>
 </figure>
 
 
@@ -161,7 +161,7 @@ This will return the following:
   <figcaption> Setup the license in the first cell. </figcaption>
 </figure>
 
-Users can then begin using the notebook by typing in known STATA commands, for example `%% stata . describe` .
+Users can then begin using the notebook by typing in known Stata commands, for example `%% stata . describe` .
 
 ## Troubleshooting
 
