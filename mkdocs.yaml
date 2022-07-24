@@ -34,7 +34,9 @@ theme:
   logo: assets/HEAL_Initiative_White-cropped.svg
   features:
     - navigation.indexes
-    - navigation.instant
+    # Disable for now, as it causes problems with links to sections in Safari
+    # https://github.com/squidfunk/mkdocs-material/issues/3797
+    # - navigation.instant
     - navigation.indexes
     #- navigation.tabs
     #- navigation.tabs.sticky
