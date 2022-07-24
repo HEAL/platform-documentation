@@ -61,9 +61,7 @@ markdown_extensions:
 plugins:
   - search
   - mkdocs-video:
-      css_style:
-        height: "50vh"
-        width: "100%"
+      is_video: True
 
 # TODO: add footer (this may be included in the custom jinja template?)
 #    [![](img/gen3.png)](https://ctds.uchicago.edu/gen3)[![](img/createdby.png)](https://ctds.uchicago.edu/)
