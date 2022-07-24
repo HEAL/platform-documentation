@@ -8,7 +8,7 @@
 
 ## Step 2: Find your study
 
-From the [Discovery Page](https://healdata.org/discovery), find the study you
+From the [Discovery Page](https://healdata.org/portal/discovery), find the study you
 wish to request access to register.
 
 - Click on the study to open the Study Page

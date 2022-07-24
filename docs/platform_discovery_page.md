@@ -1,7 +1,7 @@
 
 # Discovery Page
 
-[The Discovery Page](https://healdata.org/discovery) provides users a venue to search and find studies and datasets displayed in the HEAL Platform. Users can browse through the publicly accessible study-level metadata without requiring authorization.
+[The Discovery Page](https://healdata.org/portal/discovery) provides users a venue to search and find studies and datasets displayed in the HEAL Platform. Users can browse through the publicly accessible study-level metadata without requiring authorization.
 
 > Use text-based search, faceted search, and tags to rapidly and efficiently find relevant studies, discover new datasets across multiple resources, and easily export selected data files to the analysis workspace.
 
@@ -71,10 +71,10 @@ Once available, each study can be selected and exported to workspace or download
 
 The above gif shows the workflow used to select data files from the Discovery Page and bring them into the workspace using Jupyter Notebooks.  
 
-1.  Log in on [healdata.org/login](https://healdata.org/login). Link your account to all FAIR repositories as described [here](#LinkingAccessTo).  
+1.  Log in on [healdata.org/portal/login](https://healdata.org/portal/login). Link your account to all FAIR repositories as described [here](#LinkingAccessTo).  
       
     
-2.  Find and select the study by the project number (in this example: 1U2CDA050098-01\_a) on the [Discovery Page](https://healdata.org/discovery). Find other current open-access studies [here](#CurrentOAStudies).  
+2.  Find and select the study by the project number (in this example: 1U2CDA050098-01\_a) on the [Discovery Page](https://healdata.org/portal/discovery). Find other current open-access studies [here](#CurrentOAStudies).  
       
     
 3.  Click the “Open in Workspace” button in the upper right corner. This step will create a manifest folder which you can find later in the Workspace’s folder "data/healdata.org".  

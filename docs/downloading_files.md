@@ -66,10 +66,10 @@ The current studies that have datasets of more than 250 MB are those with the fo
 
 Find below a guide to download data files using the Gen3-client:
 
-1.  Log in to the HEAL Platform on [healdata.org/login](https://healdata.org/login). Link your accounts to FAIR repositories as described [here](#LinkingAccessTo).  
+1.  Log in to the HEAL Platform on [healdata.org/portal/login](https://healdata.org/portal/login). Link your accounts to FAIR repositories as described [here](#LinkingAccessTo).  
       
     
-2.  Find and select one or multiple studies of interest on the [Discovery Page](https://healdata.org/discovery). For multiple studies, select "Data Availability" in the top right corner, click “Available”, and choose multiple studies.
+2.  Find and select one or multiple studies of interest on the [Discovery Page](https://healdata.org/portal/discovery). For multiple studies, select "Data Availability" in the top right corner, click “Available”, and choose multiple studies.
   
 4.  Click on the button “Download Manifest".
 
@@ -77,7 +77,7 @@ Find below a guide to download data files using the Gen3-client:
 
 Select a study of interest, then click on the button “Download Manifest".
      
-5.  Create and download an API key from your [Profile Page](https://healdata.org/identity). Note where you save the API key on your local machine.  
+5.  Create and download an API key from your [Profile Page](https://healdata.org/portal/identity). Note where you save the API key on your local machine.  
 
 ![profile_APIkey](img/profile_APIkey.png)
     
@@ -154,10 +154,10 @@ Download the API key as json file and note the directory where the API key was s
 
 Users can download data files to the workspaces by leveraging the CTDS-owned python software development kit (SDK). Follow instructions below.
 
-1.  Log in to the Data Commons on [healdata.org/login](https://healdata.org/login). Link your accounts to FAIR repositories as described [here](#LinkingAccessTo).  
+1.  Log in to the Data Commons on [healdata.org/portal/login](https://healdata.org/portal/login). Link your accounts to FAIR repositories as described [here](#LinkingAccessTo).  
       
     
-2.  Find and select one or multiple studies of interest on the [Discovery Page](https://healdata.org/discovery). Select "Data Availability" in the top right corner and click on “Available” to see all available studies.  
+2.  Find and select one or multiple studies of interest on the [Discovery Page](https://healdata.org/portal/discovery). Select "Data Availability" in the top right corner and click on “Available” to see all available studies.  
       
     
 3.  Select a study and click on "Open in Workspace".  

@@ -1,7 +1,7 @@
 
 # Example Analyses
 
-[The Example Analysis page](https://healdata.org/resource-browser) contains a collection of view-only tutorial Jupyter Notebooks that provide demo analyses of datasets published on the HEAL platform.
+[The Example Analysis page](https://healdata.org/portal/resource-browser) contains a collection of view-only tutorial Jupyter Notebooks that provide demo analyses of datasets published on the HEAL platform.
 
 > This tab acts as a ['visual table of contents’](#CurrentlyAvailableNotebooks) of available HEAL datasets.
 
@@ -68,7 +68,7 @@ Below we describe the steps to export data from the Discovery Page tutorial Jupy
 
 Users must be logged in and have their accounts linked to the [FAIR repositories](#LinkingAccessTo) in order to follow the steps below.
 
-1.  Go to the [Workspace tab](https://healdata.org/workspace) and click “Launch” on the “BACPAC Synthetic Data Analysis Notebook”. This may take a few minutes to load.  
+1.  Go to the [Workspace tab](https://healdata.org/portal/workspace) and click “Launch” on the “BACPAC Synthetic Data Analysis Notebook”. This may take a few minutes to load.  
     Note, that depending on the chosen notebook, this step varies to align with the name of the notebook/workspace.  
     ![static_notebook_bacpac_demo_1](img/static_notebook_bacpac_demo_1.png)  
       
