@@ -31,7 +31,7 @@ theme:
     scheme: heal_platform
   font:
     text: Montserrat
-  logo: assets/HEAL_Initiative_White.svg
+  logo: assets/HEAL_Initiative_White-cropped.svg
   features:
     - navigation.indexes
     - navigation.instant
