@@ -9,11 +9,11 @@ Users can download data files associated with a study by downloading the files d
 
 Note that current studies that have datasets of more than 250 MB are those with the following project numbers: a) cdcwonder and b) deaarcos1.
 
-Note, that accessing data files requires linked access to all FAIR enabled repositories, as described [here](#LinkingAccessTo). A pop-up window will remind users:
+Note, that accessing data files requires linked access to all FAIR enabled repositories, as described [here](platform_request_access.md#linking-access-to-fair-enabled-repositories). A pop-up window will remind users:
 
 ![workspace_login_other_commons_discovery](img/workspace_login_other_commons_discovery.png)
 
-Users are reminded to link the account to all other FAIR enabled repositories, as described [here](#LinkingAccessTo).
+Users are reminded to link the account to all other FAIR enabled repositories, as described [here](platform_request_access.md#linking-access-to-fair-enabled-repositories).
 
 ## Download Data Files from the Discovery Page
 
@@ -21,10 +21,10 @@ Users can download data files up to sizes of 250 MB directly from the Discovery 
 
 Below you find the simple steps to do so.
 
-1.  Navigate to the [Discovery Page](#Discovery). Link your accounts to FAIR repositories as described [here](#LinkingAccessTo).  
+1.  Navigate to the [Discovery Page](platform_discovery_page.md). Link your accounts to FAIR repositories as described [here](platform_request_access.md#linking-access-to-fair-enabled-repositories).  
       
     
-2.  Find the study of interest by using the [search features](#SearchFeatures) or the [list of accessible studies](#FindAvailableDatasets).  
+2.  Find the study of interest by using the [search features](platform_discovery_page.md#search-features) or the [list of accessible studies](platform_discovery_page.md#find-accessible-datasets).  
       
     
 3.  Select the clickable box next to the study.  
@@ -53,7 +53,7 @@ Below you find the simple steps to do so.
 6.  If the file size exceeds 250 MB, users will be notified to deselect studies to reduce the size or use other tools:  
     ![download_discovery_failed](img/download_discovery_failed.png)
     
-    Users are advised to use other tools to download the files if the total file size exceeds 250 MB. [Please see the next section for a step-by-step guide using these tools](#DownloadFilesClientSDK).
+    Users are advised to use other tools to download the files if the total file size exceeds 250 MB. [Please see the next section for a step-by-step guide using these tools](#download-data-files-using-the-gen3-client).
     
       
     
@@ -66,10 +66,10 @@ The current studies that have datasets of more than 250 MB are those with the fo
 
 Find below a guide to download data files using the Gen3-client:
 
-1.  Log in to the HEAL Platform on [healdata.org/login](https://healdata.org/login). Link your accounts to FAIR repositories as described [here](#LinkingAccessTo).  
+1.  Log in to the HEAL Platform at <https://healdata.org/portal/login>. Link your accounts to FAIR repositories as described [here](platform_request_access.md#linking-access-to-fair-enabled-repositories).  
       
     
-2.  Find and select one or multiple studies of interest on the [Discovery Page](https://healdata.org/discovery). For multiple studies, select "Data Availability" in the top right corner, click “Available”, and choose multiple studies.
+2.  Find and select one or multiple studies of interest on the [Discovery Page](https://healdata.org/portal/discovery). For multiple studies, select "Data Availability" in the top right corner, click “Available”, and choose multiple studies.
   
 4.  Click on the button “Download Manifest".
 
@@ -77,7 +77,7 @@ Find below a guide to download data files using the Gen3-client:
 
 Select a study of interest, then click on the button “Download Manifest".
      
-5.  Create and download an API key from your [Profile Page](https://healdata.org/identity). Note where you save the API key on your local machine.  
+5.  Create and download an API key from your [Profile Page](https://healdata.org/portal/identity). Note where you save the API key on your local machine.  
 
 ![profile_APIkey](img/profile_APIkey.png)
     
@@ -154,10 +154,10 @@ Download the API key as json file and note the directory where the API key was s
 
 Users can download data files to the workspaces by leveraging the CTDS-owned python software development kit (SDK). Follow instructions below.
 
-1.  Log in to the Data Commons on [healdata.org/login](https://healdata.org/login). Link your accounts to FAIR repositories as described [here](#LinkingAccessTo).  
+1.  Log in to the Data Commons at <https://healdata.org/portal/login>. Link your accounts to FAIR repositories as described [here](platform_request_access.md#linking-access-to-fair-enabled-repositories).  
       
     
-2.  Find and select one or multiple studies of interest on the [Discovery Page](https://healdata.org/discovery). Select "Data Availability" in the top right corner and click on “Available” to see all available studies.  
+2.  Find and select one or multiple studies of interest on the [Discovery Page](https://healdata.org/portal/discovery). Select "Data Availability" in the top right corner and click on “Available” to see all available studies.  
       
     
 3.  Select a study and click on "Open in Workspace".  
@@ -167,7 +167,7 @@ Users can download data files to the workspaces by leveraging the CTDS-owned pyt
 4.  Select a workspace VM and click "Launch". Choose the "(Generic) Jupyter Notebook with R kernel" if you are familiar with setting up Python- or R-based Notebooks, or if you just exported one or multiple studies from the Discovery Page and want to start your custom analysis. Choose a VM with the name of the Notebook if you selected the studies relevant to a specific Notebook and want to work on the Notebook in interactive mode.  
     ![Workspace_flavors](img/workspace_flavors.png)
     
-    Available workspaces on the HEAL Platform (top). Users need to link accounts from other repositories (bottom; click [here to see how](#LinkingAccessTo)).
+    Available workspaces on the HEAL Platform (top). Users need to link accounts from other repositories (bottom; click [here to see how](platform_request_access.md#linking-access-to-fair-enabled-repositories)).
     
       
       

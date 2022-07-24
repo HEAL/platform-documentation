@@ -1,7 +1,7 @@
 
 # Discovery Page
 
-[The Discovery Page](https://healdata.org/discovery) provides users a venue to search and find studies and datasets displayed in the HEAL Platform. Users can browse through the publicly accessible study-level metadata without requiring authorization.
+[The Discovery Page](https://healdata.org/portal/discovery) provides users a venue to search and find studies and datasets displayed in the HEAL Platform. Users can browse through the publicly accessible study-level metadata without requiring authorization.
 
 > Use text-based search, faceted search, and tags to rapidly and efficiently find relevant studies, discover new datasets across multiple resources, and easily export selected data files to the analysis workspace.
 
@@ -24,7 +24,7 @@ Different features such as free text search bar and tags on the Discovery Page h
 5.  Studies. This feature presents all current studies on the HEAL Platform. Click on any study to show useful information about the study (metadata). 
 6.  Data Availability. Filter on available, pending, and not-yet-available datasets.
 7.  Documentation. This brings you to this page you are currently on.
-8.  Login Page. Login on the HEAL Platform to leverage all features. [Read further here](platform_login.md).
+8.  Login Page. Login on the HEAL Platform to leverage all features. [Read further here](logging-in.md).
 
 ## Find available Study-level Metadata
 
@@ -71,10 +71,10 @@ Once available, each study can be selected and exported to workspace or download
 
 The above gif shows the workflow used to select data files from the Discovery Page and bring them into the workspace using Jupyter Notebooks.  
 
-1.  Log in on [healdata.org/login](https://healdata.org/login). Link your account to all FAIR repositories as described [here](#LinkingAccessTo).  
+1.  Log in at <https://healdata.org/portal/login>. Link your account to all FAIR repositories as described [here](platform_request_access.md#linking-access-to-fair-enabled-repositories).  
       
     
-2.  Find and select the study by the project number (in this example: 1U2CDA050098-01\_a) on the [Discovery Page](https://healdata.org/discovery). Find other current open-access studies [here](#CurrentOAStudies).  
+2.  Find and select the study by the project number (in this example: 1U2CDA050098-01\_a) on the [Discovery Page](https://healdata.org/portal/discovery). Find other current open-access studies [here](platform_request_access.md#current-open-access-studies).  
       
     
 3.  Click the “Open in Workspace” button in the upper right corner. This step will create a manifest folder which you can find later in the Workspace’s folder "data/healdata.org".  
@@ -105,13 +105,13 @@ The above gif shows the workflow used to select data files from the Discovery Pa
     > demo_df.head()
 
 
-More information for instructions on importing data can be found in the sections ["Download Files to Workspaces"](#DownloadFilesSDKWorkspaces) and ["Workspaces"](#Workspaces).  
+More information for instructions on importing data can be found in the sections ["Download Files to Workspaces"](downloading_files.md#download-data-files-in-workspaces-using-the-python-sdk) and ["Workspaces"](platform_workspaces.md).  
     
     
 7.  Make sure to terminate the workspace when the work is finished to reduce computational costs.
 
 - "pd" means persistent directory. Saved files outside this directory will be lost.  
-- The manifest.json lists metadata of all exported files and can be used to download in [batches](#DownloadFilesSDKWorkspaces)  
+- The manifest.json lists metadata of all exported files and can be used to download in [batches](downloading_files.md#download-data-files-in-workspaces-using-the-python-sdk)  
 - Note, that all exported data files will be saved in the `/pd/data/healdata.org/` folder.  
 - Please also note, that the workspace mounts up to a maximum of 5 different manifests while the workspace is running but shows only the latest exported manifest in a newly launched workspace.  
 - Terminating the workspace will result in the loss of all but the latests manifest.  

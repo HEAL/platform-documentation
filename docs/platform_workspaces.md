@@ -10,17 +10,17 @@ New to Jupyter? Learn more about the popular tool for data scientists on [Jupyte
 
     Workspace access requires authorization. Please contact [HEAL Support](mailto:heal-support@data-commons.io) for more information.
 
-1. After navigating to [healdata.org/workspace](https://healdata.org/workspace), users will discover a list of pre-configured virtual machine (VM) images, as shown below.  
+1. After navigating to <https://healdata.org/portal/workspace>, users will discover a list of pre-configured virtual machine (VM) images, as shown below.  
 
 ![Workspace_flavors](img/workspace_flavors.png)
 
-Available workspaces on the HEAL Platform (top). Users may need to link their accounts from other repositories (bottom); click [here to see how](#LinkingAccessTo).
+Available workspaces on the HEAL Platform (top). Users may need to link their accounts from other repositories (bottom); click [here to see how](platform_request_access.md#linking-access-to-fair-enabled-repositories).
 
 * **(Generic) Jupyter Notebook with R kernel:** Choose this VM if you are familiar with setting up Python- or R-based Notebooks, or if you just exported one or multiple studies from the Discovery Page and want to start your custom analysis.
 * **(Generic, User-licensed) Stata Notebook:** Choose this VM if you are familiar with STATA-based data analysis. This notebook requires a STATA license.
 * **Tutorial Notebooks:** Explore our Jupyter Notebook tutorials written in Python or RStudio, which pull data from various sources of the HEAL Data Ecosystem to leverage statistical programs and data analysis tools.  
 
-All interactive tutorial notebooks can be also found as [static version on the Notebook Browser tab](https://healdata.org/resource-browser); read more in the section ["Example Analysis"](#StaticNotebooks).  
+All interactive tutorial notebooks can be also found as [static version on the Notebook Browser tab](https://healdata.org/portal/resource-browser); read more in the section ["Example Analysis"](platform_example_analyses.md).  
 
 Feel free to edit and experiment with this collection of notebooks. They are your personal copies!  
 
@@ -62,11 +62,11 @@ The status of launching the workspace is displayed after clicking on â€œLaunchâ€
 
 Results, including plots, tables, and graphics, can be generated in the workspace and downloaded as files.  
 
-Users can import data files directly into the Notebook code after selecting files from the ["Discovery Page"](#SelectBringFilesDiscoveryToWorkspace). An example is shown below.  
+Users can import data files directly into the Notebook code after selecting files from the ["Discovery Page"](platform_discovery_page.md#select-files-on-the-discovery-page-and-bring-them-to-the-workspace). An example is shown below.  
 
 ![workspace_import_manifest](img/workspace_import_manifest.png)    
 
-7. Do not forget to terminate your workspace once your work is finished to be mindful of the cost-intensive computational effort. **Note, that Workspaces automatically shut down after 90 minutes of [idle time.](#AutomaticWorkspaceShutdown)**  
+7. Do not forget to terminate your workspace once your work is finished to be mindful of the cost-intensive computational effort. **Note, that Workspaces automatically shut down after 90 minutes of [idle time.](#automatic-workspace-shutdown)**  
 <figure markdown>
   ![Workspace_terminate](img/workspace_terminate_2.png)
   <figcaption> Do not forget to terminate your workspace once your work is finished. Unterminated workspaces continue to accrue computational costs.</figcaption>
@@ -113,9 +113,9 @@ The following **environments** are available in the workspaces:
 
 The following **programmatic languages** are available in Jupyter Notebooks:
 
-*   RStudio ([read more](#PythonRInJupyter))
-*   Python 3 ([read more](#PythonRInJupyter))
-*   STATA ([read more](#STATAinNotebooks))
+*   RStudio ([read more](#python-3-and-rstudio-in-jupyter))
+*   Python 3 ([read more](#python-3-and-rstudio-in-jupyter))
+*   STATA ([read more](#stata-in-jupyter))
 
 The following **tools** are available in Jupyter Notebooks:
 
@@ -165,7 +165,7 @@ Users can then begin using the notebook by typing in known STATA commands, for e
 
 ## Troubleshooting
 
-* If the kernel died, make sure to be logged in on 1) [the Login Page](#LoginPage) 2) [have enabled access to the FAIR enabled repository](#LinkingAccessTo)
+* If the kernel died, make sure to be logged in on 1) [the Login Page](logging-in.md) 2) [have enabled access to the FAIR enabled repository](platform_request_access.md#linking-access-to-fair-enabled-repositories).
 
 ## Automatic Workspace Shutdown
 

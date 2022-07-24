@@ -1,20 +1,15 @@
 
 # Example Analyses
 
-[The Example Analysis page](https://healdata.org/resource-browser) contains a collection of view-only tutorial Jupyter Notebooks that provide demo analyses of datasets published on the HEAL platform.
+[The Example Analysis page](https://healdata.org/portal/resource-browser) contains a collection of view-only tutorial Jupyter Notebooks that provide demo analyses of datasets published on the HEAL platform.
 
-> This tab acts as a ['visual table of contents’](#CurrentlyAvailableNotebooks) of available HEAL datasets.
+> This tab acts as a ['visual table of contents’](#currently-available-notebooks) of available HEAL datasets.
 
 ## HEAL Example Analysis
 
 This video introduces users to the Example Analysis page, where users can browse Jupyter notebook demos to explore previous data analyses on the HEAL platform.  
 
-<!-- TODO: use mkdocs-videos -->
-<!-- ![type:video](videos/HEAL_UI_Demo_July_2021.mp4) -->
-<video controls width="600">
-<source src="videos/Opioid_Ovderdose_Traj_CDCWonder_Demo_2021-07-21.mp4" type="video/mp4">
-<source src="videos/Opioid_Ovderdose_Traj_CDCWonder_Demo_2021-07-21.mp4" type="video/webm">
-</video>
+![type:video](videos/Opioid_Ovderdose_Traj_CDCWonder_Demo_2021-07-21.mp4)
    
 If your Browser does not support watching this video, here's a [link to the video](videos/Opioid_Ovderdose_Traj_CDCWonder_Demo_2021-07-21.mp4) instead.  
   
@@ -28,8 +23,8 @@ Currently available static Jupter Notebooks:
 These notebooks will allow users to learn how to analyze and visualize data available on the HEAL platform - without having to take the additional steps of finding and exporting the data used by the tutorial first.
 
 > All tutorial notebooks are static, view-only, and can be downloaded as `.html` files.  
-> Find the notebooks in interactive mode in the [Workspace tab](#Workspaces).  
-> Find below a description of how to [work with the tutorials in the workspaces](#WorkingTutorialNotebooksInteractively).  
+> Find the notebooks in interactive mode in the [Workspace tab](platform_workspaces.md).  
+> Find below a description of how to [work with the tutorials in the workspaces](#working-with-the-tutorial-notebooks-in-interactive-mode).  
 
 These tutorial notebooks are meant to:
 
@@ -44,9 +39,9 @@ The “Example Analysis” tab will be regularly updated with new and exciting t
 
 Find below a list of notebooks that are currently available and which datasets they’re based on.
 
-> Click [here](#Tutorials) to watch demo videos about how to use the tutorial Jupyter Notebooks as a launching point for your own custom analysis.
+> Click [here](platform_tutorial_videos.md) to watch demo videos about how to use the tutorial Jupyter Notebooks as a launching point for your own custom analysis.
 
-Please link your account to [all FAIR repositories](#LinkingAccessTo) before working with the Notebooks in interactive mode.
+Please link your account to [all FAIR repositories](platform_request_access.md#linking-access-to-fair-enabled-repositories) before working with the Notebooks in interactive mode.
 
 | Notebook Name | Project Title | Project Number | Datasets used | Language |
 |---|---|---|---|---|
@@ -58,7 +53,7 @@ Please link your account to [all FAIR repositories](#LinkingAccessTo) before wor
 
 ## Working with the Tutorial Notebooks in interactive mode
 
-*   Notebooks require linked access to all FAIR enabled repositories, as described [here](#LinkingAccessTo).
+*   Notebooks require linked access to all FAIR enabled repositories, as described [here](platform_request_access.md#linking-access-to-fair-enabled-repositories).
 
 *   Code in the notebooks is editable, and users can import additional datasets and extend their analysis.
 
@@ -66,9 +61,9 @@ Please link your account to [all FAIR repositories](#LinkingAccessTo) before wor
 
 Below we describe the steps to export data from the Discovery Page tutorial Jupyter notebooks for one example tutorial notebook BACPAC\_Synthetic\_Data\_Analysis.ipynb (“BACPAC synthetic data analysis”)
 
-Users must be logged in and have their accounts linked to the [FAIR repositories](#LinkingAccessTo) in order to follow the steps below.
+Users must be logged in and have their accounts linked to the [FAIR repositories](platform_request_access.md#linking-access-to-fair-enabled-repositories) in order to follow the steps below.
 
-1.  Go to the [Workspace tab](https://healdata.org/workspace) and click “Launch” on the “BACPAC Synthetic Data Analysis Notebook”. This may take a few minutes to load.  
+1.  Go to the [Workspace tab](https://healdata.org/portal/workspace) and click “Launch” on the “BACPAC Synthetic Data Analysis Notebook”. This may take a few minutes to load.  
     Note, that depending on the chosen notebook, this step varies to align with the name of the notebook/workspace.  
     ![static_notebook_bacpac_demo_1](img/static_notebook_bacpac_demo_1.png)  
       
@@ -90,4 +85,4 @@ Users must be logged in and have their accounts linked to the [FAIR repositories
     
 6.  Make sure to terminate the workspace when the work is finished to reduce computational costs.
 
-Note: Work must be saved in the directory "/pd" in order to remain accessible after workspace termination. Note, that Workspaces automatically shut down after 90 minutes of [idle time.](#AutomaticWorkspaceShutdown)
+Note: Work must be saved in the directory "/pd" in order to remain accessible after workspace termination. Note, that Workspaces automatically shut down after 90 minutes of [idle time.](platform_workspaces.md#automatic-workspace-shutdown)

@@ -10,11 +10,11 @@ The following is a non-exhaustive selection of repositories and resources curren
   <figcaption>Representation of Data Resources on the HEAL Data Platform.</figcaption>
 </figure>
 
-Studies from different Data Resources can be filtered and selected on the [Discovery Page](#Discovery) in the Study Filters section (top panel):
+Studies from different Data Resources can be filtered and selected on the [Discovery Page](platform_discovery_page.md) in the Study Filters section (top panel):
 
 <figure markdown>
   ![Filtering Using Tags](img/data_resources_tags.png){ width="500" }
   <figcaption>Studies can be filtered by Data Resource using their respective tags.</figcaption>
 </figure>
 
-For more information from NIH regarding public access and data sharing, visit [https://heal.nih.gov/about/public-access-data](https://heal.nih.gov/about/public-access-data).
+For more information from NIH regarding public access and data sharing, visit <https://heal.nih.gov/about/public-access-data>.

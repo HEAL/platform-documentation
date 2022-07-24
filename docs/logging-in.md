@@ -13,7 +13,7 @@ You **will** need to log in and obtain authorization (access) in order to:
 *   _download_ data files and file manifests
 *   _run_ interactive tutorial notebooks in workspaces
 
-Start by visiting the [login page]([https://healdata.org/login](https://healdata.org/login)).
+Start by visiting the [login page](https://healdata.org/portal/login).
 
 ![Healdata-Login](img/healdataorg_login.png)
 

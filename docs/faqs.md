@@ -9,12 +9,12 @@ FAQs
 
 1. What can I do on the HEAL Platform?  
       
-    The HEAL Platform is a cloud-based and multifunctional web interface that provides a secure environment for discovery and analysis of HEAL results and data. Explore all functionalities [here](platform_login.md).  
+    The HEAL Platform is a cloud-based and multifunctional web interface that provides a secure environment for discovery and analysis of HEAL results and data. Explore all functionalities [here](logging-in.md).  
       
     
 2. Which datasets are currently open-access?  
       
-    Find all open-access datasets [here](#CurrentOAStudies).  
+    Find all open-access datasets [here](platform_request_access.md#current-open-access-studies).  
       
     
 3. Where can I see individual study metadata?  
@@ -45,7 +45,7 @@ FAQs
   
 8. I would like to download data files from a specific study, what do I need to do?  
       
-    Users can download the studies directly from the Discovery Page as described [here](downloading_files.md), or, if the file size exceeds 250 MB, users need to use the Gen3-client command line tool to download data files, as described [here](#DownloadingDataFiles). Additional information on the Gen3-client may be found [here](https://gen3.org/resources/user/gen3-client/).  
+    Users can download the studies directly from the Discovery Page as described [here](downloading_files.md#download-data-files-from-the-discovery-page), or, if the file size exceeds 250 MB, users need to use the Gen3-client command line tool to download data files, as described [here](downloading_files.md#download-data-files-using-the-gen3-client). Additional information on the Gen3-client may be found [here](https://gen3.org/resources/user/gen3-client/).  
       
     
 9. How can I get data files into the Workspace from the Discovery Page?
@@ -60,12 +60,12 @@ FAQs
 
 11. Can I download files directly from the portal?
       
-    Yes, you can. Click [here](#DownloadFilesfromDiscovery) to follow the steps to download data files from the Discovery Page. Caution: the download is limited to file sizes of 250 MB.    
+    Yes, you can. Click [here](downloading_files.md#download-data-files-from-the-discovery-page) to follow the steps to download data files from the Discovery Page. Caution: the download is limited to file sizes of 250 MB.    
       
     
 12. My download is not working.  
       
-    Please check if your file size exceeds 250 MB. If yes, please other tools as described [here](#DownloadFilesClientSDK) to download the files. Note that the current studies that have datasets of more than 250 MB are those with the following project numbers: a) cdcwonder and b) deaarcos1. If errors persist, please contact the [help desk](mailto:heal-support@datacommons.io).  
+    Please check if your file size exceeds 250 MB. If yes, please other tools as described [here](downloading_files.md#download-data-files-using-the-gen3-client) to download the files. Note that the current studies that have datasets of more than 250 MB are those with the following project numbers: a) cdcwonder and b) deaarcos1. If errors persist, please contact the [help desk](mailto:heal-support@datacommons.io).  
       
     
 13. My data file download using the Gen3-client gets stuck, where can I get help?  
@@ -81,27 +81,27 @@ FAQs
     
 15. I want to work interactively on the Tutorial Notebooks. Show me how.  
       
-    Click [here](#DemoHEALNotebookBACPAC) to follow the steps of a demo.  
+    Click [here](platform_example_analyses.md#demo-how-to-find-data-and-work-on-the-tutorial-notebooks) to follow the steps of a demo.  
       
     
 16. What are the current Tutorial Notebooks?  
       
-    Click [here](#CurrentlyAvailableNotebooks) to see a list of currently available Notebooks in Python and R.  
+    Click [here](platform_example_analyses.md#currently-available-notebooks) to see a list of currently available Notebooks in Python and R.  
       
     
 17. How do I work with these Tutorial Notebooks?  
       
-    Click [here](#WorkingTutorialNotebooksInteractively) to see a guide of how to work with the Tutorial Notebooks.  
+    Click [here](platform_example_analyses.md#working-with-the-tutorial-notebooks-in-interactive-mode) to see a guide of how to work with the Tutorial Notebooks.  
       
     
 18. How do I link my account to a FAIR enabled repository?  
       
-    Click [here](#LinkingAccessTo) to see how to link your account to a FAIR enabled repository.  
+    Click [here](platform_request_access.md#linking-access-to-fair-enabled-repositories) to see how to link your account to a FAIR enabled repository.  
       
     
 19. What do the Workspaces have to offer?  
       
-    Click [here](#GuidelineToGetStarted) to see how to get started and [here](#AvailableWorkspaceTools) to see what languages, tools, and environments the workspaces have enabled.  
+    Click [here](platform_workspaces.md#guideline-to-get-started) to see how to get started and [here](platform_workspaces.md#environments-languages-and-tools) to see what languages, tools, and environments the workspaces have enabled.  
       
     
 20. I want to report a bug!  
