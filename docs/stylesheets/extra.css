@@ -6,7 +6,7 @@
 .md-typeset a {
   color:    #0044b3;
 }
-.md-typeset a:hover, a:focus {
+.md-typeset a:hover:not(.md-button), a:focus:not(.md-button) {
   text-decoration:              underline;
   text-decoration-thickness:    .125em;
   text-underline-offset:        1.5px;
