@@ -4,8 +4,7 @@ hide:
   - toc
 --- -->
 
-FAQs
-----
+# FAQs
 
 1. What can I do on the HEAL Platform?  
       
