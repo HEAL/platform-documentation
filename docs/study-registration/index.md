@@ -1,16 +1,12 @@
-# Study Registration
+# Making Your Study Discoverable
 
-!!! success "Registering Your Study"
-    
-    Registering your study is a simple, three-step process:
-    
-    1. Request access
-    2. Complete study registration
-    3. Enter study-level metadata into CEDAR
-    
-    <p align="center">[How to request access](requesting-access.md){ .md-button }</p>
+!!! question "What if I'm not ready to submit data yet?"
 
-## Overview
+    You may register your study and provide study-level metadata at any time,
+    even if you are not yet ready to submit data to a repository. Registering
+    your study increases its visibility on the Platform and allows the
+    Platform and data repository to anticipate and plan for your subsequent
+    data submission.
 
 The HEAL Data Platform provides a single interface where users can browse and
 search for all HEAL-funded studies as well as other HEAL-relevant datasets. In
@@ -37,13 +33,6 @@ To permit the Platform to pull information from these sources, a study must be
 *registered*. Registration is the process of linking a study to one or more of
 the metadata/data sources listed above. This process can be performed by the
 Principal Investigator or another member of the research team.
-
-!!! question "What if I'm not ready to submit data yet?"
-
-    You may register your study at any time, even if you are not yet ready to
-    submit data to a repository. Registering your study increases its
-    visibility on the Platform and allows the Platform and data repository to
-    anticipate and plan for your subsequent data submission.
 
 <!-- ??? success "A study-level metadata instance within CEDAR"
 

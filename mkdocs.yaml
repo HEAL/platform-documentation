@@ -6,10 +6,10 @@ nav:
   - Home: index.md
   - Return to Platform: https://healdata.org/
   - Logging In: logging-in.md
-  - Study Registration:
+  - Making Your Study Discoverable:
     - study-registration/index.md
-    - study-registration/requesting-access.md
     - study-registration/registering-your-study.md
+    - study-registration/metadata.md
   - Data and Repositories:
     - Types of Hosted Data: hosted_data_types.md
     - Data Management and Repositories: data_mgmt_and_repos.md

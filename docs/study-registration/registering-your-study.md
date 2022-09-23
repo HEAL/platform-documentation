@@ -1,47 +1,57 @@
 # Registering Your Study
 
-Upon receiving notification that you’ve been granted access to register your
-study, please proceed with the steps outlined below.
+!!! success "Registering Your Study"
+    
+    Registering your study is a simple, three-step process:
+    
+    1. Request access
+    2. Create CEDAR account (if you don't have one)
+    2. Complete study registration form
 
-!!! info
+## Step 1: Requesting Access
 
-    You must [request access](../requesting-access/) before you can register
-    your study.
+### Login to the HEAL Data Platform
 
-    Also, if you have not already done so, create an account with
-    [CEDAR](https://cedar.metadatacenter.org/) (choose the "Register" option
-    to quickly set up an account). You will need a CEDAR account to complete
-    the registration process. *Note that your CEDAR User UUID can be found at
-    the top of your CEDAR profile page.*
+You may login to the Platform here: [https://healdata.org/portal/login](https://healdata.org/portal/login)
 
-## Step 1:  Login to the HEAL Data Platform 
-
+<!-- If you want to play with sizing, you can use something like ![](../img/heal_login.png){: style="height:250px;width:534px"} -->
 ![](../img/heal_login.png)
 
-## Step 2: Find your study
+Further information about logging in may be found [here](../logging-in.md).
 
-From the [Discovery Page](https://healdata.org/portal/discovery), find the
-study you wish to register:
+### Find your study
 
-- Click on the study to open the Study Page 
-- At the top of the Study Page, select ‘Request Access to Register This Study’
-  to navigate to the [Study Registration form](https://healdata.org/portal/study-reg).
+From the [Discovery Page](https://healdata.org/portal/discovery), find the study you
+wish to request access to register.
 
-## Step 3:  Complete the Study Registration form
+- Click on the study to open the Study Page
+- At the top of the Study Page, select `Request Access to Register This Study`
+  to navigate to the Study Registration Access Request form.
 
-- The `Study` field will already be filled in
-- If known, a valid ClinicalTrials.gov ID (NCT #) can be entered, which will
-  enable the platform to pull some additional metadata related to the study.
-- If known, select the repository you have submitted data to, or intend to
-  submit data to.  This will help the Platform us and the repository to which
-  you have submitted or will be submitting your data to anticipate and plan
-  accordingly.
-  - If your repository is not listed, please
-    [contact us](mailto:heal-support@datacommons.io) with those details.
-- Enter the unique ID for your study within the repository.
-- Submit your registration.
+![](../img/study_reg_req_access_button.png)
 
-Alternate steps to register a study:
+
+### Complete the Study Registration Access Request Form
+
+- The field `Study Name - Grant Number` will already be filled in.
+- You will need to provide your name, your email address, institutional
+  affiliation and role on the project/study.
+
+![](../img/study_reg_req_access_form.png)
+
+After submitting, you will receive an email indicating the status of your
+request within one business day. When approved, you will then be able to
+[complete the study registration form](http://127.0.0.1:8000/study-registration/registering-your-study/#step-3-complete-study-registration-form).
+
+
+## Step 2: Create CEDAR account
+
+Before completing the study registration form, you will need to create an
+account with [CEDAR](https://cedar.metadatacenter.org/) (choose the "Register"
+option to quickly set up an account).
+
+
+## Step 3: Complete study registration form
 
 - Login to the [Study Registration form](https://healdata.org/portal/study-reg)
 - Choose the study you wish to register from the Study dropdown.  Only those
@@ -49,16 +59,3 @@ Alternate steps to register a study:
 - Complete the form as noted above and submit.
 
 ![](../img/completed_reg_form.png)
-
-## Step 4: Fill out your CEDAR form  
-
-The act of submitting the form will result in the creation of a metadata input
-form within your CEDAR account:
-
-- Find the form for your study under the Shared with Me folder on CEDAR
-  (accessible in the left-hand navigation).
-- When you enter additional data into the CEDAR form, be sure to SAVE your
-  changes by scrolling to the bottom of the form.
-- The HEAL Data Platform will pull entries from the CEDAR templates into the
-  Platform to enhance search capabilities and provide increasingly robust
-  study details.
