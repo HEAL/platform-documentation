@@ -52,3 +52,4 @@ NIH-funded researchers with an active NIH award may take advantage of the STRIDE
         ![Request form is you're using STRIDES credits][img STR credit]
 
 4. Submit the request. Note that the process of granting access for a workspace account can take up to two weeks and users will be notified. Following the approval, users will see the current workspace accounts and credits on the landing page.
+
