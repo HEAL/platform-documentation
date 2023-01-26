@@ -31,7 +31,7 @@ By leveraging the STRIDES Initiative, NIH and NIH-funded institutions can begin 
 NIH-funded researchers with an active NIH award may take advantage of the STRIDES Initiative for their NIH-funded research projects. Eligible researchers include NIH intramural researchers and awardees of NIH contracts, other transaction agreements, grants, cooperative agreements, and other agreements. More information on NIH STRIDES and how to gain access can be found [here][STRIDES]. Please see below for registration steps
 
 1. Users will receive an invitation via email to register for an NIH STRIDES workspace account. Users can click the link in the invitation email or request a workspace account by visiting [https://healportal.org/](https://healportal.org/) and logging in.
-        ![BRH Admin portal login page][img BRH Admin Portal]
+        ![](../img/heal_strides_portal_login_2.png)
 
 2. After authorization, users will be able to see active workspace accounts and credits.
 
@@ -39,7 +39,7 @@ NIH-funded researchers with an active NIH award may take advantage of the STRIDE
         ![BRH portal to request new workspace account][img BRH portal request]
 
 3. Choose one of the two options a) STRIDES Grant/Award Funded or b) STRIDES Credits to request a workspace account.
-        ![Options for funding workspaces through STRIDES][img STRIDES payment]
+        ![](../img/healportal_options.png)
 
       *For information on the NIH STRIDES options, please refer to the [official page]*[STRIDES].
 
