@@ -6,15 +6,15 @@ To start exploring HEAL Data Platform Workspaces, users can apply for Temporary 
 
 For new users without workspace access, please follow these steps
 
-1. Login to [the HEAL Data Platform][BRH login]
-2. Click on the [Workspace tab][BRH Workspace]. This opens the Workspace Access Request form
+1. Login to [the HEAL Data Platform](https://healdata.org/portal/login)
+2. Click on the [Workspace tab](https://healdata.org/portal/workspace). This opens the Workspace Access Request form
 3. Fill in the details and submit the form shown below.
 
-      ![Screenshot of workspace access request form][img Workspaces access request]
+      ![](../img/workspace_reg_request_form.png)
 
 4. The form should be completed only once. Following submission, users will see a success message and a link back to the Discovery page.
 
-      ![Success message after form submission][img Workspace access success]
+      ![](../img/request_confirmation.png)
 
 5. Users will receive an email notifying them that the request has been received.
 
@@ -45,11 +45,11 @@ NIH-funded researchers with an active NIH award may take advantage of the STRIDE
 
     * The **STRIDES Grant/Award Funded** form can be selected if researchers have received NIH funding (e.g. a grant, contract, cooperative agreement, or other transaction agreement) and intend to use these funds for the BRH account. With this option, the researchers' organization will be responsible for payment.
 
-        ![Request form if you're using STRIDES grant or award funding][img STR grant]
+        ![](../img/strides_grant_form.png)
 
     *  Select the **STRIDES Credits** form to request credits from the NIH STRIDES Initiative for the HEAL Data Platform Workspace account. With this option, once the request is approved, a new account with a spending limit of $XXX will be provisioned for usage.
 
-        ![Request form is you're using STRIDES credits][img STR credit]
+        ![](../img/strides_credits_form.png)
 
 4. Submit the request. Note that the process of granting access for a workspace account can take up to two weeks and users will be notified. Following the approval, users will see the current workspace accounts and credits on the landing page.
 
