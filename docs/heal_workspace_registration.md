@@ -7,7 +7,7 @@ To start exploring HEAL Data Platform Workspaces, users can apply for Temporary 
 For new users without workspace access, please follow these steps
 
 1. Login to [the HEAL Data Platform](https://healdata.org/portal/login)
-2. Click on the [Workspace tab](https://healdata.org/portal/workspace). This opens the Workspace Access Request form
+2. Click on the Workspace tab. This opens the Workspace Access Request form
       ![](../img/heal_workspace_tab.png)
 
 3. Fill in the details and submit the form shown below.
