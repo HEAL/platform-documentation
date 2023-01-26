@@ -36,7 +36,7 @@ NIH-funded researchers with an active NIH award may take advantage of the STRIDE
 2. After authorization, users will be able to see active workspace accounts and credits.
 
       To request a workspace account, select "Request New Workspace" on the landing page.
-        ![BRH portal to request new workspace account][img BRH portal request]
+        ![](../img/healportal_request_new.png)
 
 3. Choose one of the two options a) STRIDES Grant/Award Funded or b) STRIDES Credits to request a workspace account.
         
