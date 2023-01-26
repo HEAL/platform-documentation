@@ -40,7 +40,7 @@ NIH-funded researchers with an active NIH award may take advantage of the STRIDE
 
 3. Choose one of the two options a) STRIDES Grant/Award Funded or b) STRIDES Credits to request a workspace account.
         
-        ![](../img/healportal_options.png)
+      ![](../img/healportal_options.png)
 
       *For information on the NIH STRIDES options, please refer to the [official page]*[STRIDES].
 
