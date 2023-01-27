@@ -30,9 +30,9 @@ From the [Discovery Page](https://healdata.org/portal/discovery), find the study
 - Enter a unique name for your data dictionary.  This name will be used to identify the data dictionary for users on the Platform. 
   - Previously submitted data dictionary names are displayed, if applicable - using the same name for a new submission will overwrite the existing record.
 - To facilitate processing of your submission, some administrative information is needed to allow HEAL Platform staff to contact you should the need arise:
-  - - First and Last name
-  - - E-mail address
-  - - *Note that this information is not stored on the Platform, but is simply needed to support you throughout the submission process.*
+    - First and Last name
+    - E-mail address
+    - *Note that this information is not stored on the Platform, but is simply needed to support you throughout the submission process.*
 - Submit your data dictionary
 
 ## Processing Your Submission  
