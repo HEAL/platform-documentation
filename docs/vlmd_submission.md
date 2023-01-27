@@ -12,26 +12,27 @@ Data Dictionaries, which contain variable-level metadata, describe each variable
 
 ![](../img/heal_login.png)
 
-## Find your study
+## Find Your Study
 
-From the [Discovery Page](https://healdata.org/portal/discovery), find the study for you wish to submit a data dictionary.  *Please note that at this time only the individual who registered the study is able to submit a data dictionary for that study. Please contact us at heal-support@datacommons.io if you wish to submit a data dictionary but did not register the study yourself.*
+From the [Discovery Page](https://healdata.org/portal/discovery), find the study for which you wish to submit a data dictionary.  *Please note that at this time only the individual who registered the study is able to submit a data dictionary for that study. Please contact us at heal-support@datacommons.io if you wish to submit a data dictionary but did not register the study yourself.*
 
 - Click on the study to open the Study Page 
-- At the top of the Study Page, select ‘Submit a Data Dictionary’ to navigate to the [Data Dicitonary Submission form](https://healdata.org/portal/study-reg/data-dictionary-submission).
+- At the top of the Study Page, select ‘Submit a Data Dictionary’ to navigate to the [Data Dictonary Submission form](https://healdata.org/portal/study-reg/data-dictionary-submission). UPDATE LINK WHEN NEW ENDPOINT CREATED
+- ADD IMAGE OF SUBMISSION FORM (or would it fit better at the bottom or atop the next section??)
 
 ## Complete the Data Dictionary Submission Form
 
 - The `Study` field will already be filled in
 - Choose the `Select File` button to browse your local computer for your data dictionary.
   - Only TSV, CSV and JSON files can be submitted
-  - While multiple dictionaries can be associated with a study, the process currently supports one submisssion at a time.  
+  - While multiple dictionaries can be associated with a study, the process currently supports one submission at a time. Please repeat this process for each data dictionary you wish to submit
   - *Submissions should not include data of any kind.  Submissions containing data will be removed from the Platform.*      
 - Enter a unique name for your data dictionary.  This name will be used to identify the data dictionary for users on the Platform. 
   - Previously submitted data dictionary names are displayed, if applicable - using the same name for a new submission will overwrite the existing record.
 - To facilitate processing of your submission, some administrative information is needed to allow HEAL Platform staff to contact you should the need arise:
-  - First and Last name
-  - E-mail address
-  - *Note that this information is not stored on the Platform, but is simply needed to support you throughout the submission process.*
+  - - First and Last name
+  - - E-mail address
+  - - *Note that this information is not stored on the Platform, but is simply needed to support you throughout the submission process.*
 - Submit your data dictionary
 
 ## Processing Your Submission  
