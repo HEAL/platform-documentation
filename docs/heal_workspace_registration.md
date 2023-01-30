@@ -48,7 +48,7 @@ NIH-funded researchers with an active NIH award may take advantage of the STRIDE
 
       *For information on the NIH STRIDES options, please refer to the [official page](https://datascience.nih.gov/strides)*.
 
-    * The **STRIDES Grant/Award Funded** form can be selected if researchers have received NIH funding (e.g. a grant, contract, cooperative agreement, or other transaction agreement) and intend to use these funds for the HEAL Data Platform Workspace account. With this option, the researchers' organization will be responsible for payment.
+    * The **STRIDES Grant/Award Funded** form can be selected if researchers have received NIH funding (e.g. a grant, contract, cooperative agreement, or other transaction agreement) and intend to use these funds for a HEAL Data Platform Workspace account. With this option, the researchers' organization will be responsible for payment.
 
         ![](../img/strides_grant_form.png)
 
