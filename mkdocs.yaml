@@ -1,6 +1,6 @@
 #https://www.mkdocs.org/user-guide/configuration/#
 site_name: HEAL Platform Documentation
-site_url: https://ciresiemanym.github.io
+site_url: https://heal-docs-dev.io
 repo_url:
 nav:
   - Home: index.md
