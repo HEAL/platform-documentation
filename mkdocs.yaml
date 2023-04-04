@@ -10,8 +10,9 @@ nav:
     - study-registration/index.md
     - study-registration/requesting-access.md
     - study-registration/registering-your-study.md
-  - Workspace Registration: heal_workspace_registration.md
   - Variable-level Metadata Submission: vlmd_submission.md
+  - Study-Level Metadata Submission (CEDAR Form): 'https://heal.github.io/cedar-form-docs/'
+  - Workspace Registration: heal_workspace_registration.md
   - Data and Repositories:
     - Types of Hosted Data: hosted_data_types.md
     - Data Management and Repositories: data_mgmt_and_repos.md
