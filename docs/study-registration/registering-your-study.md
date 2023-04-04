@@ -50,9 +50,9 @@ Alternate steps to register a study:
 
 ![](../img/completed_reg_form.png)
 
-## Step 4: Fill out your CEDAR form  
+## Next Steps: Fill out your CEDAR form  
 
-The act of submitting the form will result in the creation of a metadata input
+The act of submitting the study registration form will result in the creation of a metadata input
 form within your CEDAR account:
 
 - Find the form for your study under the Shared with Me folder on CEDAR
@@ -62,3 +62,4 @@ form within your CEDAR account:
 - The HEAL Data Platform will pull entries from the CEDAR templates into the
   Platform to enhance search capabilities and provide increasingly robust
   study details.
+- Detailed guidance for completing the the CEDAR metadata for can be found [here](https://heal.github.io/cedar-form-docs/).
