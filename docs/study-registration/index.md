@@ -7,6 +7,7 @@
     1. Request access to register your study.
     2. Create a CEDAR account, if you do not already have one.
     3. Register your study on the HEAL Data Platform. 
+    
     After completing registration, the next step will be completing your metadata form in CEDAR. 
     
     <p align="center">[How to request access](requesting-access.md){ .md-button }</p>
