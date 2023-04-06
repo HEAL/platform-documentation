@@ -4,9 +4,10 @@
     
     Registering your study is a simple, three-step process:
     
-    1. Request access
-    2. Complete study registration
-    3. Enter study-level metadata into CEDAR
+    1. Request access to register your study.
+    2. Create a CEDAR account, if you do not already have one.
+    3. Register your study on the HEAL Data Platform. 
+    After completing registration, the next step will be completing your metadata form in CEDAR. 
     
     <p align="center">[How to request access](requesting-access.md){ .md-button }</p>
 
