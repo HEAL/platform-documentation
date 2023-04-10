@@ -2,7 +2,7 @@
 
 !!! info
 
-    Detailed guidance for completing the CEDAR metadata form can be found [here]
+    There is detailed guidance available for completing the CEDAR metadata form.
     
     <p align="center">[CEDAR Form Guidance](https://heal.github.io/cedar-form-docs/){ .md-button }</p>
 
