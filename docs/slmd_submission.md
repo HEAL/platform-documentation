@@ -11,7 +11,7 @@
 The act of submitting the study registration form will result in the creation of a metadata input
 form within your CEDAR account:
 
-- Find the form for your study under the Shared with Me folder on CEDAR
+- Find the form for your study under the 'Shared with Me' folder on CEDAR
   (accessible in the left-hand navigation).
 - When you enter additional data into the CEDAR form, be sure to SAVE your
   changes by scrolling to the bottom of the form.
