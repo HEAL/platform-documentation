@@ -4,7 +4,7 @@
 
     This video highlights the next step in registering your study on the HEAL Data Platform. Registration with the HEAL Platform is necessary for compliance with the HEAL Data Sharing Policy. Written instructions are below. 
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8ThpaRTvf8o" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<p align="center"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8ThpaRTvf8o" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
 
 Upon receiving notification that you’ve been granted access to register your
 study, please proceed with the steps outlined below.
