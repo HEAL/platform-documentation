@@ -68,4 +68,4 @@ form within your CEDAR account:
 - The HEAL Data Platform will pull entries from the CEDAR templates into the
   Platform to enhance search capabilities and provide increasingly robust
   study details.
-- Guidance for completing the CEDAR metadata form can be found [here](./slmd_submission.md).
+- Guidance for completing the CEDAR metadata form can be found [here](../slmd_submission.md).
