@@ -2,15 +2,6 @@
 
 !!! info
 
-    This video highlights the next step in registering your study on the HEAL Data Platform. Registration with the HEAL Platform is necessary for compliance with the HEAL Data Sharing Policy. Written instructions are below. 
-
-<p align="center"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8ThpaRTvf8o" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
-
-Upon receiving notification that you’ve been granted access to register your
-study, please proceed with the steps outlined below.
-
-!!! info
-
     You must [request access](../requesting-access/) before you can register
     your study.
 
@@ -19,6 +10,15 @@ study, please proceed with the steps outlined below.
     to quickly set up an account). You will need a CEDAR account to complete
     the registration process. *Note that your CEDAR User UUID can be found at
     the top of your CEDAR profile page.*
+
+!!! info
+
+    This video highlights the next step in registering your study on the HEAL Data Platform. Registration with the HEAL Platform is necessary for compliance with the HEAL Data Sharing Policy. Written instructions are below. 
+
+<p align="center"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8ThpaRTvf8o" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+
+Upon receiving notification that you’ve been granted access to register your
+study, please proceed with the steps outlined below.
 
 ## Step 1:  Login to the HEAL Data Platform 
 
