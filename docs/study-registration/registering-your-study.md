@@ -1,8 +1,5 @@
 # Registering Your Study
 
-Upon receiving notification that you’ve been granted access to register your
-study, please proceed with the steps outlined below.
-
 !!! info
 
     You must [request access](../requesting-access/) before you can register
@@ -13,6 +10,15 @@ study, please proceed with the steps outlined below.
     to quickly set up an account). You will need a CEDAR account to complete
     the registration process. *Note that your CEDAR User UUID can be found at
     the top of your CEDAR profile page.*
+
+!!! info
+
+    This video highlights the next step in registering your study on the HEAL Data Platform. Registration with the HEAL Platform is necessary for compliance with the HEAL Data Sharing Policy. Written instructions are below. 
+
+<p align="center"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8ThpaRTvf8o" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+
+Upon receiving notification that you’ve been granted access to register your
+study, please proceed with the steps outlined below.
 
 ## Step 1:  Login to the HEAL Data Platform 
 
@@ -50,15 +56,16 @@ Alternate steps to register a study:
 
 ![](../img/completed_reg_form.png)
 
-## Step 4: Fill out your CEDAR form  
+## Next Steps: Fill out your CEDAR form  
 
-The act of submitting the form will result in the creation of a metadata input
+The act of submitting the study registration form will result in the creation of a metadata input
 form within your CEDAR account:
 
-- Find the form for your study under the Shared with Me folder on CEDAR
+- Find the form for your study under the 'Shared with Me' folder on CEDAR
   (accessible in the left-hand navigation).
 - When you enter additional data into the CEDAR form, be sure to SAVE your
   changes by scrolling to the bottom of the form.
 - The HEAL Data Platform will pull entries from the CEDAR templates into the
   Platform to enhance search capabilities and provide increasingly robust
   study details.
+- An overview of completing the CEDAR metadata form can be found [here](../slmd_submission.md).
