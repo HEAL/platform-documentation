@@ -1,7 +1,7 @@
 Data Management and Repositories
 --------------------------------
 
-To help HEAL investigators in the repository selection process, the HEAL Data Stewards at RENCI/RTI have developed [Repository Selection Criteria](https://www.healdatafair.org/resources/guidance/selection) and identified a number of recommended repositories. A HEAL-approved repository is a FAIR data repository that is NIH-approved and ideally has an API for metadata and data permissions calls.
+To help HEAL investigators in the repository selection process, the HEAL Data Stewards at RENCI/RTI have developed [Repository Selection Criteria](https://www.healdatafair.org/resources/guidance/selection) and identified a number of recommended repositories. A HEAL-compliant repository is a FAIR data repository that is NIH-supported and ideally has an API for metadata and data permissions calls.
 
 The following is a non-exhaustive selection of repositories and resources currently made accessible through or leveraged by the Heal Platform:
 
