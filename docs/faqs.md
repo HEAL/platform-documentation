@@ -23,9 +23,9 @@ hide:
     
 4. Do I need to store my data in a particular location to participate in the HEAL platform?  
       
-    You must store your data in a HEAL-approved repository. A HEAL-approved repository is a data repository that is NIH-approved and ideally has an API for metadata and data permissions calls.
+    You must store your data in a HEAL-compliant repository. A HEAL-compliant repository is a data repository that is NIH-supported and ideally has an API for metadata and data permissions calls.
     To help HEAL investigators in the repository selection process, the HEAL Data Stewards at RENCI/RTI have developed [Repository Selection Criteria](https://www.healdatafair.org/resources/guidance/selection) and identified a number of recommended repositories.
-    If you have questions regarding costs associated with data storage in HEAL-approved repositories, please contact the [HEAL Data Stewards](mailto:HEALstewards@renci.org).
+    If you have questions regarding costs associated with data storage in HEAL-compliant repositories, please contact the [HEAL Data Stewards](mailto:HEALstewards@renci.org).
 
 
 5. How and where can I see if I have access to a study?  
