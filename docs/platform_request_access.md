@@ -62,7 +62,7 @@ From here users can also view if they have access to projects or workspaces
 
 ## Linking access to FAIR enabled repositories
 
-The HEAL Platform securely exposes data stored on multiple [HEAL-approved FAIR repositories](data_mgmt_and_repos.md).
+The HEAL Platform securely exposes data stored on multiple [HEAL-compliant FAIR repositories](data_mgmt_and_repos.md).
 
 Users need to link their account to currently all FAIR repositories in order to:
 

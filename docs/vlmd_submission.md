@@ -20,7 +20,7 @@ From the [Discovery Page](https://healdata.org/portal/discovery), find the study
 *Please note that at this time only the individual who registered the study is able to submit a data dictionary for that study. Please contact us at [heal-support@datacommons.io](mailto:heal-support@datacommons.io) if you wish to submit a data dictionary but did not register the study yourself.*
 
 - Click on the study to open the Study Page 
-- At the top of the Study Page, select `‘Submit a Data Dictionary’` to navigate to the **Data Dictonary Submission Form**.
+- At the top of the Study Page, select `‘Submit a Data Dictionary’` to navigate to the **Data Dictionary Submission Form**.
 
 ## Complete the Data Dictionary Submission Form
 
