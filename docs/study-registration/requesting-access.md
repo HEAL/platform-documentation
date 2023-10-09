@@ -15,7 +15,7 @@
 ## Step 2: Find your study
 
 From the [Discovery Page](https://healdata.org/portal/discovery), find the study you
-wish to request access to register.
+wish to request access to register. *(If you cannot find your study, contact us at heal-support@datacommons.io.)*
 
 - Click on the study to open the Study Page
 - At the top of the Study Page, select `Request Access to Register This Study`
