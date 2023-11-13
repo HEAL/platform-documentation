@@ -21,7 +21,11 @@ wish to request access to register. *(If you cannot find your study, contact us 
 - At the top of the Study Page, select `Request Access to Register This Study`
   to navigate to the Study Registration Access Request form.
 
+
 ![](../img/study_reg_req_access_button.png)
+
+
+> In cases where a study is represented by multiple records on the HEAL Data Platform but data and/or other digital artifacts will only be shared collectively (e.g., through a DCC or in the case of a study that has records from multiple years of funding and/or supplements but will be sharing data only through the parent award), it's likely not necessary that each grant be represented and registered as a stand-alone record on the Platform. If you would like to discuss the representation of your awards on the HEAL Data Platform, please contact us at [heal-support@datacommons.io](mailto:heal-support@datacommons.io).
 
 
 ## Step 3: Complete the Study Registration Access Request Form
