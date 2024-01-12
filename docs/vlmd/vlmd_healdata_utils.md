@@ -41,7 +41,7 @@ Check (validate) an existing HEAL Data Dictionary file to see if it follows the 
 
 ## Using the VLMD Tool in HEAL Workspaces with Python
 
-The VLMD tool has also been preloaded into a HEAL workspace, so that you may use it there instead of downloading it to your local machine. To request access to a workspace, see instructions [here](./heal_workspace_registration.md).
+The VLMD tool has also been preloaded into a HEAL workspace, so that you may use it there instead of downloading it to your local machine. To request access to a workspace, see instructions [here](../heal_workspace_registration.md).
 
 Once workspace access has been approved, select the **(Generic) Jupyter Lab Notebook with R Kernel** to get started using the VLMD tool. You can start by uploading your REDCap data dictionary or data file to the persistent drive (/pd). Any data not saved to the persistent drive will be lost when the workspace is terminated. For more information, please see our [documentation on HEAL workspaces](../platform_workspaces.md). 
 
@@ -49,10 +49,41 @@ Once workspace access has been approved, select the **(Generic) Jupyter Lab Note
 
 !!! info
 
-     Users who upload files to a workspace are responsible for ensuring that they have permission and authority to do so, including adequate consent from participants and approval from their IRB. 
+    Files containing human subjects data *must be de-identified before
+    uploading them to a workspace*, and the user is responsible for ensuring
+    that he or she has permission to upload the data to the cloud. Workspaces
+    are secure and any file(s) a user uploads are only accessible by that user.
 
-     Particular care must be taken with datasets containing individual-level data. For this reason, if you are extracting variable-level metadata from an actual dataset (rather than a REDCap data dictionary, for example), we suggest uploading a dataset shell, i.e., a file with field headers but without any data. 
+    If you are extracting variable-level metadata from a dataset stored in a
+    format that contains metadata (e.g., Stata, SAS or SPSS), our
+    recommendation is to make a copy of the dataset in which all of the data
+    (i.e., the actual observations) have been deleted, leaving only the
+    variable names, formats, labels, etc. Many people are unaware that this is
+    possible, but it makes a great way of sharing information about your
+    dataset without sharing the data themselves. And it is easy to do.
 
+    For example, in Stata, once you have a dataset loaded in memory all that
+    is required is:
+
+    ```
+    drop in 1/l
+    save empty_dataset
+    ```
+
+    Similarily, in SAS:
+
+    ```
+    data empty_dataset;
+        set original_dataset;
+        stop;
+    run;
+    ```
+
+    where the `stop` statement stops SAS from processing any rows.
+
+    In either case, this will leave you with an empty dataset containing all
+    of the original variable-level metadata which you may safely upload to a
+    workspace for use with the VLMD tool.
 
 After you’ve launched the workspace and uploaded your data dictionary or data file, you can import the necessary functions. Below are examples of how to extract VLMD from an SPSS data file, create a new VLMD file from scratch, and validate an existing data dictionary in CSV and JSON formats, all within a workspace. 
 
@@ -152,8 +183,8 @@ For more information on workflows, functions, and definitions, please see the [H
 
     2. **Add/annotate with** additional information in your preferred HEAL data dictionary format (either `json` or `csv`).
         - To further annotate and use the data dictionary, see the variable-level metadata field property information below:
-            - [`csv` data dictionary](./schemas/csv-fields.md)
-            - [`json` data dictionary](./schemas/json-data-dictionary.md)
+            - [`csv` data dictionary](schemas/csv-fields.md)
+            - [`json` data dictionary](schemas/json-data-dictionary.md)
 
     3. **Run the `vlmd validate` command**  with your HEAL data dictioanry as the input to validate.
 
