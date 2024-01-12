@@ -41,7 +41,7 @@ Check (validate) an existing HEAL Data Dictionary file to see if it follows the 
 
 ## Using the VLMD Tool in HEAL Workspaces with Python
 
-The VLMD tool has also been preloaded into a HEAL workspace, so that you may use it there instead of downloading it to your local machine. To request access to a workspace, see instructions [here](./heal_workspace_registration.md).
+The VLMD tool has also been preloaded into a HEAL workspace, so that you may use it there instead of downloading it to your local machine. To request access to a workspace, see instructions [here](../heal_workspace_registration.md).
 
 Once workspace access has been approved, select the **(Generic) Jupyter Lab Notebook with R Kernel** to get started using the VLMD tool. You can start by uploading your REDCap data dictionary or data file to the persistent drive (/pd). Any data not saved to the persistent drive will be lost when the workspace is terminated. For more information, please see our [documentation on HEAL workspaces](../platform_workspaces.md). 
 
@@ -152,8 +152,8 @@ For more information on workflows, functions, and definitions, please see the [H
 
     2. **Add/annotate with** additional information in your preferred HEAL data dictionary format (either `json` or `csv`).
         - To further annotate and use the data dictionary, see the variable-level metadata field property information below:
-            - [`csv` data dictionary](./schemas/csv-fields.md)
-            - [`json` data dictionary](./schemas/json-data-dictionary.md)
+            - [`csv` data dictionary](schemas/csv-fields.md)
+            - [`json` data dictionary](schemas/json-data-dictionary.md)
 
     3. **Run the `vlmd validate` command**  with your HEAL data dictioanry as the input to validate.
 

@@ -67,7 +67,7 @@ request within one business day. When approved, you will then be able to submit 
 
 ### Find Your Study
 
-From the [Discovery Page](https://healdata.org/portal/discovery), find the study for which you wish to submit a data dictionary. _If you were not the member of your team to register the study, you will first need to [request access to submit a data dictionary](vlmd_request_access.md)._
+From the [Discovery Page](https://healdata.org/portal/discovery), find the study for which you wish to submit a data dictionary. _If you were not the member of your team to register the study, you will first need to [request access to submit a data dictionary](#request-access-to-submit-a-data-dictionary)._
 
 - Click on the study to open the Study Page 
 - At the top of the Study Page, select `‘Submit a Data Dictionary’` to navigate to the **Data Dictionary Submission Form**.
@@ -76,7 +76,7 @@ From the [Discovery Page](https://healdata.org/portal/discovery), find the study
 
     A study must be registered in order to submit a data dictionary. 
 
-     If you have not registered your study, please see our instructions on [study registration](../study-registration/)
+     If you have not registered your study, please see our instructions on [study registration](../study-registration/index.md)
 
      If your study was registered by another team member, please see our instructions on [requesting access to submit a data dictionary](). 
 

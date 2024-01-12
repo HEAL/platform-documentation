@@ -2,7 +2,7 @@
 
 !!! info
 
-    You must [request access](../requesting-access/) before you can register
+    You must [request access](requesting-access.md) before you can register
     your study.
 
     Also, if you have not already done so, create an account with
