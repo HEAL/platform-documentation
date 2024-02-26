@@ -8,7 +8,7 @@ New to Jupyter? Learn more about the popular tool for data scientists on [Jupyte
 
 !!! info
 
-    Workspace access requires authorization. Please contact [HEAL Support](mailto:heal-support@data-commons.io) for more information.
+    To use workspaces, you must first register for workspace access as described on the [Workspace Registration page](./workspaces/heal_workspace_registration.md).
 
 1. After navigating to <https://healdata.org/portal/workspace>, users will discover a list of pre-configured virtual machine (VM) images, as shown below.  
 
