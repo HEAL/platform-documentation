@@ -1,6 +1,6 @@
 # Register for HEAL Data Platform Workspaces
 
-To start exploring HEAL Data Platform Workspaces, users can apply for Temporary Trial Access. Extended access to HEAL Data Platform Workspaces is granted using an NIH STRIDES workspace account, which can be requested after trial access is provisioned. Please see below for more details.
+To start exploring workspaces on the HEAL Data Platform, users can apply for Temporary Trial Access. Extended access to workspaces on the HEAL Data Platform is granted using an NIH STRIDES workspace account, which can be requested after trial access is provisioned. Please see below for more details.
 
 ## Guidelines for Requesting Temporary Trial Access to HEAL Data Platform Workspaces
 
@@ -22,7 +22,7 @@ For new users without workspace access, please follow these steps
 
 5. Users will receive an email notifying them that the request has been received.
 
-6. Users will receive another email notifying them the temporary trial access request has been approved. They should then be able to access workspaces on the HEAL Data Platform.. Please note that the timeline for this approval can be a few business days.
+6. Users will receive another email notifying them the temporary trial access request has been approved. They should then be able to access workspaces on the HEAL Data Platform. Please note that the timeline for this approval can be a few business days.
 
 ## Guidelines for Requesting Extended Access to HEAL Data Platform Workspaces using STRIDES
 
