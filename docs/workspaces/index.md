@@ -5,5 +5,5 @@ Workspaces are secure data analysis environments in the cloud that can access da
 > New to Jupyter? Learn more about the popular tool for data scientists on [Jupyter.org](https://jupyter.org/) (disclaimer: CTDS is not responsible for the content).
 
 1. [Register for Workspace Access on the HEAL Data Platform](heal_workspace_registration.md)
-2. [Getting Started with Worspaces on the HEAL Data Platform](heal_workspaces.md)
+2. [Getting Started with Workspaces on the HEAL Data Platform](heal_workspaces.md)
 
