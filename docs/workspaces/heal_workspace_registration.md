@@ -8,17 +8,17 @@ For new users without workspace access, please follow these steps:
 
 1. Login to [the HEAL Data Platform](https://healdata.org/portal/login). *Please make a note of your specific login username; this is the username that will have access to workspaces.*
 2. Click on the [Workspace tab](https://healdata.org/portal/workspace). 
-      ![](../img/heal_workspace_tab.png)
+      ![Screenshot of Workspace Tab button](../img/heal_workspace_tab.png)
    
       This opens the Workspace Access Request form
 
 3. Fill in the details and submit the form shown below.
 
-      ![](../img/workspace_reg_request_form.png)
+      ![Workspace Access Request Form](../img/workspace_reg_request_form.png)
 
 4. The form should be completed only once. Following submission, users will see a success message and a link back to the Discovery page.
 
-      ![](../img/request_confirmation.png)
+      ![Screenshot of successful form submission](../img/request_confirmation.png)
          
       If you see any other message besides a success message, please reach out to us at [heal-support@datacommons.io](mailto:heal-support@datacommons.io). We may not have received your access request.
          
@@ -37,26 +37,26 @@ By leveraging the STRIDES Initiative, NIH and NIH-funded institutions can begin 
 NIH-funded researchers with an active NIH award may take advantage of the STRIDES Initiative for their NIH-funded research projects. Eligible researchers include NIH intramural researchers and awardees of NIH contracts, other transaction agreements, grants, cooperative agreements, and other agreements. More information on NIH STRIDES and how to gain access can be found [here](https://datascience.nih.gov/strides). Please see below for registration steps
 
 1. Users will receive an invitation via email to register for an NIH STRIDES workspace account. Users can click the link in the invitation email or request a workspace account by visiting [https://healportal.org/](https://healportal.org/) and logging in.
-        ![](../img/heal_strides_portal_login_2.png)
+        ![Screenshot of HEAL STRIDES portal login](../img/heal_strides_portal_login_2.png)
 
 2. After authorization, users will be able to see active workspace accounts and credits.
 
       To request a workspace account, select "Request New Workspace" on the landing page.
-        ![](../img/healportal_request_new.png)
+        ![Screenshot of HEAL STRIDES Portal request new workspace form](../img/healportal_request_new.png)
 
 3. Choose one of the two options a) STRIDES Grant/Award Funded or b) STRIDES Credits to request a workspace account.
         
-      ![](../img/healportal_options.png)
+      ![Screenshot of HEAL STRIDES Portal options](../img/healportal_options.png)
 
       *For information on the NIH STRIDES options, please refer to the [official page](https://datascience.nih.gov/strides)*.
 
     * The **STRIDES Grant/Award Funded** form can be selected if researchers have received NIH funding (e.g. a grant, contract, cooperative agreement, or other transaction agreement) and intend to use these funds for a HEAL Data Platform Workspace account. With this option, the researchers' organization will be responsible for payment.
 
-        ![](../img/strides_grant_form.png)
+        ![Screenshot of STRIDES grant form](../img/strides_grant_form.png)
 
     * Select the **STRIDES Credits** form to request credits from the NIH STRIDES Initiative for the HEAL Data Platform Workspace account. With this option, once the request is approved, a new account with a spending limit of $XXX will be provisioned for usage.
 
-        ![](../img/strides_credits_form.png)
+        ![Screenshot of STRIDES Credits form](../img/strides_credits_form.png)
 
 4. Submit the request. Note that the process of granting access for a workspace account can take up to two weeks and users will be notified. Following the approval, users will see the current workspace accounts and credits on the landing page.
 
