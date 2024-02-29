@@ -6,17 +6,20 @@ To start exploring workspaces on the HEAL Data Platform, users can apply for Tem
 
 For new users without workspace access, please follow these steps:
 
-1. Login to [the HEAL Data Platform](https://healdata.org/portal/login). *Please make a note of your specific login username; this is the username that will have access to workspaces.*
-2. Click on the [Workspace tab](https://healdata.org/portal/workspace). 
+1. Login to [the HEAL Data Platform](https://healdata.org/portal/login).
+
+   *Please make a note of your specific login username; this is the username that will have access to workspaces.*
+   
+3. Click on the [Workspace tab](https://healdata.org/portal/workspace). 
       ![Screenshot of Workspace Tab button](../img/heal_workspace_tab.png)
    
       This opens the Workspace Access Request form
 
-3. Fill in the details and submit the form shown below.
+4. Fill in the details and submit the form shown below.
 
       ![Workspace Access Request Form](../img/workspace_reg_request_form.png)
 
-4. The form should be completed only once. Following submission, users will see a success message and a link back to the Discovery page.
+5. The form should be completed only once. Following submission, users will see a success message and a link back to the Discovery page.
 
       ![Screenshot of successful form submission](../img/request_confirmation.png)
          
