@@ -22,11 +22,11 @@ Once you have access to workspaces, use this guide below to get started with ana
 
 3. Click “Launch” on any of the workspace options to spin up a copy of that VM. The status of launching the workspace is displayed after clicking on “Launch”. Note: Launching the VM may take several minutes.
 
-   ![Screenshot of the launch status of the workspace](../img/workspace_launch.png)
+      ![Screenshot of the launch status of the workspace](../img/workspace_launch.png)
 
 4. After launching, the home folder is displayed. One of these folders is your persistent drive ("/pd").
 
-   ![Workspace home folder, including the /pd directory](../img/HEAL_workspaces_pd.png)
+      ![Workspace home folder, including the /pd directory](../img/HEAL_workspaces_pd.png)
 
 5. Select the /pd folder. New files or licenses should be saved in the the /pd directory if users need to access them after restarting the workspaces. Only files saved in the /pd directory will remain available after termination of a workspace session.
 
