@@ -17,7 +17,10 @@ nav:
     - vlmd/index.md
     - vlmd/vlmd_healdata_utils.md
     - vlmd/vlmd_submission.md
-  - Workspace Registration: heal_workspace_registration.md
+  - Workspace User Guide:
+    - workspaces/index.md
+    - workspaces/heal_workspace_registration.md
+    - workspaces/heal_workspaces.md
   - Data and Repositories:
     - Types of Hosted Data: hosted_data_types.md
     - Data Management and Repositories: data_mgmt_and_repos.md
