@@ -24,6 +24,7 @@ nav:
   - Data and Repositories:
     - Types of Hosted Data: hosted_data_types.md
     - Data Management and Repositories: data_mgmt_and_repos.md
+    - Reporting Repository Selection and Data Availability: reporting-repo.md
   - HEAL Platform Features:
     - Discovery Page: platform_discovery_page.md
     - Access check/request: platform_request_access.md
