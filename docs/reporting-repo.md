@@ -12,7 +12,7 @@ You can check the HEAL Data Platform to see if we have a data repository selecti
 * Search for your study (e.g., by project number, name, or PI)
 * Find your study in the search results. At the bottom of the study row, there may be multiple color-bordered boxes. If we have your repo selection on the platform, it will appear in one of these boxes (generally the first, but does not have to be). The red arrow below shows an example of a study that selected Dryad as their repository. 
 
-![Screenshot of a study with Dryad listed as a HEAL-compliant repository.](\img\repo-example.png){: style="height:200px"}
+![Screenshot of a study with Dryad listed as a HEAL-compliant repository.](..\img\repo-example.png){: style="height:200px"}
 
 ## My study doesn't show the repository I selected. How can I update that?  
 
