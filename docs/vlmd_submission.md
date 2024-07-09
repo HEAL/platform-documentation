@@ -12,7 +12,7 @@ Data Dictionaries, which contain variable-level metadata, describe each variable
 
 ## Login to the HEAL Data Platform 
 
-![](../img/heal_login.png)
+![](img/heal_login.png)
 
 ## Find Your Study
 
@@ -24,7 +24,7 @@ From the [Discovery Page](https://healdata.org/portal/discovery), find the study
 
 ## Complete the Data Dictionary Submission Form
 
-   ![](../img/vlmd_submission_form.png)
+   ![](img/vlmd_submission_form.png)
 
 - The `Study` field will already be filled in
 - Choose the `Select File` button to browse your local computer for your data dictionary.
