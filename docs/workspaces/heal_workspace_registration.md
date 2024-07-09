@@ -6,15 +6,9 @@ To start exploring workspaces on the HEAL Data Platform, users can apply for Tem
 
 For new users without workspace access, please follow these steps:
 
-<<<<<<<< HEAD:docs/workspaces/heal_workspace_registration.md
 1. Login to [the HEAL Data Platform](https://healdata.org/portal/login).
   *Please make a note of your specific login username; this is the username that will have access to workspaces.*
-========
-1. Login to [the HEAL Data Platform](https://healdata.org/portal/login)
-2. Click on the [Workspace tab](https://healdata.org/portal/workspace). 
-      ![](img/heal_workspace_tab.png)
->>>>>>>> upstream/main:docs/heal_workspace_registration.md
-   
+
 2. Click on the [Workspace tab](https://healdata.org/portal/workspace). 
       ![Screenshot of Workspace Tab button](../img/heal_workspace_tab.png)
    
@@ -22,7 +16,6 @@ For new users without workspace access, please follow these steps:
 
 3. Fill in the details and submit the form shown below.
 
-<<<<<<<< HEAD:docs/workspaces/heal_workspace_registration.md
       ![Workspace Access Request Form](../img/workspace_reg_request_form.png)
 
 4. The form should be completed only once. Following submission, users will see a success message and a link back to the Discovery page.
@@ -31,16 +24,7 @@ For new users without workspace access, please follow these steps:
          
       If you see any other message besides a success message, please reach out to us at [heal-support@datacommons.io](mailto:heal-support@datacommons.io). We may not have received your access request.
          
-5. Users will receive an email notifying them that the request has been received. 
-========
-      ![](img/workspace_reg_request_form.png)
-
-4. The form should be completed only once. Following submission, users will see a success message and a link back to the Discovery page.
-
-      ![](img/request_confirmation.png)
->>>>>>>> upstream/main:docs/heal_workspace_registration.md
-
-6. Users will receive another email notifying them the temporary trial access request has been approved. They should then be able to access workspaces on the HEAL Data Platform. Please note that the timeline for this approval can be a few business days. If you have not received a response after a few business days, please reach out to [heal-support@datacommons.io](mailto:heal-support@datacommons.io) to check the status of your access request.*
+5. Users will receive another email notifying them the temporary trial access request has been approved. They should then be able to access workspaces on the HEAL Data Platform. Please note that the timeline for this approval can be a few business days. If you have not received a response after a few business days, please reach out to [heal-support@datacommons.io](mailto:heal-support@datacommons.io) to check the status of your access request.*
 
 ## Guidelines for Requesting Extended Access to HEAL Data Platform Workspaces using STRIDES
 
@@ -53,46 +37,26 @@ By leveraging the STRIDES Initiative, NIH and NIH-funded institutions can begin 
 NIH-funded researchers with an active NIH award may take advantage of the STRIDES Initiative for their NIH-funded research projects. Eligible researchers include NIH intramural researchers and awardees of NIH contracts, other transaction agreements, grants, cooperative agreements, and other agreements. More information on NIH STRIDES and how to gain access can be found [here](https://datascience.nih.gov/strides). Please see below for registration steps
 
 1. Users will receive an invitation via email to register for an NIH STRIDES workspace account. Users can click the link in the invitation email or request a workspace account by visiting [https://healportal.org/](https://healportal.org/) and logging in.
-<<<<<<<< HEAD:docs/workspaces/heal_workspace_registration.md
         ![Screenshot of HEAL STRIDES portal login](../img/heal_strides_portal_login_2.png)
-========
-        ![](img/heal_strides_portal_login_2.png)
->>>>>>>> upstream/main:docs/heal_workspace_registration.md
 
 2. After authorization, users will be able to see active workspace accounts and credits.
 
       To request a workspace account, select "Request New Workspace" on the landing page.
-<<<<<<<< HEAD:docs/workspaces/heal_workspace_registration.md
         ![Screenshot of HEAL STRIDES Portal request new workspace form](../img/healportal_request_new.png)
 
 3. Choose one of the two options a) STRIDES Grant/Award Funded or b) STRIDES Credits to request a workspace account.
         
       ![Screenshot of HEAL STRIDES Portal options](../img/healportal_options.png)
-========
-        ![](img/healportal_request_new.png)
-
-3. Choose one of the two options a) STRIDES Grant/Award Funded or b) STRIDES Credits to request a workspace account.
-        
-      ![](img/healportal_options.png)
->>>>>>>> upstream/main:docs/heal_workspace_registration.md
 
       *For information on the NIH STRIDES options, please refer to the [official page](https://datascience.nih.gov/strides)*.
 
     * The **STRIDES Grant/Award Funded** form can be selected if researchers have received NIH funding (e.g. a grant, contract, cooperative agreement, or other transaction agreement) and intend to use these funds for a HEAL Data Platform Workspace account. With this option, the researchers' organization will be responsible for payment.
 
-<<<<<<<< HEAD:docs/workspaces/heal_workspace_registration.md
         ![Screenshot of STRIDES grant form](../img/strides_grant_form.png)
-========
-        ![](img/strides_grant_form.png)
->>>>>>>> upstream/main:docs/heal_workspace_registration.md
 
     * Select the **STRIDES Credits** form to request credits from the NIH STRIDES Initiative for the HEAL Data Platform Workspace account. With this option, once the request is approved, a new account with a spending limit of $XXX will be provisioned for usage.
 
-<<<<<<<< HEAD:docs/workspaces/heal_workspace_registration.md
         ![Screenshot of STRIDES Credits form](../img/strides_credits_form.png)
-========
-        ![](img/strides_credits_form.png)
->>>>>>>> upstream/main:docs/heal_workspace_registration.md
 
 4. Submit the request. Note that the process of granting access for a workspace account can take up to two weeks and users will be notified. Following the approval, users will see the current workspace accounts and credits on the landing page.
 
