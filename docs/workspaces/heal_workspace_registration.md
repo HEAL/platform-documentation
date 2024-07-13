@@ -8,7 +8,7 @@ For new users without workspace access, please follow these steps:
 
 1. Login to [the HEAL Data Platform](https://healdata.org/portal/login).
   *Please make a note of your specific login username; this is the username that will have access to workspaces.*
-   
+
 2. Click on the [Workspace tab](https://healdata.org/portal/workspace). 
       ![Screenshot of Workspace Tab button](../img/heal_workspace_tab.png)
    
@@ -24,9 +24,7 @@ For new users without workspace access, please follow these steps:
          
       If you see any other message besides a success message, please reach out to us at [heal-support@datacommons.io](mailto:heal-support@datacommons.io). We may not have received your access request.
          
-5. Users will receive an email notifying them that the request has been received. 
-
-6. Users will receive another email notifying them the temporary trial access request has been approved. They should then be able to access workspaces on the HEAL Data Platform. Please note that the timeline for this approval can be a few business days. If you have not received a response after a few business days, please reach out to [heal-support@datacommons.io](mailto:heal-support@datacommons.io) to check the status of your access request.*
+5. Users will receive another email notifying them the temporary trial access request has been approved. They should then be able to access workspaces on the HEAL Data Platform. Please note that the timeline for this approval can be a few business days. If you have not received a response after a few business days, please reach out to [heal-support@datacommons.io](mailto:heal-support@datacommons.io) to check the status of your access request.*
 
 ## Guidelines for Requesting Extended Access to HEAL Data Platform Workspaces using STRIDES
 
