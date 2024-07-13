@@ -51,7 +51,7 @@ Once you have access to workspaces, use this guide below to get started with ana
 
 ![Screenshot for terminating your workspace](../img/HEAL_workspaces_terminate.png){: style="height:200px"}
 
-Further reading: read more about how to download data files into the Workspaces [here](downloading_files.md).
+Further reading: read more about how to download data files into the Workspaces [here](../downloading_files.md).
 
 ## Upload, Save, and Download Files/Notebooks
 
