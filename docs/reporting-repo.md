@@ -2,7 +2,7 @@
 
 ## Selecting a HEAL-compliant repository  
 
-There are several considerations when selecting the best repository for your data. We encourage you to review the [Repository Selection Guide](https://www.healdatafair.org/resources/guidance/selection) to view the HEAL-compliant repositories and their features and characteristics. HEAL investigators can get assistance with selecting a repository by contacting the [HEAL Data Stewards](https://docs.google.com/forms/d/e/1FAIpQLSc1gGjOQ7UsmBlMuqUzczPnbjKnbH2hjWgGLrY2xVsRH3n1vg/viewform).
+There are several considerations when selecting the best repository for your data. We encourage you to review the [Repository Selection Guide](https://www.healdatafair.org/resources/guidance/selection) to view the HEAL-compliant repositories and their features and characteristics. HEAL investigators can get assistance with selecting a repository by contacting the [HEAL Data Stewards](https://forms.fillout.com/t/gcVveGMswBus).
 
 ## How can I tell if my study shows a repository selection on the platform?  
 
