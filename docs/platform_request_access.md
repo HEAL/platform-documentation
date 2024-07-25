@@ -1,24 +1,18 @@
 # Check and request access
 
-Users can find out to which projects they have access to by navigating to [the Discovery Page](https://healdata.org/portal/discovery) and by selecting “Data Availability" - "Available" - ”OK” as shown below.
+Users can find out for which studies they have access to data from the platform by navigating to [the Discovery Page](https://healdata.org/portal/discovery) and selecting “Data Availability" (#1), then "Available" (#2), then ”OK” (#3), as shown below. **Note: users should log in before** they try to filter for studies with access to make sure that they are maximizing studies for which they have data access.  
 
-![Access_Data](img/access_box_1.png)
+![Access_Data](img/access_box_select_window.png)
 
-Available data can be found when the box next to "Available" is selected.
+If you also check the Request Access box, you will identify additional studies with data for which you can request access. (see our [documentation about the Data Availability filter](platform_discovery_page.md/#data-availability-options))
 
 ## Access to individual Studies
 
-You can check access by clicking on a study in the Discovery Page, as shown below:
+You can also check access by clicking on a study in the Discovery Page (#1), then clicking on the Data tab in the study page (#2), as shown below.
 
-![Discovery_Study_Page](img/discovery_study_page.png)
+![Discovery_Study_Page](img/discovery_study_access.png)
 
-The Study Page will display access permissions in the top right corner. Click the “Permalink” button in the upper right to copy the link to the clipboard.
-
-If you have access, a green box will show “You have access to this study”.
-
-![Yes_Access](img/access_YES.png)
-
-Access is displayed as a yellow box on top of each Study Page.
+The Data tab will display access permissions in the Data Files section. If you have access, a green box will show “You have access to this study”.
 
 ## Current (open-access) studies
 
