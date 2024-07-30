@@ -30,7 +30,7 @@ From the [Discovery Page](https://healdata.org/portal/discovery), find the
 study you wish to register:
 
 - Click on the study to open the Study Page 
-- At the top of the Study Page, select ‘Request Access to Register This Study’
+- At the top of the Study Page, select ‘Register This Study’
   to navigate to the [Study Registration form](https://healdata.org/portal/study-reg).
 
 ## Step 3:  Complete the Study Registration form
