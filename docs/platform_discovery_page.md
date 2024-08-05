@@ -36,34 +36,31 @@ Clicking on any study will display the available study-level and dataset metadat
 
 ## Find accessible Datasets
 
-Users can select and filter studies from multiple resources and conduct analyses on the selected datasets in a workspace. Users can find search only available data they have access to by selecting the data access button in the top right corner of the study page and selecting “Data Availability" - "Available" as shown below. The Discovery Page will automatically update the list of studies that have available datasets.
+On the Discovery page, users can filter for studies that have data available through the platform using the Data Availability filter in the right-most column of the search results. Click on Data Availability (#1), then select only the Available box (#2) to find data that is available and that you have access to through the platform, then click OK (#3). The Discovery Page will automatically update the list of studies that have available datasets.  
 
 ![Access_Box_Select_Window](img/access_box_select_window.png)
 
-Select the symbol next to Data Availability to open all options. Three options are available. Find available datasets by clicking on the “Available” button.
+The filter allows you to check more than one availability status, and uses an "OR" logic to filter studies. To interpret the different availability status options, please see the next section.
 
 ## Data Availability Options
 
-Different options for Data Availability exist and will be explained below.
+![Access_boxes](img/access_options.png){: style="height:250px"}
 
-![Access_boxes](img/access_options.png)
+**Waiting:**  
+“Waiting” is the default data availability status for studies added to the platform. This status means:  
 
-Three options for Data Availability.
+* Data have not yet been submitted to a repository; or, 
+* The repository has not yet released the data; or, 
+* The study team has not yet provided the link to the data to the HEAL Data Platform. (To [submit a data link, see our documentation about this](reporting-repo.md/#get-the-permalink-to-your-study))
 
-*   Available: This option will display only studies with datasets users have access to and entails all open-access studies. Studies can be selected and exported to a workspace or downloaded by clicking on the associated checkbox on the left-hand side of the study entry and selecting one of the options in the top right.  
-      
-![discovery_options](img/discovery_options.png)
+**Available:**
+“Available” means you are now able to access these data via the HEAL Data Platform, by [downloading them](downloading_files.md/#download-data-files-from-the-discovery-page) and/or by [importing them in a workspace](workspaces/heal_workspaces.md)
 
-Once available, each study can be selected and exported to workspace or downloaded.
-      
-*   Not available: This option will filter out all studies that will only have metadata but no datasets available. The checkbox next to the study will be greyed out and non-clickable.  
-      
-    ![Access_greyed_out_box](img/access_greyed_out_box.png)
-    
-    Studies will grey out if they're not available, have no data attached, users have no access to, or are in pending mode.
-        
-*   Pending: This option will display studies located on any data resource or repository, for which attached datasets will be added in the near future. The checkbox next to the study will be greyed out and non-clickable as shown above.  
-      
+**Request Access:**
+“Request Access” means that the data has been deposited in a repository and is available. To access the data, you will first need to visit the host repository to request access to it, following the repository’s standard procedures. Once that is complete, authorized users can then [bring these data into a HEAL workspace for analysis](workspaces/heal_workspaces.md).
+
+**Not Available:**
+“Not Available” means that no data will be made available for this study.
  
 ## Select Files on the Discovery Page and bring them to the Workspace
 
