@@ -20,11 +20,11 @@ If you need to report the repository(ies) that you have selected, there are two 
 
 1. If you have **not yet registered** your study:  
    
-    You will have the option to indicate your repository selection when you register your study. You can [follow the instructions here to register](study-registration/index.md). If you have any trouble or questions, reach out to us at [heal-support@datacommons.io](mailto:heal-support@datacommons.io).  
+    You will have the option to indicate your repository selection when you register your study. You can [follow the instructions here to register](study-registration/index.md). If you have any trouble or questions, reach out to us at [heal-support@gen3.org](mailto:heal-support@gen3.org).  
 
 2. If you have **already registered** your study, or you have more than one repository selection:
    
-    You can email us at [heal-support@datacommons.io](mailto:heal-support@datacommons.io) to report your repository selection(s). In your email, please include the [permalink](#get-the-permalink-to-your-study) to your study page on the platform. 
+    You can email us at [heal-support@gen3.org](mailto:heal-support@gen3.org) to report your repository selection(s). In your email, please include the [permalink](#get-the-permalink-to-your-study) to your study page on the platform. 
     
 
 ### Get the permalink to your study  
@@ -38,4 +38,4 @@ To get the permalink to your study, you can do the following:
 
 ## Reporting that data is now available  
 
-If you have deposited your data in a HEAL-compliant repository, we want to link to your data from the HEAL Data Platform. Please email us at [heal-support@datacommons.io](mailto:heal-support@datacommons.io) to share your data link(s). In your email, please include the [permalink to the platform study page](#get-the-permalink-to-your-study) (see above).  
+If you have deposited your data in a HEAL-compliant repository, we want to link to your data from the HEAL Data Platform. Please email us at [heal-support@gen3.org](mailto:heal-support@gen3.org) to share your data link(s). In your email, please include the [permalink to the platform study page](#get-the-permalink-to-your-study) (see above).  
