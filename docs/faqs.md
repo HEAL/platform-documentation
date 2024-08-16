@@ -39,7 +39,7 @@ hide:
     
 7. The profile page says I have access but I don’t see it on the Discovery Page.  
       
-    Please contact our [help desk](mailto:heal-support@datacommons.io).  
+    Please contact our [help desk](mailto:heal-support@gen3.org).  
     
   
 8. I would like to download data files from a specific study, what do I need to do?  
@@ -64,18 +64,18 @@ hide:
     
 12. My download is not working.  
       
-    Please check if your file size exceeds 250 MB. If yes, please other tools as described [here](downloading_files.md#download-data-files-using-the-gen3-client) to download the files. Note that the current studies that have datasets of more than 250 MB are those with the following project numbers: a) cdcwonder and b) deaarcos1. If errors persist, please contact the [help desk](mailto:heal-support@datacommons.io).  
+    Please check if your file size exceeds 250 MB. If yes, please other tools as described [here](downloading_files.md#download-data-files-using-the-gen3-client) to download the files. Note that the current studies that have datasets of more than 250 MB are those with the following project numbers: a) cdcwonder and b) deaarcos1. If errors persist, please contact the [help desk](mailto:heal-support@gen3.org).  
       
     
 13. My data file download using the Gen3-client gets stuck, where can I get help?  
       
-    For troubleshooting, please see the Gen3-client documentation [here](https://gen3.org/resources/user/gen3-client/). If errors persist, contact our [help desk](mailto:heal-support@datacommons.io).  
+    For troubleshooting, please see the Gen3-client documentation [here](https://gen3.org/resources/user/gen3-client/). If errors persist, contact our [help desk](mailto:heal-support@gen3.org).  
       
     
 14. The Gen3-client shows errors, where can I get help?  
       
     To check that the client is working and to confirm the client version, type ‘gen3-client’ in the terminal. Typing ‘gen3-client help’ will display the help menu. Users must provide the full path of the tool in order for the commands to run, for example, ‘./gen3-client’ while working from the directory containing the client.  
-    For more troubleshooting, please see the Gen3-client documentation [here](https://gen3.org/resources/user/gen3-client/). If errors persist, contact our [help desk](mailto:heal-support@datacommons.io).  
+    For more troubleshooting, please see the Gen3-client documentation [here](https://gen3.org/resources/user/gen3-client/). If errors persist, contact our [help desk](mailto:heal-support@gen3.org).  
       
     
 15. I want to work interactively on the Tutorial Notebooks. Show me how.  
