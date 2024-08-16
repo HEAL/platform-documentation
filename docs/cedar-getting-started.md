@@ -28,14 +28,14 @@ Step 1: Are you the person who registered the study?
 > Yes, I registered the study: Skip to Step 2.  
 > 
 > No, someone else registered the study:  
-> The CEDAR form is initially available to whoever registered the study. However, it can be shared. The person who registered the study can share it with you by following the instructions [in this section](#sharing-with-collaborators). If that is not a solution, request that the form be shared with you at heal-support@datacommons.io (please CC a PI on your email if you are not a PI).  
+> The CEDAR form is initially available to whoever registered the study. However, it can be shared. The person who registered the study can share it with you by following the instructions [in this section](#sharing-with-collaborators). If that is not a solution, request that the form be shared with you at heal-support@gen3.org (please CC a PI on your email if you are not a PI).  
 
 Step 2: On the Shared with Me page (#1), turn off any filters by clicking Reset All (#2) if you see it there.  
 Your study form may appear after resetting filters to the default.
 
 ![Screenshot of Shared with Me showing Reset All link.][img CEDAR reset all]{: style="height:250px"}
 
-If neither of these steps resolves your access to the CEDAR form, please reach out to **[heal-support@datacommons.io](mailto:heal-support@datacommons.io)** for assistance. 
+If neither of these steps resolves your access to the CEDAR form, please reach out to **[heal-support@gen3.org](mailto:heal-support@gen3.org)** for assistance. 
 
 ### Collapse and expand sections
 
