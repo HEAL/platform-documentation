@@ -196,4 +196,4 @@ Once you’ve created your HEAL-compliant data dictionary, you’re now ready to
 
 - [How to Submit a Data Dictionary](./vlmd_submission.md)
 
-If you have need any help generating a HEAL-compliant data dictionary with the VMLD Tool, or have a general inquiry, please contact us at [heal-support@datacommons.io](mailto:heal-support@datacommons.io)
+If you have need any help generating a HEAL-compliant data dictionary with the VMLD Tool, or have a general inquiry, please contact us at [heal-support@gen3.org](mailto:heal-support@gen3.org)

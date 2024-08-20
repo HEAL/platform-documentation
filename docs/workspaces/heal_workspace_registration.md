@@ -22,9 +22,9 @@ For new users without workspace access, please follow these steps:
 
       ![Screenshot of successful form submission](../img/request_confirmation.png)
          
-      If you see any other message besides a success message, please reach out to us at [heal-support@datacommons.io](mailto:heal-support@datacommons.io). We may not have received your access request.
+      If you see any other message besides a success message, please reach out to us at [heal-support@gen3.org](mailto:heal-support@gen3.org). We may not have received your access request.
          
-5. Users will receive another email notifying them the temporary trial access request has been approved. They should then be able to access workspaces on the HEAL Data Platform. Please note that the timeline for this approval can be a few business days. If you have not received a response after a few business days, please reach out to [heal-support@datacommons.io](mailto:heal-support@datacommons.io) to check the status of your access request.*
+5. Users will receive another email notifying them the temporary trial access request has been approved. They should then be able to access workspaces on the HEAL Data Platform. Please note that the timeline for this approval can be a few business days. If you have not received a response after a few business days, please reach out to [heal-support@gen3.org](mailto:heal-support@gen3.org) to check the status of your access request.*
 
 ## Guidelines for Requesting Extended Access to HEAL Data Platform Workspaces using STRIDES
 
