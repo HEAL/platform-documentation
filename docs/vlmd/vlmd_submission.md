@@ -110,7 +110,7 @@ Upon receipt of your successful submission, HEAL Data Platform staff will:
 
 More information about the HEAL variable-level metadata schema, as well as submission templates, can be found [here](https://github.com/HEAL/heal-metadata-schemas/tree/variable-level-metadata).
 
-If you have issues with a submission, or have a general inquiry, please contact us at [heal-support@datacommons.io](mailto:heal-support@datacommons.io).
+If you have issues with a submission, or have a general inquiry, please contact us at [heal-support@gen3.org](mailto:heal-support@gen3.org).
 
 
 

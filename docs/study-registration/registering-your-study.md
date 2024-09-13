@@ -43,7 +43,7 @@ study you wish to register:
   you have submitted or will be submitting your data to anticipate and plan
   accordingly.
   - If your repository is not listed, please
-    [contact us](mailto:heal-support@datacommons.io) with those details.
+    [contact us](mailto:heal-support@gen3.org) with those details.
 - Enter the unique ID for your study within the repository.
 - Submit your registration.
 - After you successfully register your study, the study will disappear from the HEAL Data Platform for about 24 hours while we sync the study record with the new CEDAR form. You do not need to do anything for it to reappear. 
