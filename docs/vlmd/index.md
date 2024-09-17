@@ -1,15 +1,15 @@
 # Variable-level Metadata Submission  
 
-The HEAL Data Platform includes two sources of variable-level metadata (VLMD):
+The HEAL Data Platform contains variable-level metadata (VLMD) from two sources:
 
-* [**Data Dictionaries:**](#data-dictionaries) these describe each variable within a study's dataset
-* [**HEAL CDEs (Common Data Elements):**](#heal-cdes-common-data-elements) these are validated and structured questionnaires used by HEAL investigators conducting research with human participants to harmonize the data collected by different studies
+* [**Data Dictionaries:**](#data-dictionaries) these files describe each variable within a study's dataset
+* [**HEAL CDEs (Common Data Elements):**](#heal-cdes-common-data-elements) these are validated and structured questionnaires used by investigators conducting research with human participants to harmonize the data collected across studies
 
 !!! info 
 
      In order to submit any VLMD to the Platform, two conditions must be true:
      
-     **1) The study must already be registered:** If your study is not yet registered, please see our instructions for how to register your study before submitting VLMD. 
+     **1) The study must already be registered:** If your study is not yet registered on the HEAL Data Platform, please see our instructions for how to register your study before submitting VLMD. 
      
      <p align="center">[How to Register Your Study](../study-registration/index.md){ .md-button }</p>
 
