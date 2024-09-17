@@ -31,4 +31,4 @@ In order to submit a study’s data dictionary to the Platform, the data diction
 
 HEAL CDEs are validated and structured questionnaires that include fields describing the human subject data collected, along with how the data was gathered, and how the response is represented in the dataset. HEAL investigators conducting research with human participants use CDEs to allow the data collected by different studies to be harmonized for further analyses. [*(To learn more about HEAL CDEs, visit this NIH page.)*](https://heal.nih.gov/data/common-data-elements)
 
-To report the CDEs your study used to the Platform, follow the instructions on [this page](vlmd_submit_CDE.md).  
+* To report the CDEs your study used to the Platform, follow the instructions on [this page](vlmd_submit_CDE.md).  

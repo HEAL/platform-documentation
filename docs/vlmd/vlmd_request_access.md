@@ -1,4 +1,4 @@
-# Request Access to Submit VLMD
+# Request Access to Submit Variable-level Metadata (VLMD)
 
 !!! info 
 
