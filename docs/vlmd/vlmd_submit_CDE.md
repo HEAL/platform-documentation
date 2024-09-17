@@ -4,7 +4,7 @@
 
      In order to report your CDEs to the Platform, the following conditions must be true:
      
-     **1) The study must already be registered:** If your study is not yet registered, please see our instructions for how to register your study before submitting VLMD. 
+     **1) The study must already be registered:** If your study is not yet registered on the HEAL Data Platform, please see our instructions for how to register your study before submitting VLMD. 
      
      <p align="center">[How to Register Your Study](../study-registration/index.md){ .md-button }</p>
 
@@ -35,7 +35,7 @@ From the [Discovery Page](https://healdata.org/portal/discovery), find the study
 
     - **`Login to...`** - you are not logged in. [Log in first](https://healdata.org/portal/login), then repeat the instructions above.
     - **`Request Access to Submit Variable-level Metadata`** - you have not yet gotten access to submit VLMD. Follow these instructions to [request access to submit VLMD](vlmd_request_access.md). 
-    - **`Request Access to Register This Study`** - your study is not yet registered. Follow these instructions to [request access and register your study](../study-registration/index.md). 
+    - **`Request Access to Register This Study`** - your study is not yet registered on the HEAL Data Platform. Follow these instructions to [request access and register your study](../study-registration/index.md). 
 
 ## Report CDEs
 
@@ -49,7 +49,7 @@ Below the `Study` field is a checklist of core CDEs. Check the box for any you w
 
    ![](../img/vlmd_cde_submission_form_middle.png)
 
-To add other CDEs not in the core list, you can click in the box beneath the core list and begin typing CDE codes or names to filter other CDEs that include the typed string (see the yellow highlighting). Click the CDE in the filtered list to add.
+To add Supplemental CDEs not in the core list, you can click in the box beneath the core list and begin typing CDE names or codes to filter other CDEs that include the typed string (see the yellow highlighting). Click the CDE in the filtered list to add.
 
    ![](../img/vlmd_cde_submission_form_not-core.png)
 

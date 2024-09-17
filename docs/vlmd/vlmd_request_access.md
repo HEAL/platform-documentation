@@ -1,14 +1,16 @@
-# Request Access to Submit VLMD
+# Request Access to Submit Variable-level Metadata (VLMD)
 
 !!! info 
 
-     In order to submit a Data Dictionary to the Platform, **the study must already be registered.** If your study is not yet registered, please see our instructions for how to register your study before submitting VLMD.
+     In order to submit a Data Dictionary to the Platform, **the study must already be registered on the HEAL Data Platform.** If your study is not yet registered, please see our instructions for how to register your study before submitting VLMD.
 
      <p align="center">[How to Register Your Study](../study-registration/index.md){ .md-button }</p>
 
 ---
 
 ## Request Access to Submit Variable-level Metadata
+
+Requesting Access is the first step in submitting VLMD to the HEAL Data Platform. If you were the person that registered the study on the Platform, you can go directly to [Submit VLMD](#submit-vlmd). If someone else registered the study, follow the steps below to request access to submit VLMD.
 
 ### Login to the HEAL Data Platform
 
@@ -32,7 +34,7 @@ From the [Discovery Page](https://healdata.org/portal/discovery), find the study
     If you see:
 
     - **`Login to...`** - you are not logged in. [Log in first](https://healdata.org/portal/login), then repeat the instructions above.
-    - **`Request Access to Register This Study`** - your study is not yet registered. Follow these instructions to [request access and register your study](../study-registration/index.md).  
+    - **`Request Access to Register This Study`** - your study is not yet registered on the HEAL Data Platform. Follow these instructions to [request access and register your study](../study-registration/index.md).  
     - **`Submit Variable-level Metadata`** - You already have access to submit VLMD. Proceed to [submit your data dictionary or CDEs](#submit-vlmd). 
 
 ### Complete the VLMD Submission Request Form

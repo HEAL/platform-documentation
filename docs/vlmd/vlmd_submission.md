@@ -4,7 +4,7 @@
 
      In order to submit a Data Dictionary to the Platform, the following conditions must be true:
      
-     **1) The study must already be registered:** If your study is not yet registered, please see our instructions for how to register your study before submitting VLMD. 
+     **1) The study must already be registered:** If your study is not yet registered on the HEAL Data Platform, please see our instructions for how to register your study before submitting VLMD. 
      
      <p align="center">[How to Register Your Study](../study-registration/index.md){ .md-button }</p>
 
@@ -43,7 +43,7 @@ From the [Discovery Page](https://healdata.org/portal/discovery), find the study
 
     - **`Login to...`** - you are not logged in. [Log in first](https://healdata.org/portal/login), then repeat the instructions above.
     - **`Request Access to Submit Variable-level Metadata`** - you have not yet gotten access to submit VLMD. Follow these instructions to [request access to submit VLMD](vlmd_request_access.md). 
-    - **`Request Access to Register This Study`** - your study is not yet registered. Follow these instructions to [request access and register your study](../study-registration/index.md). 
+    - **`Request Access to Register This Study`** - your study is not yet registered on the HEAL Data Platform. Follow these instructions to [request access and register your study](../study-registration/index.md). 
 
 ## Submit Your Data Dictionary
 
@@ -56,8 +56,8 @@ The VLMD submission form defaults to the Data Dictionary tab (see box at top).
   - Only TSV, CSV and JSON files can be submitted
   - While multiple dictionaries can be associated with a study, the process currently supports one submission at a time. Please repeat this process for each data dictionary you wish to submit
   - *Submissions should not include data of any kind.  Submissions containing data will be removed from the Platform.*      
-- Enter a unique name for your data dictionary.  This name will be used to identify the data dictionary for users on the Platform. 
-  - Previously submitted data dictionary names are displayed, if applicable - using the same name for a new submission will overwrite the existing record.
+- Enter a name for your data dictionary.  This name will be visible to users on the Platform.  
+  - Previously-submitted data dictionary names are displayed, if applicable; using the same name for a new submission will overwrite the existing record.
 - To facilitate processing of your submission, some administrative information is needed to allow HEAL Data Platform staff to contact you should the need arise:
     - First and Last name
     - E-mail address
