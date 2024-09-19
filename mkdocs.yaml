@@ -72,6 +72,9 @@ markdown_extensions:
   - pymdownx.details
 plugins:
   - search
+  - redirects:
+      redirect_maps:
+        'vlmd_submission.md': 'vlmd/index.md'
   - mkdocs-video:
       is_video: True
 
