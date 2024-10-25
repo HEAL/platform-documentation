@@ -2,7 +2,7 @@
 
 !!! info 
 
-     In order to submit a Data Dictionary to the Platform, **the study must already be registered on the HEAL Data Platform.** If your study is not yet registered, please see our instructions for how to register your study before submitting VLMD.
+     In order to submit a Data Dictionary or report CDEs to the Platform, **the study must already be registered on the HEAL Data Platform.** If your study is not yet registered, please see our instructions for how to register your study before submitting VLMD.
 
      <p align="center">[How to Register Your Study](../study-registration/index.md){ .md-button }</p>
 
