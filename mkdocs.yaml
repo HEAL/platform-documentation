@@ -15,8 +15,10 @@ nav:
     - cedar-getting-started.md
   - Variable-level Metadata Submission: 
     - vlmd/index.md
+    - Request Access to Submit VLMD: vlmd/vlmd_request_access.md
     - vlmd/vlmd_healdata_utils.md
     - vlmd/vlmd_submission.md
+    - vlmd/vlmd_submit_CDE.md
   - Workspace User Guide:
     - workspaces/index.md
     - workspaces/heal_workspace_registration.md

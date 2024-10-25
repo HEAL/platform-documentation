@@ -1,104 +1,70 @@
 # Submit a Data Dictionary
 
-In order to submit a HEAL-compliant data dictionary and have it be associated with your study on the HEAL Data Platform, that study must first be registered. If you have not already registered your study, please see our instructions on [study registration](../study-registration/index.md).
+!!! info 
 
-If you were the team member to register your study, please skip ahead to our instructions on how to [submit a data dictionary to the Platform](#submit-a-data-dictionary_1). 
-
-If your study was registered by another team member, you will first need to request access to submit a data dictionary. Please follow the instructions below. 
-<!--
-!!! info
-
-     These instructions will show you how to request access to submit a data dictionary to the Platform. 
-
-     If you were the team member to register your study, please skip to our instructions on how to submit a data dictionary to the Platform. 
+     In order to submit a Data Dictionary to the Platform, the following conditions must be true:
      
-     <p align="center">[Submit a Data Dictionary](#submit-a-data-dictionary_1){ .md-button }</p>
--->
+     **1) The study must already be registered:** If your study is not yet registered on the HEAL Data Platform, please see our instructions for how to register your study before submitting VLMD. 
+     
+     <p align="center">[How to Register Your Study](../study-registration/index.md){ .md-button }</p>
 
----
+     **2) You must have access to submit VLMD:** If you are the person who registered your study, you automatically have access. If someone else registered your study, you can follow the instructions below to request access to submit VLMD. 
 
-## Request Access to Submit a Data Dictionary
+     <p align="center">[How to Request Access to Submit VLMD](vlmd_request_access.md){ .md-button }</p>
 
-### Login to the HEAL Data Platform
+     **3) The Data Dictionary must conform to the HEAL VLMD schema:** See below for the instructions for how to generate a HEAL-compliant data dictionary. 
 
-<!-- If you want to play with sizing, you can use something like ![](../img/heal_login.png){: style="height:250px;width:534px"} -->
-![](../img/heal_login.png)
+      <p align="center">[Generate a HEAL-compliant Data Dictionary](vlmd_healdata_utils.md){ .md-button }</p>
 
-
-### Find your study
-
-From the [Discovery Page](https://healdata.org/portal/discovery), find the study you
-wish to request access to register.
-
-- Click on the study to open the Study Page
-- At the top of the Study Page, select `Request Access to Submit a Data Dictionary`
-  to navigate to the Study Registration Access Request form.
-
-![](../img/submit_dd_req_access_button.png)
-
-
-### Complete the Data Dictionary Submission Request Form
-
-- The field `Study Name - Grant Number` will already be filled in.
-- You will need to provide your name, your email address, institutional
-  affiliation and role on the project/study.
-
-![](../img/submit_dd_request_form.png)
-
-After submitting, you will receive an email indicating the status of your
-request within one business day. When approved, you will then be able to submit a data dictionary to the Platform.
-
-
-## Submit a Data Dictionary
-
-!!! info
-
-    Data dictionaries must conform to the HEAL [variable-level metadata schema](https://github.com/HEAL/heal-metadata-schemas/tree/variable-level-metadata/variable-level-metadata-schema). Please view our instructions on how to generate a HEAL-compliant data dictionary if you have not yet done so. 
-    
-    <p align="center">[Generate a HEAL-compliant Data Dictionary](vlmd_healdata_utils.md){ .md-button }</p>
-    
-    Additionally, submissions should not include data of any kind. Submissions containing data will be removed from the Platform.
+      **4) Submissions should not include data of any kind**. Submissions containing data will be removed from the Platform.
    
     More information and submission templates can be found [here](https://github.com/HEAL/heal-metadata-schemas/tree/variable-level-metadata).
 
-### Login to the HEAL Data Platform 
+## Login to the HEAL Data Platform  
+
+Click on the [Login button in the upper right corner](https://healdata.org/portal/login) to log in to the Platform.  
 
 ![](../img/heal_login.png)
 
-### Find Your Study
+## Find Your Study
 
-From the [Discovery Page](https://healdata.org/portal/discovery), find the study for which you wish to submit a data dictionary. _If you were not the member of your team to register the study, you will first need to [request access to submit a data dictionary](#request-access-to-submit-a-data-dictionary)._
+From the [Discovery Page](https://healdata.org/portal/discovery), find the study for which you wish to submit a data dictionary.  
 
-- Click on the study to open the Study Page 
-- At the top of the Study Page, select `‘Submit a Data Dictionary’` to navigate to the **Data Dictionary Submission Form**.
+- Click on the study to open the Study Page  
+- At the top of the Study Page, select `Submit Variable-level Metadata` to navigate to the **Variable-level Metadata Submission Form**.
+
+![](../img/submit_vlmd_submit_button.png)
+
 
 !!! info
 
-    A study must be registered in order to submit a data dictionary. 
+    If you do not see `Submit Variable-level Metadata`, see below for how to proceed.  
+    If you see:
 
-     If you have not registered your study, please see our instructions on [study registration](../study-registration/index.md)
+    - **`Login to...`** - you are not logged in. [Log in first](https://healdata.org/portal/login), then repeat the instructions above.
+    - **`Request Access to Submit Variable-level Metadata`** - you have not yet gotten access to submit VLMD. Follow these instructions to [request access to submit VLMD](vlmd_request_access.md). 
+    - **`Request Access to Register This Study`** - your study is not yet registered on the HEAL Data Platform. Follow these instructions to [request access and register your study](../study-registration/index.md). 
 
-     If your study was registered by another team member, please see our instructions on [requesting access to submit a data dictionary](). 
+## Submit Your Data Dictionary
 
+The VLMD submission form defaults to the Data Dictionary tab (see box at top). 
 
-### Complete the Data Dictionary Submission Form
-
-   ![](../img/vlmd_submission_form.png)
+   ![](../img/vlmd_dd_submission_form.png)
 
 - The `Study` field will already be filled in
 - Choose the `Select File` button to browse your local computer for your data dictionary.
   - Only TSV, CSV and JSON files can be submitted
   - While multiple dictionaries can be associated with a study, the process currently supports one submission at a time. Please repeat this process for each data dictionary you wish to submit
   - *Submissions should not include data of any kind.  Submissions containing data will be removed from the Platform.*      
-- Enter a unique name for your data dictionary.  This name will be used to identify the data dictionary for users on the Platform. 
-  - Previously submitted data dictionary names are displayed, if applicable - using the same name for a new submission will overwrite the existing record.
+- Enter a name for your data dictionary.  This name will be visible to users on the Platform.  
+  - Previously-submitted data dictionary names are displayed, if applicable; using the same name for a new submission will overwrite the existing record.
 - To facilitate processing of your submission, some administrative information is needed to allow HEAL Data Platform staff to contact you should the need arise:
     - First and Last name
     - E-mail address
     - *Note that this information is not stored on the Platform, but is simply needed to support you throughout the submission process.*
 - Submit your data dictionary
 
-### Processing Your Submission  
+## Processing Your Submission  
 
 Upon receipt of your successful submission, HEAL Data Platform staff will:
 
@@ -106,7 +72,7 @@ Upon receipt of your successful submission, HEAL Data Platform staff will:
 - Ensure no data are included.  Files containing study-generated data of any kind will not be accepted.
 - HEAL Data Platform staff will contact you with any questions and/or to work through any issues that may arise.  If there are no issues, you will be notified when processing is completed.
 
-###  Additional Help
+##  Additional Help
 
 More information about the HEAL variable-level metadata schema, as well as submission templates, can be found [here](https://github.com/HEAL/heal-metadata-schemas/tree/variable-level-metadata).
 
