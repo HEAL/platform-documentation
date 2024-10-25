@@ -394,6 +394,10 @@
         
           
         
+          
+        
+          
+        
       
       
         
@@ -422,6 +426,20 @@
   
   
     <li class="md-nav__item">
+      <a href="vlmd_request_access/" class="md-nav__link">
+        Request Access to Submit VLMD
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="vlmd_healdata_utils/" class="md-nav__link">
         Generate a HEAL-compliant Data Dictionary
       </a>
@@ -438,6 +456,20 @@
     <li class="md-nav__item">
       <a href="vlmd_submission/" class="md-nav__link">
         Submit a Data Dictionary
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="vlmd_submit_CDE/" class="md-nav__link">
+        Submit HEAL CDEs
       </a>
     </li>
   
@@ -810,6 +842,28 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#data-dictionaries" class="md-nav__link">
+    Data Dictionaries
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#heal-cdes-common-data-elements" class="md-nav__link">
+    HEAL CDEs (Common Data Elements)
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -824,8 +878,22 @@
 
 
 <h1 id="variable-level-metadata-submission">Variable-level Metadata Submission<a class="headerlink" href="#variable-level-metadata-submission" title="Permanent link">&para;</a></h1>
+<p>The HEAL Data Platform contains variable-level metadata (VLMD) from two sources:</p>
+<ul>
+<li><a href="#data-dictionaries"><strong>Data Dictionaries:</strong></a> these files describe each variable within a study's dataset</li>
+<li><a href="#heal-cdes-common-data-elements"><strong>HEAL CDEs (Common Data Elements):</strong></a> these are validated and structured questionnaires used by investigators conducting research with human participants to harmonize the data collected across studies</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>In order to submit any VLMD to the Platform, two conditions must be true:</p>
+<p><strong>1) The study must already be registered:</strong> If your study is not yet registered on the HEAL Data Platform, please see our instructions for how to register your study before submitting VLMD. </p>
+<p><p align="center"><a class="md-button" href="../study-registration/">How to Register Your Study</a></p></p>
+<p><strong>2) You must have access to submit VLMD:</strong> If you are the person who registered your study, you automatically have access. If someone else registered your study, you can follow the instructions below to request access to submit VLMD. </p>
+<p><p align="center"><a class="md-button" href="vlmd_request_access/">How to Request Access to Submit VLMD</a></p></p>
+</div>
+<h2 id="data-dictionaries">Data Dictionaries<a class="headerlink" href="#data-dictionaries" title="Permanent link">&para;</a></h2>
 <p>Data Dictionaries, which contain variable-level metadata, describe each variable within a dataset. Examples of variable-level attributes include the variable name, description (or variable label), type, format, terminology, and source.</p>
-<p>In order to submit a study’s data dictionary to the Platform, the data dictionary must conform to the HEAL <a href="https://github.com/HEAL/heal-metadata-schemas/tree/main/variable-level-metadata-schema">variable-level metadata schema</a>. The following instructions will demonstrate how to use the HEAL Data Utilities' VLMD tool to help you generate a HEAL-compliant data dictionary from your dataset or existing data dictionary.</p>
+<p>In order to submit a study’s data dictionary to the Platform, the data dictionary must conform to the HEAL <a href="https://github.com/HEAL/heal-metadata-schemas/tree/main/variable-level-metadata-schema">variable-level metadata schema</a>. The following instructions will demonstrate how to use the HEAL Data Utilities' VLMD tool to help you generate a HEAL-compliant data dictionary from your dataset or existing data dictionary, and then submit it to the Platform.</p>
 <ol>
 <li>
 <p><a href="vlmd_healdata_utils/">How to Generate a HEAL-compliant Data Dictionary</a></p>
@@ -834,12 +902,11 @@
 <p><a href="vlmd_submission/">How to Submit a HEAL-compliant Data Dictionary</a></p>
 </li>
 </ol>
-<div class="admonition info">
-<p class="admonition-title">Info</p>
-<p>Note: in order to submit a data dictionary to the Platform, the study must first be registered.</p>
-<p>If you have not done so, please see our instructions on how to register your study. </p>
-<p><p align="center"><a class="md-button" href="../study-registration/">How to Register Your Study</a></p></p>
-</div>
+<h2 id="heal-cdes-common-data-elements">HEAL CDEs (Common Data Elements)<a class="headerlink" href="#heal-cdes-common-data-elements" title="Permanent link">&para;</a></h2>
+<p>HEAL CDEs are validated and structured questionnaires that include fields describing the human subject data collected, along with how the data was gathered, and how the response is represented in the dataset. HEAL investigators conducting research with human participants use CDEs to allow the data collected by different studies to be harmonized for further analyses. <a href="https://heal.nih.gov/data/common-data-elements"><em>(To learn more about HEAL CDEs, visit this NIH page.)</em></a></p>
+<ul>
+<li>To report the CDEs your study used to the Platform, follow the instructions on <a href="vlmd_submit_CDE/">this page</a>.  </li>
+</ul>
 
 
 
@@ -876,13 +943,13 @@
       
       
         
-        <a href="vlmd_healdata_utils/" class="md-footer__link md-footer__link--next" aria-label="Next: Generate a HEAL-compliant Data Dictionary" rel="next">
+        <a href="vlmd_request_access/" class="md-footer__link md-footer__link--next" aria-label="Next: Request Access to Submit VLMD" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Generate a HEAL-compliant Data Dictionary
+              Request Access to Submit VLMD
             </div>
           </div>
           <div class="md-footer__button md-icon">
