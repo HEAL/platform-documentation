@@ -105,4 +105,4 @@ hide:
     
 20. I want to report a bug!  
       
-    Please report any errors or bugs to our [help desk](mailto:heal-support@datacommons.io).  
+    Please report any errors or bugs to our [help desk](mailto:heal-support@gen3.org).  
