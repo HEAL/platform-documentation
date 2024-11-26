@@ -24,10 +24,12 @@ If you need to report the repository(ies) that you have selected, there are two 
 
 2. If you have **already registered** your study, or you have more than one repository selection:
    
-    You can email us at [heal-support@gen3.org](mailto:heal-support@gen3.org) to report your repository selection(s). In your email, please include the [permalink](#get-the-permalink-to-your-study) to your study page on the platform. 
+    You can email us at [heal-support@gen3.org](mailto:heal-support@gen3.org) to report your repository selection(s). In your email, please include the [permalink](#get-the-permalink-to-your-study) to your study page on the platform so we know exactly which study needs to be updated. 
     
 
 ### Get the permalink to your study  
+
+A permalink is a permanent link to your study page -- it makes it quick and easy to open the page without searching. The study's permalink includes the HEAL Data Platform ID (HDP ID), a unique identifier for your study, at the end of the URL. 
 
 To get the permalink to your study, you can do the following:  
 
