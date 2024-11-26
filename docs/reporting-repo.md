@@ -29,7 +29,7 @@ If you need to report the repository(ies) that you have selected, there are two 
 
 ### Get the permalink to your study  
 
-A permalink is a permanent link to your study page -- it makes it quick and easy to open the page without searching. The study's permalink also includes the HEAL Data Platform ID (HDP ID), a unique identifier for your study, at the end of the URL. 
+A permalink is a permanent link to your study page -- it makes it quick and easy to open the page without searching. The study's permalink includes the HEAL Data Platform ID (HDP ID), a unique identifier for your study, at the end of the URL. 
 
 To get the permalink to your study, you can do the following:  
 
