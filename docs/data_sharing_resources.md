@@ -67,7 +67,6 @@ A FAIR data package contains both the study files you intend to share and suffic
     7. Funding agency and grant number
     8. Usage requirements and/or restrictions, including suggested acknowledgement
     9. Reference to corresponding publication, if applicable
-<!-- unable to mix numbers and letters in standard markdown -->
 2. **Data must be valid when checked programmatically against the corresponding schema**. A useful way to think about a data dictionary (or more generally, VLMD) is that it represents a set of assertions about a dataset. The validity of this assertion can be checked automatically using available software tools (e.g., Data Package). This allows: 1) data curators to confirm that curation steps are being executed correctly, 2) secondary data users to verify that there have been no changes or modifications made when they receive the data, and 3) users to harmonize these data with additional data. While many people are used to using data dictionaries in a more formal way, the HEAL Ecosystem is working to facilitate programmatic use of these documents.
 
 **For human subjects studies**:
@@ -99,4 +98,3 @@ In cases where this information was not recorded, the corresponding value should
 ## References
 [^1]: National Institutes of Health (2020). Final NIH Policy for Data Management and Sharing. [https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html](https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html).
 [^2]: Wilkinson, M.D., Dumontier, M., Aalbersberg, Ij.J., Appleton, G., Axton, M., Baak, A., Blomberg, N., Boiten, J.-W., da Silva Santos, L.B., Bourne, P.E., et al. (2016). The FAIR Guiding Principles for scientific data management and stewardship. Scientific Data 3, 160018. [https://doi.org/10.1038/sdata.2016.18](https://doi.org/10.1038/sdata.2016.18).
-
