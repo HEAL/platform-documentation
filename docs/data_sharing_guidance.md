@@ -73,7 +73,7 @@ A FAIR data package contains both the study files you intend to share and suffic
 
 **For human subjects studies**:
 
-1. **Investigators engaged in human subjects research are responsible for ensuring that they have approval to share data and that the data are deidentified and shared in a manner consistent with their IRB requirements and language used in their consent form(s). In general**:
+1. **Investigators engaged in human subjects research are responsible for ensuring that they have approval to share data and that data are deidentified and shared in a manner consistent with their IRB requirements and language used in their consent form(s). In general**:
     1. All direct identifiers must be removed. This is slightly less restrictive than using the Safe Harbor method, as dates may be preserved (but must be shifted, as described below) as well as geographic units smaller than state (e.g., zip code or census tract).
     2. All dates must be shifted to reduce the risk of deductive disclosure. For example, those using REDCap to collect data have the option of shifting dates by a random amount between 0 and 364 days back in time, with a constant shift being used for all dates pertaining to the same individual. 
     3. Any open-ended responses must be removed; these can be coded into a clearly defined set of categories if it's necessary to preserve the information.
