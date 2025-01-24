@@ -78,8 +78,8 @@ A FAIR data package contains both the study files you intend to share and suffic
     2. All dates must be shifted to reduce the risk of deductive disclosure. For example, those using REDCap to collect data have the option of shifting dates by a random amount between 0 and 364 days back in time, with a constant shift being used for all dates pertaining to the same individual. 
     3. Any open-ended responses must be removed; these can be coded into a clearly defined set of categories if it's necessary to preserve the information.
     4. Local participant IDs must be replaced with standardized, anonymous identifiers; this breaks any link between local records and the shared dataset.
-2. **The resulting dataset must be reviewed according to local institutional policies (e.g., IRB) for any additional potential disclosure risk.
-f. All missing values should be consistently coded using a clearly defined set of categories such as the following**:
+    5. The resulting dataset must be reviewed according to local institutional policies (e.g., IRB) for any additional potential disclosure risk.
+2. **All missing values should be consistently coded using a clearly defined set of categories such as the following**:
     - "Don't know"
     - "Refused"
     - "No answer" (i.e., left blank by participant)
