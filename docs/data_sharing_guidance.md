@@ -1,8 +1,24 @@
-# Packaging Your Data for Success
+# Data Packaging: What to Share and When
 
-## Introduction
+The 2023 NIH policy defines scientific data that must be shared as "the recorded factual material commonly accepted in the scientific community as of sufficient quality to validate and replicate research findings." This definition ties data sharing directly to your own analytic work (i.e., the data you share should permit someone to replicate your results) and includes not only data but other materials necessary for replication such as analysis code.
 
-This documentation describes general principles for sharing data with the research community in a manner consistent with NIH's 2023 Data Management and Sharing Policy, and with additional HEAL program requirements[^1]. These principles should apply to nearly all HEAL-compliant repositories, enabling you to submit the resulting files directly to a repository. 
+Data repositories define open access data to be data which may be downloaded or accessed directly without a request and approval process. In contrast, controlled access data require that users submit a request which is then reviewed prior to granting approval (e.g., by a data access committee). If a dataset requires controlled access to protect confidentiality, we recommend creating a second version containing only a subset of the data that can be controlled access datasets.
+
+When packaging your dataset it can be helpful to keep your data sharing goal in mind. Two common goals are:
+
+- **Replicating published analyses**: sharing all (and only) the data needed to replicate findings in a specific published work (e.g., paper, poster, report); this may be a subset of data that are generated over the course of the study.
+- **Dataset sharing**: sharing the entire dataset that is generated over the course of a study; this option is the most efficient way to share data when multiple works associated with the study will be published.
+
+With your data sharing goal/scope in mind, consider the below information for sharing data.
+
+### **Required items**:
+
+These items are required to enable others to understand and use your shared data.
+
+1. **Summary/Info file**: e.g., a README that identifies each file included in the shared dataset and a brief description of what it contains, software used to conduct analyses (incl. version number)
+2. **Variable-level metadata**: For tabular data, this is one or more files that collectively represent a list of all variables included in the dataset, including the variable title, variable description, and measurement units (if not labeled elsewhere).
+3. **Data file(s)**: These can be the raw data files or the analytic dataset. It is best practice to share the data in a non-proprietary format when possible (e.g., as a .csv file instead of .xls)
+
 
 Why align with requirements to manage and share your data?:
 
