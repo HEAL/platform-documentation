@@ -41,26 +41,26 @@ Example of a high-quality dataset accompanied by sufficient information to acces
 ### **Best Practices - A Little More Goes a Long Way**:
 
 _The following additional steps can add substantial scientific and analytic value to a shared dataset:_
-1. Combine data and metadata files into a _[data package](https://datapackage.org/)_—a specially organized folder containing one or more data files and corresponding JSON- or YAML-formatted metadata files. Data packages make it easy to validate data, to transform data, to read data into analytic software packages, and to share data.
-2. Include protocol(s) for executing the study, including procedures for collecting and managing the data (e.g., data cleaning and curation, QC, etc.).
-3. Include additional variable-level metadata, such as links to the source of specific items (e.g., Common Data Element (CDE) repository, NIH's PhenX Toolkit, or a specific measurement instrument).
-4. Include pipelines to validate skip patterns (e.g., instances where a specific item is skipped based on responses to a previous item) or other assertions about the data.
+1. Include persistent identifiers (e.g., DOIs) to publication(s) generated from the data; this not only aids in replication but can also provide additional documentation for the data with little or no extra work. 
+2. Include additional variable-level metadata, such as links to the source of specific items (e.g., Common Data Element (CDE) repository, NIH's PhenX Toolkit, or a specific measurement instrument).
+3. Include protocol(s) for executing the study, including procedures for collecting, processing (including QC, cleaning, and curation), and managing the data.
+4. Include code that may be executed to translate raw file(s) together with corresponding variable-level metadata (when applicable) into commonly used analytic formats such as Stata, R, SAS, Pandas/Python, etc.
 5. Include code to perform specific data transformations (e.g., generate derived variables or reorganize data to facilitate a specific analysis).
-6. Include code that may be executed to translate the CSV file(s) and corresponding metadata into other commonly used formats such as Stata, R, SAS, Pandas/Python, etc.
-7. Include persistent identifiers (e.g., DOIs) to publication(s) generated from the data
+6. Include pipelines to validate assertions about the data such as skip patterns (e.g., instances where a specific item is skipped based on responses to a previous item).
+7. Combine data, and metadata, and code into a _[data package](https://datapackage.org/)_—a specially organized folder containing one or more data files and corresponding JSON- or YAML-formatted metadata files. Data packages make it easy to validate data, to transform data, to read data into analytic software packages, and to share data.
 
 ## Helpful Tips
 
-A FAIR data package contains both the study files you intend to share and sufficient context for secondary users to understand and make use of the included files. As described above, this context may include protocols, data collection instruments, code for manipulating or analyzing the data, discipline-specific metadata files describing the data, and/or additional documentation. 
+A FAIR data package contains both the data files you intend to share and sufficient information for secondary users to understand and use those data files. As noted above, this additional information may include protocols, data collection instruments, code for manipulating or analyzing the data, discipline-specific metadata files describing the data, and additional documentation. 
 
 ### **Recommended file formats**:
 
-1. **Data files should be in CSV format**, typically with commas or tabs as delimiters and a header row containing column (i.e., variable) names. Nearly all software for data collection and/or data management is capable of exporting to CSV format, and this ensures that the data may be read by the widest possible range of software, both now and in the future. Data representing responses from a fixed set of choices (e.g., Yes/No items or individual items from a Likert scale) may be recorded as text labels (e.g., "Yes" or "No") or as integer codes, where the mapping between integers and labels is provided in the schema (see Item 2 immediately below).
-2. **Variable-level metadata (VLMD) should be provided in machine-readable form**. The easiest way to do this is with a JSON- or YAML-format schema, though a data dictionary in CSV format may be considered acceptable instead (this can then be translated automatically to JSON). Per the HEAL VLMD schema, at a minimum, VLMD files must include the variable name and description. It is best practice and strongly recommended to also include for each variable a title (i.e., a human readable label for the variable), datatype (e.g., integer, float, date, string, boolean, etc.), and possible responses for each variable (e.g., range, list of choices, or constraints). Examples of valid and invalid VLMD files are available here. The HEAL VLMD schema must be followed when submitting VLMD files to the HEAL Data Platform; this schema is also strongly recommended for VLMD submitted to data repositories. 
+1. **Data files should be in a non-proprietary, commonly-used format** such as CSV files with commas or tabs as delimiters and a header row containing column (i.e., variable) names. Nearly all software for data collection and/or data management is capable of exporting to CSV format, and this ensures that the data may be read by the widest possible range of software, both now and in the future. Data representing responses from a fixed set of choices (e.g., Yes/No items or individual items from a Likert scale) may be recorded as text labels (e.g., "Yes" or "No") or as integer codes, where the mapping between integers and labels is provided in an accompanying schema (see Item 2 immediately below).
+2. **Variable-level metadata (VLMD) should be provided in machine-readable form**. The best way to do this is with a JSON- or YAML-format schema, though a data dictionary in CSV format may in some cases also be acceptable. The HEAL data ecosystem requires that variable-level metadata (VLMD) schemas include at a minimum the variable name and description, while also strongly encouraging inclusion of the following (for each variable): a title (i.e., a human-readable label for the variable), datatype (e.g., integer, float, date, string, boolean, etc.), and possible responses for each variable (e.g., range, list of choices, or constraints). Examples of valid and invalid VLMD files are available here. Note: All variable-level metadata submitted to the HEAL Data Platform must adhere to this specification, and it is also strongly recommended when submitting data to a repository.
 
 ### **Data Curation and Quality Control** 
 
-1. In addition to the variable-level metadata described above, it is best practice for all  data to be accompanied by the following minimal file-level metadata (e.g., in the README file):
+1. In addition to the variable-level metadata (VLMD) described above, it is best practice for all data to be accompanied by the following minimal study-level metadata (e.g., in the README file):
     1. Title
     2. Description
     3. Version identifier (so a dataset can be clearly identified and distinguished from prior or subsequent versions)
@@ -70,28 +70,31 @@ A FAIR data package contains both the study files you intend to share and suffic
     7. Funding agency and grant number
     8. Usage requirements and/or restrictions, including suggested acknowledgement
     9. Reference to corresponding publication, if applicable
-2. **If a schema is provided, data should be valid when checked programmatically against the that schema**. A useful way to think about a data dictionary (or more generally, VLMD) is that it represents a set of assertions about a dataset. The validity of this assertion can be checked automatically using available software tools (e.g., Data Package). This allows: 1) data curators to confirm that curation steps are being executed correctly, 2) secondary data users to verify that there have been no changes or modifications made when they receive the data, and 3) users to harmonize these data with additional data.
+2. Similarly, it is best practice for all data files to be accompanied by the following file-level metadata (e.g., in the file manifest):
+    1. Title
+    2. Description
+    3. Version identifier (so a dataset can be clearly identified and distinguished from prior or subsequent versions)
+    4. Any additional information necessary to read the file (e.g., choice of delimiter, use of quotation marks, encoding)
+    5. MD5 checksum or equivalent (to verify the file has been transferred accurately and not modified)
+3. **If a schema is provided, data should be valid when checked programmatically against that schema**. A useful way to think about a data dictionary (or more generally, a VLMD schema) is that it represents a set of assertions about a dataset. The validity of these assertions can be checked automatically using available software tools (e.g., [Frictionless data management framework for Python](https://framework.frictionlessdata.io/)). This allows: 1) data curators to confirm that curation steps are being executed correctly, 2) secondary data users to verify that there have been no changes or modifications made prior to receiving the data, and 3) users to harmonize these data with additional data.
 
 **For human subjects studies**:
 
-1. **Investigators engaged in human subjects research are responsible for ensuring that they have approval to share data and that data are deidentified and shared in a manner consistent with their IRB requirements and language used in their consent form(s). In general**:
+1. **Investigators engaged in human subjects research are responsible for ensuring that they have consent from research participants and IRB approval to share data and that data are deidentified and shared in a manner consistent with the language used in their consent form(s) and any applicable institutional requirements. In general**:
     1. All direct identifiers must be removed. This is slightly less restrictive than using the Safe Harbor method, as dates may be preserved (but must be shifted, as described below) as well as geographic units smaller than state (e.g., zip code or census tract).
-    2. All dates must be shifted to reduce the risk of deductive disclosure. For example, those using REDCap to collect data have the option of shifting dates by a random amount between 0 and 364 days back in time, with a constant shift being used for all dates pertaining to the same individual. 
-    3. Any open-ended responses must be removed; these can be coded into a clearly defined set of categories if it's necessary to preserve the information.
-    4. Local participant IDs must be replaced with standardized, anonymous identifiers; this breaks any link between local records and the shared dataset.
-    5. The resulting dataset must be reviewed according to local institutional policies (e.g., IRB) for any additional potential disclosure risk.
-
-We suggest consulting a local institutional resource (e.g., your library) with any questions related to your IRB data sharing requirements.
-
+    2. All dates must be shifted to reduce the risk of deductive disclosure. For example, those using REDCap to collect data have the option of shifting dates by a random amount between 0 and 364 days back in time, with a constant shift being used for all dates pertaining to the same individual.
+    3. Any open-ended responses should be removed; these can be coded into a clearly defined set of categories if it's necessary to preserve some of the information for analysis.
+    4. Local participant IDs should be replaced with standardized, anonymous identifiers; this breaks any link between local materials and the shared dataset.
+    5. The resulting dataset should be reviewed by an expert at your institution (e.g., a data curation or archiving expert at your institutional library) to identify and mitigate any additional potential disclosure risks.
 2. **All missing values should be consistently coded using a clearly defined set of categories such as the following**:
-    - "Don't know"
-    - "Refused"
-    - "No answer" (i.e., left blank by participant)
-    - "Legitimately skipped" (i.e., not applicable)
-    - Not collected" (i.e., item not administered)
-    - "Missing in error" (for any other reason)
+    - Don't know (participant reports that they do not know the answer to the question)
+    - Refused (participant indicates that they prefer not to answer the question)
+    - No answer (self-administered item left blank by participant)
+    - Legitimately skipped (item does not apply to this participant and/or timepoint)
+    - Not collected (item not administered, either intentionally or unintentionally)
+    - Missing in error (datum not available for any other reason)
 
-In cases where this information was not recorded, the corresponding value should be left blank (i.e., the empty string). That said, blank values make a dataset difficult to analyze, so such information should ideally always be recorded and provided whenever available.
+In cases where this information was not recorded, the corresponding value should be left blank (i.e., the empty string). Such information should ideally always be recorded and provided when sharing data, since blank values can make a dataset difficult if not impossible to analyze.
 
 ## Data Sharing Resources
 - [HEAL VLMD schema](https://github.com/HEAL/heal-metadata-schemas/blob/main/variable-level-metadata-schema/schemas/data-dictionary.json)
