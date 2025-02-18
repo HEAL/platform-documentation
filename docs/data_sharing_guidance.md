@@ -30,9 +30,10 @@ When packaging your dataset it can be helpful to keep your data sharing goal in 
 
 While each of these goals has somewhat different needs and requirements, there are several general principles that apply across all of them. These are described below, organized into a set of minimal requirements followed by a list of additional best practices. We also provide several tips that you may find helpful when preparing and packaging your data for sharing.
 
-### **Required items**:
+### **Required items**
 
 These items are required to enable others to use your shared data.
+
 1. **Study-level metadata**: A human-readable file (e.g., a README file) identifying the study or project that generated the dataset and describing the terms (including any restrictions) governing use of the data.
 2. **File-level metadata**: A file manifest identifying each data file included together with a brief description of what it contains and any other information needed to use and interpret the data (e.g., what measurement techniques and protocol(s), including software names and versions, were used to generate the files).
 3. **Variable-level metadata**: For tabular data (e.g., one row for each observation with each column representing a different variable), one or more files describing each all variable included in the dataset including the variable name,title and/or description, and measurement units or possible values (e.g., possible responses for a patient reported outcome).
@@ -40,7 +41,7 @@ These items are required to enable others to use your shared data.
 
 Example of a high-quality dataset accompanied by sufficient information to access and replicate published findings: [NIDA-CTN-0095A2: Reducing Stigma toward People with Opioid Use Disorder among Primary Care Clinicians at NIDA Data Share](https://datashare.nida.nih.gov/study/nida-ctn-0095a2)
 
-### **Best Practices - A Little More Goes a Long Way**:
+### **Best Practices - A Little More Goes a Long Way**
 
 _The following additional steps can add substantial scientific and analytic value to a shared dataset:_
 1. Include persistent identifiers (e.g., DOIs) to publication(s) generated from the data; this not only aids in replication but can also provide additional documentation for the data with little or no extra work. 
@@ -55,7 +56,7 @@ _The following additional steps can add substantial scientific and analytic valu
 
 A FAIR data package contains both the data files you intend to share and sufficient information for secondary users to understand and use those data files. As noted above, this additional information may include protocols, data collection instruments, code for manipulating or analyzing the data, discipline-specific metadata files describing the data, and additional documentation. 
 
-### **Recommended file formats**:
+### **Recommended file formats**
 
 1. **Data files should be in a non-proprietary, commonly-used format** such as CSV files with commas or tabs as delimiters and a header row containing column (i.e., variable) names. Nearly all software for data collection and/or data management is capable of exporting to CSV format, and this ensures that the data may be read by the widest possible range of software, both now and in the future. Data representing responses from a fixed set of choices (e.g., Yes/No items or individual items from a Likert scale) may be recorded as text labels (e.g., "Yes" or "No") or as integer codes, where the mapping between integers and labels is provided in an accompanying schema (see Item 2 immediately below).
 2. **Variable-level metadata (VLMD) should be provided in machine-readable form**. The best way to do this is with a JSON- or YAML-format schema, though a data dictionary in CSV format may in some cases also be acceptable. The HEAL data ecosystem requires that variable-level metadata (VLMD) schemas include at a minimum the variable name and description, while also strongly encouraging inclusion of the following (for each variable): a title (i.e., a human-readable label for the variable), datatype (e.g., integer, float, date, string, boolean, etc.), and possible responses for each variable (e.g., range, list of choices, or constraints). Examples of valid and invalid VLMD files are available here. Note: All variable-level metadata submitted to the HEAL Data Platform must adhere to this specification, and it is also strongly recommended when submitting data to a repository.
