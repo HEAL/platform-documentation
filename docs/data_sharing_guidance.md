@@ -18,7 +18,9 @@ The 2023 NIH policy defines scientific data that must be shared as "the recorded
 
 Data repositories define open access data to be data which may be accessed or downloaded directly without going through a request and approval process. In contrast, controlled access data require that users submit a request which is then reviewed prior to granting approval (e.g., by a data access committee). In cases where a complete dataset requires controlled access to protect confidentiality, we encourage whenever possible creating a second version of the dataset containing only a subset of the data that can be made openly accessible. It is well established that openly accessible datasets are used much more frequently than controlled access datasets.
 
-> A third category is _registered access_, which requires a user to register with a repository before downloading or accessing a dataset. This requirement is imposed by the repository (e.g., to track dataset usage), and does not typically represent a major impediment to data use.
+!!! note
+
+    A third category is _registered access_, which requires a user to register with a repository before downloading or accessing a dataset. This requirement is imposed by the repository (e.g., to track dataset usage), and does not typically represent a major impediment to data use.
 
 When packaging your dataset it can be helpful to keep your data sharing goal in mind. Three common goals are:
 
