@@ -22,7 +22,7 @@ Data repositories define _open access data_ to be data which may be accessed or 
 
     A third category is _registered access_, which requires a user to register with a repository before downloading or accessing a dataset. This requirement is imposed by the repository (e.g., to track dataset usage), and does not typically represent a major impediment to data use.
 
-When packaging your dataset it can be helpful to keep your data sharing goal in mind. Three common goals are:
+When packaging your dataset, it can be helpful to keep your data sharing goal in mind. Three common goals are:
 
 1. **Replicating published analyses**: Sharing just those data needed to replicate findings in a specific published work (e.g., paper, poster, report), which often includes only a subset of the data generated over the course of a study but also requires sharing derived variables or the code for generating them.
 2. **Data archiving**: Sharing an entire dataset generated over the course of a study to permit secondary users to plan and perform their own, independent analyses. Unlike the case above, this requires less attention to derived variables but greater attention to the steps required to protect confidentiality while at the same time retaining as much scientific and analytic value as possible.
