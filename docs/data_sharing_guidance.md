@@ -51,7 +51,7 @@ _The following additional steps can add substantial scientific and analytic valu
 4. Include code that may be executed to translate raw file(s) together with corresponding variable-level metadata (when applicable) into commonly used analytic formats such as Stata, R, SAS, Pandas/Python, etc.
 5. Include code to perform specific data transformations (e.g., generate derived variables or reorganize data to facilitate a specific analysis).
 6. Include pipelines to validate assertions about the data such as skip patterns (e.g., instances where a specific item is skipped based on responses to a previous item).
-7. Combine data, and metadata, and code into a _[data package](https://datapackage.org/)_—a specially organized folder containing one or more data files and corresponding JSON- or YAML-formatted metadata files. Data packages make it easy to validate data, to transform data, to read data into analytic software packages, and to share data.
+7. Combine data, metadata, and code into a _[data package](https://datapackage.org/)_—a specially organized folder containing one or more data files and corresponding JSON- or YAML-formatted metadata files. Data packages make it easy to validate data, to transform data, to read data into analytic software packages, and to share data.
 
 ## Helpful Tips
 
