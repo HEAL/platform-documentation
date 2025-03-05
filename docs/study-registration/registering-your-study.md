@@ -22,7 +22,7 @@ study, please proceed with the steps outlined below.
 
 ## Step 1:  Login to the HEAL Data Platform 
 
-![](../img/heal_login.png)
+![Screenshot of the platform with the login button boxed in red](../img/heal_login.png)
 
 ## Step 2: Find your study
 
@@ -55,7 +55,7 @@ Alternate steps to register a study:
   studies you have been approved to register will be displayed in the dropdown.
 - Complete the form as noted above and submit.
 
-![](../img/completed_reg_form.png)
+![Screenshot of a completed study registration form](../img/completed_reg_form.png)
 
 ## Next Steps: Fill out your CEDAR form  
 
