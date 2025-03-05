@@ -22,7 +22,7 @@ Once you have downloaded the appropriate zip file, double-click the file to unzi
 
 Double-clicking `vlmd` will then open your computer's command-line interface (CLI). Once the interface opens and the VLMD tool is loaded, you will be presented with four prompts: documentation, extract, start, and validate. 
 
-![](../img/vlmd_interface.gif)
+![GIF of the interface for the VLMD tool in the command line.](../img/vlmd_interface.gif)
 
 ### CLI Commands 
 
@@ -45,7 +45,7 @@ The VLMD tool has also been preloaded into a HEAL workspace, so that you may use
 
 Once workspace access has been approved, select the **(Generic) Jupyter Lab Notebook with R Kernel** to get started using the VLMD tool. You can start by uploading your REDCap data dictionary or data file to the persistent drive (/pd). Any data not saved to the persistent drive will be lost when the workspace is terminated. For more information, please see our [documentation on HEAL workspaces](../platform_workspaces.md). 
 
-![](../img/vlmd_in_workspace.png){ height=”500” }
+![Screenshot of the VLMD tool used in the HEAL workspace](../img/vlmd_in_workspace.png){ height=”500” }
 
 !!! info
 
