@@ -16,8 +16,8 @@ Requesting Access is the first step in submitting VLMD to the HEAL Data Platform
 
 Click on the [Login button in the upper right corner](https://healdata.org/portal/login) to log in to the Platform.  
 
-<!-- If you want to play with sizing, you can use something like ![](../img/heal_login.png){: style="height:250px;width:534px"} -->
-![HEAL login screenshot](../img/heal_login.png)
+<!-- If you want to play with sizing, you can use something like ![HEAL login screenshot](../img/heal_login.png){: style="height:250px;width:534px"} -->
+![HEAL login button screenshot with login button boxed in red](../img/heal_login.png)
 
 ### Find your study
 
@@ -26,7 +26,7 @@ From the [Discovery Page](https://healdata.org/portal/discovery), find the study
 - Click on the study to open the Study Page
 - At the top of the Study Page, select `Request Access to Submit Variable-level Metadata` to navigate to the VLMD Submission Request Form.
 
-![](../img/submit_vlmd_req_access_button.png)
+![Screenshot of the Submit VLMD button at the top of the study page, with the VLMD button boxed in magenta](../img/submit_vlmd_req_access_button.png)
 
 !!! info
 
@@ -42,11 +42,11 @@ From the [Discovery Page](https://healdata.org/portal/discovery), find the study
 - The field `Study Name - Grant Number` will already be filled in.
 - You will need to provide your name, your email address, institutional affiliation and role on the project/study.
 
-![](../img/submit_vlmd_req_access_form.png)
+![Screenshot of the form to submit the request for access to submit VLMD, showing the fields](../img/submit_vlmd_req_access_form.png)
 
 After submitting, you will see a message indicating it was successfully sent. Within one business day, you will receive an email reporting that your request has been approved. When approved, you will then be able to submit VLMD (either a data dictionary or CDEs) to the Platform.  
 
-![](../img/submit_vlmd_req_access_popup.png)
+![Screenshot of confirmation popup that your access request was submitted successfully](../img/submit_vlmd_req_access_popup.png)
 
 
 ## Submit VLMD
