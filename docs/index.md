@@ -11,7 +11,7 @@ hide:
   }
 </style> -->
 
-[![](img/NIH_HEAL_header.jpg)](https://healdata.org/)
+[![NIH HEAL logo](img/NIH_HEAL_header.jpg)](https://healdata.org/)
 
 # The HEAL Platform
 
