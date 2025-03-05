@@ -24,7 +24,7 @@
 
 Click on the [Login button in the upper right corner](https://healdata.org/portal/login) to log in to the Platform.  
 
-![](../img/heal_login.png)
+![Screenshot of the platform with the login button boxed in red](../img/heal_login.png)
 
 ## Find Your Study
 
@@ -33,7 +33,7 @@ From the [Discovery Page](https://healdata.org/portal/discovery), find the study
 - Click on the study to open the Study Page  
 - At the top of the Study Page, select `Submit Variable-level Metadata` to navigate to the **Variable-level Metadata Submission Form**.
 
-![](../img/submit_vlmd_submit_button.png)
+![Screenshot of the Submit VLMD button at the top of the study page, with the VLMD button boxed in magenta](../img/submit_vlmd_submit_button.png)
 
 
 !!! info
@@ -49,7 +49,7 @@ From the [Discovery Page](https://healdata.org/portal/discovery), find the study
 
 The VLMD submission form defaults to the Data Dictionary tab (see box at top). 
 
-   ![](../img/vlmd_dd_submission_form.png)
+   ![Screenshot of VLMD submission form. The page defaults to the Data Dictionary tab, which is boxed in magenta. The image shows the fields available for the Data Dictionary submission form.](../img/vlmd_dd_submission_form.png)
 
 - The `Study` field will already be filled in
 - Choose the `Select File` button to browse your local computer for your data dictionary.
