@@ -1,6 +1,6 @@
 # Variable Level Metadata (Data Dictionaries)
 
-This schema defines the variable level metadata for one data dictionary for a given study.Note a given study can have multiple data dictionaries
+This schema defines the variable level metadata for one data dictionary for a given study. Note a given study can have multiple data dictionaries
 
 ### `title` _(string,required)_
 
@@ -73,7 +73,7 @@ Examples:
 ```
 
 ```
-  Gender identity
+  Age
 
 ```
 
