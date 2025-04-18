@@ -73,7 +73,7 @@ Examples:
 ```
 
 ```
-  Gender identity
+  Age
 
 ```
 
