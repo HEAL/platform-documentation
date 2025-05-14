@@ -75,7 +75,7 @@ The VLMD tool also comes pre-installed in workspaces on the HEAL Data Platform, 
 3. Once the workspace is launched, do the following steps in order:  
 
        * Double-click on the `/pd` (persistent drive) folder (#4) in the left navigation pane to change to the /pd directory
-       * Once in /pd, click the Upload icon (#5) to upload your data dictionary file to be analyzed or converted.
+       * Once in /pd, click the Upload icon (#5) to upload your data dictionary file to be analyzed or converted. *Please note that only files saved to the /pd directory will persist after your workspace session is terminated.* 
        * Click on the Python Jupyter notebook icon (#6) to open an empty notebook in the /pd.
 
         ![Screenshot showing where to open /pd, upload the dictionary file, and open the Python notebook](../img/healsdk-workspace-pd-upload-nb.png)
