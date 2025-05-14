@@ -124,11 +124,13 @@ input_file = "vlmd_dd.json"
 try:  
     vlmd_validate(input_file)
 
-except ValidationError as v_err:  
-  # handle validation error
+except ValidationError as v_err:
+    print(v_err)
+    # handle validation error
 
-except ExtractionError as e_err:  
-  # handle extraction error
+except ExtractionError as e_err:
+    print(e_err)
+    # handle extraction error
 ```
 
 * If your VLMD file adheres to the HEAL VLMD schema, the output from this command will include a message that says `Valid` (see highlight in the screenshot below).  
