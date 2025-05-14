@@ -8,14 +8,14 @@
       
       
       
-        <link rel="canonical" href="https://heal-docs-dev.io/vlmd/vlmd_submission/">
+        <link rel="canonical" href="https://heal-docs-dev.io/vlmd/vlmd_tools/">
       
       <link rel="icon" href="../../img/heal_logo.png">
       <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.5.3">
     
     
       
-        <title>Submit a Data Dictionary - HEAL Platform Documentation</title>
+        <title>Generate a HEAL-compliant Data Dictionary - HEAL Platform Documentation</title>
       
     
     
@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#submit-a-data-dictionary" class="md-skip">
+        <a href="#generate-a-heal-compliant-data-dictionary" class="md-skip">
           Skip to content
         </a>
       
@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Submit a Data Dictionary
+              Generate a HEAL-compliant Data Dictionary
             
           </span>
         </div>
@@ -438,20 +438,6 @@
               
   
   
-  
-    <li class="md-nav__item">
-      <a href="../vlmd_tools/" class="md-nav__link">
-        Generate a HEAL-compliant Data Dictionary
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
     
   
   
@@ -464,12 +450,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Submit a Data Dictionary
+          Generate a HEAL-compliant Data Dictionary
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Submit a Data Dictionary
+        Generate a HEAL-compliant Data Dictionary
       </a>
       
         
@@ -488,36 +474,22 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#login-to-the-heal-data-platform" class="md-nav__link">
-    Login to the HEAL Data Platform
+  <a href="#option-1-use-the-vlmd-tool-on-your-local-machine" class="md-nav__link">
+    Option 1: Use the VLMD Tool on your Local Machine
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#find-your-study" class="md-nav__link">
-    Find Your Study
+  <a href="#option-2-use-the-tool-in-a-heal-workspace" class="md-nav__link">
+    Option 2: Use the tool in a HEAL workspace
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#submit-your-data-dictionary" class="md-nav__link">
-    Submit Your Data Dictionary
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#processing-your-submission" class="md-nav__link">
-    Processing Your Submission
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#additional-help" class="md-nav__link">
-    Additional Help
+  <a href="#next-steps" class="md-nav__link">
+    Next Steps
   </a>
   
 </li>
@@ -526,6 +498,20 @@
   
 </nav>
       
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vlmd_submission/" class="md-nav__link">
+        Submit a Data Dictionary
+      </a>
     </li>
   
 
@@ -934,36 +920,22 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#login-to-the-heal-data-platform" class="md-nav__link">
-    Login to the HEAL Data Platform
+  <a href="#option-1-use-the-vlmd-tool-on-your-local-machine" class="md-nav__link">
+    Option 1: Use the VLMD Tool on your Local Machine
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#find-your-study" class="md-nav__link">
-    Find Your Study
+  <a href="#option-2-use-the-tool-in-a-heal-workspace" class="md-nav__link">
+    Option 2: Use the tool in a HEAL workspace
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#submit-your-data-dictionary" class="md-nav__link">
-    Submit Your Data Dictionary
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#processing-your-submission" class="md-nav__link">
-    Processing Your Submission
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#additional-help" class="md-nav__link">
-    Additional Help
+  <a href="#next-steps" class="md-nav__link">
+    Next Steps
   </a>
   
 </li>
@@ -983,68 +955,142 @@
                   
 
 
-<h1 id="submit-a-data-dictionary">Submit a Data Dictionary<a class="headerlink" href="#submit-a-data-dictionary" title="Permanent link">&para;</a></h1>
-<div class="admonition info">
-<p class="admonition-title">Info</p>
-<p>In order to submit a Data Dictionary to the Platform, the following conditions must be true:</p>
-<p><strong>1) The study must already be registered:</strong> If your study is not yet registered on the HEAL Data Platform, please see our instructions for how to register your study before submitting VLMD. </p>
-<p><p align="center"><a class="md-button" href="../../study-registration/">How to Register Your Study</a></p></p>
-<p><strong>2) You must have access to submit VLMD:</strong> If you are the person who registered your study, you automatically have access. If someone else registered your study, you can follow the instructions below to request access to submit VLMD. </p>
-<p><p align="center"><a class="md-button" href="../vlmd_request_access/">How to Request Access to Submit VLMD</a></p></p>
-<p><strong>3) The Data Dictionary must conform to the HEAL VLMD schema:</strong> See below for the instructions for how to generate a HEAL-compliant data dictionary. </p>
-<p><p align="center"><a class="md-button" href="../vlmd_tools/">Generate a HEAL-compliant Data Dictionary</a></p></p>
-<p><strong>4) Submissions should not include data of any kind</strong>. Submissions containing data will be removed from the Platform.</p>
-<p>More information and submission templates can be found <a href="https://github.com/HEAL/heal-metadata-schemas/tree/variable-level-metadata">here</a>.</p>
-</div>
-<h2 id="login-to-the-heal-data-platform">Login to the HEAL Data Platform<a class="headerlink" href="#login-to-the-heal-data-platform" title="Permanent link">&para;</a></h2>
-<p>Click on the <a href="https://healdata.org/portal/login">Login button in the upper right corner</a> to log in to the Platform.  </p>
-<p><img alt="Screenshot of the platform with the login button boxed in red" src="../../img/heal_login.png" /></p>
-<h2 id="find-your-study">Find Your Study<a class="headerlink" href="#find-your-study" title="Permanent link">&para;</a></h2>
-<p>From the <a href="https://healdata.org/portal/discovery">Discovery Page</a>, find the study for which you wish to submit a data dictionary.  </p>
+<h1 id="generate-a-heal-compliant-data-dictionary">Generate a HEAL-compliant Data Dictionary<a class="headerlink" href="#generate-a-heal-compliant-data-dictionary" title="Permanent link">&para;</a></h1>
+<p>A tool is available to help investigators generate HEAL-compliant variable-level metadata (VLMD) from an existing data dictionary or codebook. This VLMD tool - available as part of the HEAL Software Development Kit (HEAL-SDK) - takes CSV, TSV, JSON or REDCap CSV export files as inputs, and outputs a HEAL-compliant JSON VLMD file that can be uploaded to and associated with your study on the HEAL Data Platform.  </p>
+<p>The instructions below describe how to either install and use the VLMD tool on your local machine, or how to use the tool in HEAL workspaces (no installation needed!).  </p>
+<h2 id="option-1-use-the-vlmd-tool-on-your-local-machine">Option 1: Use the VLMD Tool on your Local Machine<a class="headerlink" href="#option-1-use-the-vlmd-tool-on-your-local-machine" title="Permanent link">&para;</a></h2>
+<p>The VLMD tool can be installed and used directly on your local machine from the command line. Install the tool by following the instructions below:  </p>
+<ol>
+<li>
+<p>Open your computer’s command prompt  </p>
 <ul>
-<li>Click on the study to open the Study Page  </li>
-<li>At the top of the Study Page, select <code>Submit Variable-level Metadata</code> to navigate to the <strong>Variable-level Metadata Submission Form</strong>.</li>
-</ul>
-<p><img alt="Screenshot of the Submit VLMD button at the top of the study page, with the VLMD button boxed in magenta" src="../../img/submit_vlmd_submit_button.png" /></p>
-<div class="admonition info">
-<p class="admonition-title">Info</p>
-<p>If you do not see <code>Submit Variable-level Metadata</code>, see below for how to proceed.<br />
-If you see:</p>
-<ul>
-<li><strong><code>Login to...</code></strong> - you are not logged in. <a href="https://healdata.org/portal/login">Log in first</a>, then repeat the instructions above.</li>
-<li><strong><code>Request Access to Submit Variable-level Metadata</code></strong> - you have not yet gotten access to submit VLMD. Follow these instructions to <a href="../vlmd_request_access/">request access to submit VLMD</a>. </li>
-<li><strong><code>Request Access to Register This Study</code></strong> - your study is not yet registered on the HEAL Data Platform. Follow these instructions to <a href="../../study-registration/">request access and register your study</a>. </li>
-</ul>
-</div>
-<h2 id="submit-your-data-dictionary">Submit Your Data Dictionary<a class="headerlink" href="#submit-your-data-dictionary" title="Permanent link">&para;</a></h2>
-<p>The VLMD submission form defaults to the Data Dictionary tab (see box at top). </p>
-<p><img alt="Screenshot of VLMD submission form. The page defaults to the Data Dictionary tab, which is boxed in magenta. The image shows the fields available for the Data Dictionary submission form." src="../../img/vlmd_dd_submission_form.png" /></p>
-<ul>
-<li>The <code>Study</code> field will already be filled in</li>
-<li>Choose the <code>Select File</code> button to browse your local computer for your data dictionary.</li>
-<li>Only TSV, CSV and JSON files can be submitted</li>
-<li>While multiple dictionaries can be associated with a study, the process currently supports one submission at a time. Please repeat this process for each data dictionary you wish to submit</li>
-<li><em>Submissions should not include data of any kind.  Submissions containing data will be removed from the Platform.</em>      </li>
-<li>Enter a name for your data dictionary.  This name will be visible to users on the Platform.  </li>
-<li>Previously-submitted data dictionary names are displayed, if applicable; using the same name for a new submission will overwrite the existing record.</li>
-<li>To facilitate processing of your submission, some administrative information is needed to allow HEAL Data Platform staff to contact you should the need arise:<ul>
-<li>First and Last name</li>
-<li>E-mail address</li>
-<li><em>Note that this information is not stored on the Platform, but is simply needed to support you throughout the submission process.</em></li>
+<li>On a Mac, click the Launchpad icon in the Dock, type “Terminal” in the search field and click on the Terminal icon  </li>
+<li>On a PC, type “Command Prompt” in the Windows search bar and click on the Command Prompt icon  </li>
 </ul>
 </li>
-<li>Submit your data dictionary</li>
-</ul>
-<h2 id="processing-your-submission">Processing Your Submission<a class="headerlink" href="#processing-your-submission" title="Permanent link">&para;</a></h2>
-<p>Upon receipt of your successful submission, HEAL Data Platform staff will:</p>
+<li>
+<p>In the command prompt, type <strong><code>pip install heal-sdk</code></strong> and push Return/Enter <em>(see yellow highlight in screenshot below)</em>. The installation process will take no more than a few minutes to complete.  </p>
 <ul>
-<li>Review your submission for compliance with the HEAL Data Platform variable-level metadata schema </li>
-<li>Ensure no data are included.  Files containing study-generated data of any kind will not be accepted.</li>
-<li>HEAL Data Platform staff will contact you with any questions and/or to work through any issues that may arise.  If there are no issues, you will be notified when processing is completed.</li>
+<li>This step requires Python to be installed; you can <a href="https://www.python.org/downloads/">download Python here</a> if needed.  </li>
+<li>Successful installation will report <code>Successfully installed heal-sdk</code>, as shown in the blue highlight below</li>
 </ul>
-<h2 id="additional-help">Additional Help<a class="headerlink" href="#additional-help" title="Permanent link">&para;</a></h2>
-<p>More information about the HEAL variable-level metadata schema, as well as submission templates, can be found <a href="https://github.com/HEAL/heal-metadata-schemas/tree/variable-level-metadata">here</a>.</p>
-<p>If you have issues with a submission, or have a general inquiry, please contact us at <a href="mailto:heal-support@gen3.org">heal-support@gen3.org</a>.</p>
+</li>
+<li>
+<p>Once the tool is installed, you are ready to generate HEAL-compliant VLMD from the command line!  </p>
+</li>
+</ol>
+<p><img alt="Screenshot of terminal with the installation command and output showing successful installation" src="../../img/healsdk-install.png" /></p>
+<p><strong>View a list of available commands and options:</strong><br />
+Run the command <strong><code>heal vlmd --help</code></strong></p>
+<p><strong>Generate HEAL-compliant VLMD from an existing data dictionary:</strong><br />
+The VLMD tool can be used to extract HEAL-compliant VLMD from a CSV, TSV, JSON or REDCap CSV data dictionary. Use the following command to extract VLMD from an input file (here, the example file is called <code>vlmd_for_extraction.csv</code>):  </p>
+<p><strong><code>heal vlmd extract --input_file "vlmd_for_extraction.csv" --title "The dictionary title" --output_dir "./output"</code></strong></p>
+<ul>
+<li>Note that, if you are extracting VLMD from a JSON file that already includes a root-level title field, the root-level title will be included in the extracted VLMD, so the <code>title</code> argument in the command can be omitted.  </li>
+<li>Upon successful extraction, the resulting VLMD file will be saved to a subfolder called <code>output</code>. (See yellow highlight below)  </li>
+<li>
+<p>If you get an <code>input file does not exist</code> error, try including the path in the filename argument, as shown in the example below. To find the path:  </p>
+<ul>
+<li><strong>PC</strong>: Select the file in Windows File explorer, then select the three dots at the top of the file explorer window. You will then see an option to Copy Path, which will copy the path to that file location to your clipboard. Paste the path into the input file argument.  </li>
+<li><strong>Mac</strong>: Select the file or folder in Finder. Hold down the Option key, Right-click and select <code>Copy &lt;selected item&gt; as Pathname</code> to copy the full path to the clipboard. Paste the path into the input file argument. </li>
+</ul>
+</li>
+</ul>
+<p><img alt="Screenshot of terminal showing successful VLMD extraction with the VLMD took" src="../../img/healsdk-vlmd_extraction.png" /></p>
+<p><strong>Validate a VLMD file:</strong><br />
+Check (validate) an existing VLMD file to see if it follows the HEAL specifications after filling out a template or annotating after extracting from a different file format.</p>
+<p>Run the command <strong><code>heal vlmd validate --input_file "vlmd_for_validation.csv"</code></strong> <em>(where "vlmd_for_validation.csv" is the file name of the VLMD file you are trying to validate)</em></p>
+<ul>
+<li>If your VLMD file adheres to the HEAL VLMD schema, the output from this command will include a message that says <code>Valid</code>. (See yellow highlight below)  </li>
+<li>If your VLMD file does not validate against the HEAL VLMD schema, the output from this command will indicate what change(s) are necessary to adhere to the schema.  </li>
+</ul>
+<p><img alt="Screenshot of terminal showing successful VLMD validation with the VLMD took" src="../../img/healsdk-validate.png" /></p>
+<h2 id="option-2-use-the-tool-in-a-heal-workspace">Option 2: Use the tool in a HEAL workspace<a class="headerlink" href="#option-2-use-the-tool-in-a-heal-workspace" title="Permanent link">&para;</a></h2>
+<div class="admonition info">
+<p class="admonition-title">HEAL Workspace documentation</p>
+<p>Before using Workspace, please <a href="../../workspaces/heal_workspaces/">read our Workspace documentation</a> to learn more about Workspace features.</p>
+</div>
+<p>The VLMD tool also comes pre-installed in workspaces on the HEAL Data Platform, so you can use it without having to install it locally. Access a workspace to use the VLMD tool by following the instructions below:</p>
+<ol>
+<li>
+<p>Navigate to <a href="http://healdata.org">healdata.org</a> and click on the Workspaces tab, where you’ll be prompted to log in.  </p>
+<ul>
+<li>
+<p>If this is your first time accessing a workspace, you’ll first need to <a href="https://heal.github.io/platform-documentation/workspaces/heal_workspace_registration/">request access</a>.  </p>
+<p><img alt="Screenshot showing workspace tab and login screen" src="../../img/healsdk-workspace-login.png" /></p>
+</li>
+</ul>
+</li>
+<li>
+<p>From within the workspace, launch the (Generic) Jupyter Lab Notebook with R Kernel workspace image.  </p>
+<p><img alt="Screenshot showing which notebook to launch" src="../../img/healsdk-workspace-launchR.png" /></p>
+</li>
+<li>
+<p>Once the workspace is launched, do the following steps in order:  </p>
+<ul>
+<li>Double-click on the <code>/pd</code> (persistent drive) folder (#4) in the left navigation pane to change to the /pd directory</li>
+<li>Once in /pd, click the Upload icon (#5) to upload your data dictionary file to be analyzed or converted. <em>Please note that only files saved to the /pd directory will persist after your workspace session is terminated.</em> </li>
+<li>
+<p>Click on the Python Jupyter notebook icon (#6) to open an empty notebook in the /pd.</p>
+<p><img alt="Screenshot showing where to open /pd, upload the dictionary file, and open the Python notebook" src="../../img/healsdk-workspace-pd-upload-nb.png" /></p>
+</li>
+</ul>
+</li>
+</ol>
+<p>Now you are ready to generate HEAL-compliant VLMD!</p>
+<p><strong>Generate HEAL-compliant VLMD from an existing data dictionary:</strong><br />
+The extract module generates a HEAL-compliant VLMD file from a CSV, TSV, JSON or REDCap CSV data dictionary. Upon successful extraction, the resulting VLMD file will be saved to a subfolder called <code>output</code>; this folder will be in the /pd if you ran the notebook from inside the /pd. (See yellow highlight and red arrows below)  </p>
+<p>The <strong><code>vlmd_extract()</code></strong> method raises a <strong><code>jsonschema.ValidationError</code></strong> for an invalid input file, and raises <strong><code>ExtractionError</code></strong> for any other type of error.</p>
+<div class="highlight"><span class="filename">Example extraction code for HEAL workspace</span><pre><span></span><code><span class="kn">from</span> <span class="nn">jsonschema</span> <span class="kn">import</span> <span class="n">ValidationError</span>
+
+<span class="kn">from</span> <span class="nn">heal.vlmd</span> <span class="kn">import</span> <span class="n">vlmd_extract</span>
+
+<span class="k">try</span><span class="p">:</span>
+    <span class="n">vlmd_extract</span><span class="p">(</span>
+        <span class="s2">&quot;vlmd_for_extraction.csv&quot;</span><span class="p">,</span> 
+        <span class="n">title</span><span class="o">=</span><span class="s2">&quot;The dictionary title&quot;</span><span class="p">,</span> 
+        <span class="n">output_dir</span><span class="o">=</span><span class="s2">&quot;./output&quot;</span>
+    <span class="p">)</span>
+
+<span class="k">except</span> <span class="n">ValidationError</span> <span class="k">as</span> <span class="n">v_err</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">v_err</span><span class="p">)</span>
+    <span class="c1"># handle validation error</span>
+
+<span class="k">except</span> <span class="n">ExtractionError</span> <span class="k">as</span> <span class="n">e_err</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">e_err</span><span class="p">)</span>
+    <span class="c1"># handle extraction error</span>
+</code></pre></div>
+<p><img alt="Screenshot of code in workspace extracting from a dictionary file and converting it" src="../../img/healsdk-workspace-extract.png" /></p>
+<p><strong>Validate a VLMD file:</strong><br />
+This module checks (validates) an existing VLMD file to see if it follows the HEAL specifications after filling out a template or annotating after extracting from a different file format.</p>
+<p>The <strong><code>vlmd_validate()</code></strong> method raises a <strong><code>jsonschema.ValidationError</code></strong> for an invalid input file and will raise an <strong><code>ExtractionError</code></strong> if the input_file cannot be converted.</p>
+<div class="highlight"><span class="filename">Example validation code for HEAL workspace</span><pre><span></span><code><span class="kn">from</span> <span class="nn">jsonschema</span> <span class="kn">import</span> <span class="n">ValidationError</span>
+
+<span class="kn">from</span> <span class="nn">heal.vlmd</span> <span class="kn">import</span> <span class="n">vlmd_validate</span><span class="p">,</span> <span class="n">ExtractionError</span>
+
+<span class="n">input_file</span> <span class="o">=</span> <span class="s2">&quot;vlmd_dd.json&quot;</span>  
+<span class="k">try</span><span class="p">:</span>  
+    <span class="n">vlmd_validate</span><span class="p">(</span><span class="n">input_file</span><span class="p">)</span>
+
+<span class="k">except</span> <span class="n">ValidationError</span> <span class="k">as</span> <span class="n">v_err</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">v_err</span><span class="p">)</span>
+    <span class="c1"># handle validation error</span>
+
+<span class="k">except</span> <span class="n">ExtractionError</span> <span class="k">as</span> <span class="n">e_err</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">e_err</span><span class="p">)</span>
+    <span class="c1"># handle extraction error</span>
+</code></pre></div>
+<ul>
+<li>If your VLMD file adheres to the HEAL VLMD schema, the output from this command will include a message that says <code>Valid</code> (see highlight in the screenshot below).  </li>
+<li>If your VLMD file does not validate against the HEAL VLMD schema, the output from this command will indicate what change(s) are necessary to adhere to the schema.</li>
+</ul>
+<p><img alt="Screenshot of code in workspace validating a dictionary file" src="../../img/healsdk-workspace-validate.png" /></p>
+<h2 id="next-steps">Next Steps<a class="headerlink" href="#next-steps" title="Permanent link">&para;</a></h2>
+<p>Once you’ve created your HEAL-compliant VLMD, you’re now ready to submit it to the HEAL Data Platform! Please see our instructions on submitting a data dictionary:</p>
+<ul>
+<li><a href="https://heal.github.io/platform-documentation/vlmd/vlmd_submission/">How to Submit a Data Dictionary</a></li>
+</ul>
+<p>If you need any help generating a HEAL-compliant data dictionary with the VMLD Tool, or have a general inquiry, please contact us at <a href="mailto:heal-support@gen3.org">heal-support@gen3.org</a>.</p>
 
 
 
@@ -1065,7 +1111,7 @@ If you see:</p>
     <nav class="md-footer__inner md-grid" aria-label="Footer" >
       
         
-        <a href="../vlmd_tools/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Generate a HEAL-compliant Data Dictionary" rel="prev">
+        <a href="../vlmd_request_access/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Request Access to Submit VLMD" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -1074,20 +1120,20 @@ If you see:</p>
               <span class="md-footer__direction">
                 Previous
               </span>
-              Generate a HEAL-compliant Data Dictionary
+              Request Access to Submit VLMD
             </div>
           </div>
         </a>
       
       
         
-        <a href="../vlmd_submit_CDE/" class="md-footer__link md-footer__link--next" aria-label="Next: Submit HEAL CDEs" rel="next">
+        <a href="../vlmd_submission/" class="md-footer__link md-footer__link--next" aria-label="Next: Submit a Data Dictionary" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Submit HEAL CDEs
+              Submit a Data Dictionary
             </div>
           </div>
           <div class="md-footer__button md-icon">
