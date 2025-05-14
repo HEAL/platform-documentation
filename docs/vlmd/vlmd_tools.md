@@ -30,7 +30,7 @@ The VLMD tool can be used to extract HEAL-compliant VLMD from a CSV, TSV, JSON o
 
 **`heal vlmd extract --input_file "vlmd_for_extraction.csv" --title "The dictionary title" --output_dir "./output"`**
 
-* Note that, if you are extracting VLMD from a JSON file that already includes a root-level title field, the root-level `title` will be included in the extracted VLMD, so the title argument in the command can be omitted.  
+* Note that, if you are extracting VLMD from a JSON file that already includes a root-level title field, the root-level title will be included in the extracted VLMD, so the `title` argument in the command can be omitted.  
 * Upon successful extraction, the resulting VLMD file will be saved to a subfolder called `output`. (See yellow highlight below)  
 * If you get an `input file does not exist` error, try including the path in the filename argument, as shown in the example below. To find the path:  
   
