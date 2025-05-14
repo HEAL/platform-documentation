@@ -1,9 +1,5 @@
 # Generate a HEAL-compliant Data Dictionary
 
-<!-- !!! info
-
-     The following instructions pertain to the stand-alone, executable version of the HEAL VLMD tool as well as the use of the VLMD tool in HEAL Workspaces. These two options are recommended for users who are unfamiliar with installing Python software and/or who want to generate VLMD documents in the quickest and easiest way possible. If you would like to install and integrate the VLMD tool into an existing, local pipeline, please see the HEAL Data Utilities on [GitHub](https://github.com/heal/healdata-utils) or [PyPi](https://pypi.org/project/healdata-utils/) for more information.
- -->
 A tool is available to help investigators generate HEAL-compliant variable-level metadata (VLMD) from an existing data dictionary or codebook. This VLMD tool - available as part of the HEAL Software Development Kit (HEAL-SDK) - takes CSV, TSV, JSON or REDCap CSV export files as inputs, and outputs a HEAL-compliant JSON VLMD file that can be uploaded to and associated with your study on the HEAL Data Platform.  
 
 The instructions below describe how to either install and use the VLMD tool on your local machine, or how to use the tool in HEAL workspaces (no installation needed!).  
@@ -34,7 +30,7 @@ The VLMD tool can be used to extract HEAL-compliant VLMD from a CSV, TSV, JSON o
 
 **`heal vlmd extract --input_file "vlmd_for_extraction.csv" --title "The dictionary title" --output_dir "./output"`**
 
-* Note that, if you are extracting VLMD from a JSON file that already includes a root-level title field, the root-level title will be included in the extracted VLMD, so the title argument in the command can be omitted.  
+* Note that, if you are extracting VLMD from a JSON file that already includes a root-level title field, the root-level `title` will be included in the extracted VLMD, so the title argument in the command can be omitted.  
 * Upon successful extraction, the resulting VLMD file will be saved to a subfolder called `output`. (See yellow highlight below)  
 * If you get an `input file does not exist` error, try including the path in the filename argument, as shown in the example below. To find the path:  
   
