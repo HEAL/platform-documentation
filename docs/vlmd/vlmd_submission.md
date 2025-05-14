@@ -14,7 +14,7 @@
 
      **3) The Data Dictionary must conform to the HEAL VLMD schema:** See below for the instructions for how to generate a HEAL-compliant data dictionary. 
 
-      <p align="center">[Generate a HEAL-compliant Data Dictionary](vlmd_healdata_utils.md){ .md-button }</p>
+      <p align="center">[Generate a HEAL-compliant Data Dictionary](vlmd_tools.md){ .md-button }</p>
 
       **4) Submissions should not include data of any kind**. Submissions containing data will be removed from the Platform.
    

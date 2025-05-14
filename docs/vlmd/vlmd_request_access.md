@@ -53,5 +53,5 @@ After submitting, you will see a message indicating it was successfully sent. Wi
 
 You are now ready to submit VLMD! Find instructions for submitting a Data Dictionary or reporting CDEs below:
 
-* [Generate](vlmd_healdata_utils.md) and [Submit a HEAL-compliant Data Dictionary](vlmd_submission.md)
+* [Generate](vlmd_tools.md) and [Submit a HEAL-compliant Data Dictionary](vlmd_submission.md)
 * [Report CDEs](vlmd_submit_CDE.md)

@@ -23,7 +23,7 @@ Data Dictionaries, which contain variable-level metadata, describe each variable
 
 In order to submit a study’s data dictionary to the Platform, the data dictionary must conform to the HEAL [variable-level metadata schema](https://github.com/HEAL/heal-metadata-schemas/tree/main/variable-level-metadata-schema). The following instructions will demonstrate how to use the HEAL Data Utilities' VLMD tool to help you generate a HEAL-compliant data dictionary from your dataset or existing data dictionary, and then submit it to the Platform.
 
-1. [How to Generate a HEAL-compliant Data Dictionary](vlmd_healdata_utils.md)
+1. [How to Generate a HEAL-compliant Data Dictionary](vlmd_tools.md)
 
 2. [How to Submit a HEAL-compliant Data Dictionary](vlmd_submission.md)
 
