@@ -4,7 +4,7 @@ A tool is available to help investigators generate HEAL-compliant variable-level
 
 The instructions below describe how to either install and use the VLMD tool on your local machine, or how to use the tool in HEAL workspaces (no installation needed!).  
 
-## Option 1: Use the VLMD Tool on your Local Machine
+## Option 1: Use the VLMD Tool at the Command Line
 
 The VLMD tool can be installed and used directly on your local machine from the command line. Install the tool by following the instructions below:  
 
@@ -49,7 +49,7 @@ Run the command **`heal vlmd validate --input_file "vlmd_for_validation.csv"`** 
 
 ![Screenshot of terminal showing successful VLMD validation with the VLMD took](../img/healsdk-validate.png)
 
-## Option 2: Use the tool in a HEAL workspace
+## Option 2: Use the Tool in Python
 
 !!! info "HEAL Workspace documentation"  
 
