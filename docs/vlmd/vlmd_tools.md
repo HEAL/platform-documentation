@@ -121,8 +121,12 @@ try:
     vlmd_validate(input_file)
 
 except ValidationError as v_err:
-    print(v_err)
+    print(str(v_err.message))
     # handle validation error
+    
+     # for a full ValidationError description, comment out the above print
+     # message and uncomment below:
+     # print(v_err)
 
 except ExtractionError as e_err:
     print(e_err)
