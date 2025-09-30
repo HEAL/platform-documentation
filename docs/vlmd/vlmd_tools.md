@@ -2,7 +2,7 @@
 
 A tool is available to help investigators generate HEAL-compliant variable-level metadata (VLMD) from an existing data dictionary or codebook. This VLMD tool - available as part of the HEAL Software Development Kit (HEAL-SDK) - takes CSV, TSV, JSON or REDCap CSV export files as inputs, and outputs a HEAL-compliant JSON VLMD file that can be uploaded to and associated with your study on the HEAL Data Platform.  
 
-- VLMD templates that you can download and fill out, examples of valid and invalid HEAL VLMD, and the HEAL VLMD schemas are available in [GitHub](https://github.com/HEAL/heal-metadata-schemas/tree/main/variable-level-metadata-schema). 
+- VLMD templates that you can download and fill out, examples of valid and invalid HEAL VLMD, and the HEAL VLMD schemas are [available in GitHub](https://github.com/HEAL/heal-metadata-schemas/tree/main/variable-level-metadata-schema). 
 - **Please note that “name” and “description” are required fields** in HEAL VLMD. If your data dictionary does not contain these two fields, it will not pass validation. 
 - Other fields in the VLMD schema such as title, type, constraints.enum, etc. are encouraged but not required. 
 
