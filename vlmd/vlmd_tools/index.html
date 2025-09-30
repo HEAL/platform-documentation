@@ -957,6 +957,12 @@
 
 <h1 id="generate-a-heal-compliant-data-dictionary">Generate a HEAL-compliant Data Dictionary<a class="headerlink" href="#generate-a-heal-compliant-data-dictionary" title="Permanent link">&para;</a></h1>
 <p>A tool is available to help investigators generate HEAL-compliant variable-level metadata (VLMD) from an existing data dictionary or codebook. This VLMD tool - available as part of the HEAL Software Development Kit (HEAL-SDK) - takes CSV, TSV, JSON or REDCap CSV export files as inputs, and outputs a HEAL-compliant JSON VLMD file that can be uploaded to and associated with your study on the HEAL Data Platform.  </p>
+<ul>
+<li>VLMD templates that you can download and fill out, examples of valid and invalid HEAL VLMD, and the HEAL VLMD schemas are <a href="https://github.com/HEAL/heal-metadata-schemas/tree/main/variable-level-metadata-schema">available in GitHub</a>. </li>
+<li><strong>Please note that “name” and “description” are required fields</strong> in HEAL VLMD. If your data dictionary does not contain these two fields, it will not pass validation. </li>
+<li>Other fields in the VLMD schema such as title, type, constraints.enum, etc. are encouraged but not required. </li>
+</ul>
+<p>Once you have a copy of your data dictionary or VLMD, you can translate it to HEAL-compliant VLMD or validate it using the VLMD tool.</p>
 <p>The instructions below describe how to either install and use the VLMD tool on your local machine, or how to use the tool in HEAL workspaces (no installation needed!).  </p>
 <h2 id="option-1-use-the-vlmd-tool-at-the-command-line">Option 1: Use the VLMD Tool at the Command Line<a class="headerlink" href="#option-1-use-the-vlmd-tool-at-the-command-line" title="Permanent link">&para;</a></h2>
 <p>The VLMD tool can be installed and used directly on your local machine from the command line. Install the tool by following the instructions below:  </p>
