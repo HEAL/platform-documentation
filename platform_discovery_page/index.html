@@ -1017,20 +1017,33 @@
 <p><img alt="DiscoveryLanding" src="../img/discovery_landing.gif" /></p>
 <p>The Discovery Page of the HEAL Platform. Browse through datasets and study-level metadata and find studies using tags or the free text search field.</p>
 <h2 id="search-features">Search Features<a class="headerlink" href="#search-features" title="Permanent link">&para;</a></h2>
-<!-- MBK: deleted the "Click here: these sections shoudl probably
-be embedded into the subsequent sections or have their own sections -->
 <p><img alt="DiscoveryFeatures" src="../img/discovery_features.png" /></p>
 <p>Different features such as free text search bar and tags on the Discovery Page help navigating and refining the search.</p>
 <ol>
-<li><strong>Free Text Search:</strong> Finding studies is made easy using keywords in the free text-based search bar or using tags. The free-text search bar can be used to search for study title, investigator name, or any keyword that is mentioned in the metadata of the study except for Filter options (see #3 below).</li>
-<li><strong>Data Repository:</strong> To filter studies by specific data repositories used by a study, click the Data Repository button (2A), which will reveal a Data Repository field (2B) in which you may select repositories of interest. If you select multiple repositories, it will use an "OR" logic to filter studies that have reported any of those repositories.  </li>
-<li><strong>Filters:</strong> Click "Filters" to expand the options to filter studies by different study metadata tags. Find a range of metadata tags (e.g., Study Type, Data Type, Subject Type, Age, and HEAL CDE) to narrow down any search. Selecting multiple tags can work in either an "AND" a "OR" logic, depending on the selecion at the top of the Filters drawer. Click on "Reset Filters" to deselect all filters and start over.</li>
-<li><strong>Total number of studies:</strong> Shows the number of studies the HEAL Platform is currently displaying that match the various search and filter criteria selected.</li>
-<li><strong>Export Options:</strong> Login first to leverage the export options. Select one or multiple studies by checking the checkbox at the beginning of the study row and you can then: 1) download the attached data files <em>(only available for some studies)</em>; 2) download a file manifest (especially useful for data files whose sizes exceed 250 MB); or 3) export the metadata and data files to secure cloud environment "Workspaces" to start your custom data analysis in Python, R, or Stata.</li>
-<li><strong>Studies:</strong> This feature presents all current studies on the HEAL Platform. Click on any study to show useful information about the study (metadata). </li>
-<li><strong>Data Availability:</strong> Filter on available, pending, and not-yet-available datasets.</li>
-<li><strong>Documentation:</strong> This brings you to home page for the documentation (including this page you are currently on).</li>
-<li><strong>Login Page:</strong> Login on the HEAL Platform to leverage all features. <a href="../logging-in/">Read further here</a>.</li>
+<li>
+<p><strong>Free Text Search:</strong> Finding studies is made easy using keywords in the free text-based search bar or using tags. The free-text search bar can be used to search for studies of interest:  </p>
+<ol>
+<li><strong>Full Text Search:</strong> The default search is a full-text search for study title, investigator name, or any keyword that is mentioned in the metadata of the study (see also #3 below for filtering options).  </li>
+<li>
+<p><strong>Restrict Search to Selected Fields:</strong> Click the radio button to restrict your search to specific fields in the variable-level metadata (VLMD). You can restrict your search of VLMD in several ways:  </p>
+<ul>
+<li>Restricting search to <strong>HEAL CDE name</strong> permits a search for studies using a specific tool (e.g., "Generalized Anxiety Disorder-2" or "GAD"), or studies using tools with a word or phrase in the CDE name (e.g., "pain").  </li>
+<li>Restricting search to <strong>variable source and/or ID</strong> allows a search for studies using specific controlled vocabulary and phrases. For example, you can check this box to search for studies that used specific elements, e.g.,  by searching "CDISC C103705," which refers to <a href="https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C103705">PHQ-9 - Little Interest or Pleasure in Doing Things</a> from the Clinical Data Interchange Standards Consortium (CDISC).  </li>
+<li>Restricting search to <strong>variable title</strong>, <strong>name</strong>, or <strong>description</strong> permits a search of specifically these fields from data dictionaries submitted for studies. For example, looking at the <a href="https://github.com/HEAL/heal-metadata-schemas/blob/main/variable-level-metadata-schema/examples/valid/template_submission.csv">example data dictionary template</a>, we can see that the Substance Use section of the dictionary includes a variable about heroin use. The title of this variable (which is the human-friendly name of the variable) is "Heroin Days Used." However, the variable name (which is the encoded name of the variable) is "SU4." The description of this variable is "During the past 30 days how many days did you use heroin (alone or mixed with other drugs)?".  </li>
+</ul>
+</li>
+</ol>
+</li>
+<li>
+<p><strong>Data Repository:</strong> To filter studies by specific data repositories used by a study, click the Data Repository button (2A), which will reveal a Data Repository field (2B) in which you may select repositories of interest. If you select multiple repositories, it will use an "OR" logic to filter studies that have reported any of those repositories.  </p>
+</li>
+<li><strong>Filters:</strong> Click "Filters" to expand the options to filter studies by different study metadata tags. Find a range of metadata tags (e.g., Study Type, Data Type, Subject Type, Age, and HEAL CDE) to narrow down any search. Selecting multiple tags can work in either an "AND" or "OR" logic, depending on the selection at the top of the Filters drawer. Click on "Reset Filters" to deselect all filters and start over.  </li>
+<li><strong>Total number of studies:</strong> This shows the number of studies the HEAL Data Platform is currently displaying that match the various search and filter criteria selected.  </li>
+<li><strong>Data Access Options:</strong> Log in first to leverage the export options. Select one or multiple studies by checking the checkbox at the beginning of the study row and you can then: 1) download the attached data files <em>(available for studies where possible)</em>; 2) download a file manifest (especially useful for data files whose sizes exceed 250 MB); or 3) export the metadata and data files to secure cloud environment "Workspaces" to start your custom data analysis in Python, R, or Stata.  </li>
+<li><strong>Studies:</strong> This feature presents all current studies on the HEAL Data Platform. Click on any study to show useful information about the study (metadata).  </li>
+<li><strong>Data Availability:</strong> Filter studies based on whether their data has the status Waiting (no dataset shared yet), Available (dataset shared and is open access), Request Access (dataset is shared but requires authorization from the host repository for access) and Not Available (no data will be shared for this study).  </li>
+<li><strong>Documentation:</strong> This brings you to home page for the documentation (including this page you are currently on).  </li>
+<li><strong>Login Page:</strong> Log in on the HEAL Data Platform to leverage all features. <a href="../logging-in/">Read further here</a>.  </li>
 </ol>
 <h2 id="study-page">Study Page<a class="headerlink" href="#study-page" title="Permanent link">&para;</a></h2>
 <p>You can view the study page by clicking on a study in the search results, which will open a drawer with the study page on the right.  </p>
@@ -1040,15 +1053,15 @@ be embedded into the subsequent sections or have their own sections -->
 <li><strong>Summary tab:</strong> Includes information about the study, with selected study-level metadata tags listed at the bottom (reflecting metadata reported in the CEDAR form). <em>(Shown in figure above)</em></li>
 <li>
 <p><strong>Data tab:</strong> Provides buttons to download variable-level metadata, study-level metadata, a manifest of the metadata files, or download all files. <em>Note: you must be logged in to use some of these features.</em>  This tab will also display a link to the data in the repository if it has been provided to the platform.  </p>
-<p><img alt="Study Page - Data tab" src="img/discovery_study_page_datatab.png" /></p>
+<p><img alt="Study Page - Data tab" src="../img/discovery_study_page_datatab.png" /></p>
 </li>
 <li>
 <p><strong>Cite tab:</strong> Provides citation information for the study on the platform and for the study data in the repository</p>
-<p><img alt="Study Page - Cite tab" src="img/discovery_study_page_citetab.png" /></p>
+<p><img alt="Study Page - Cite tab" src="../img/discovery_study_page_citetab.png" /></p>
 </li>
 <li>
 <p><strong>Related Studies tab:</strong> Shows other very-closely-related studies on the platform that share the same NIH serial number (<a href="https://www.nimh.nih.gov/funding/grant-writing-and-application-process/research-funding-frequently-asked-questions-faqs#content_4">read more about NIH serial numbers here</a>). Most studies will not have any related studies listed.  </p>
-<p><img alt="Study Page - Related Studies tab" src="img/discovery_study_page_relatedstudies.png" /></p>
+<p><img alt="Study Page - Related Studies tab" src="../img/discovery_study_page_relatedstudies.png" /></p>
 </li>
 </ul>
 <h2 id="find-available-study-level-metadata">Find available Study-level Metadata<a class="headerlink" href="#find-available-study-level-metadata" title="Permanent link">&para;</a></h2>
@@ -1064,18 +1077,18 @@ be embedded into the subsequent sections or have their own sections -->
 <h3 id="data-availability-options">Data Availability Options<a class="headerlink" href="#data-availability-options" title="Permanent link">&para;</a></h3>
 <p><img alt="Access_boxes" src="../img/access_options.png" style="height:250px" /></p>
 <p><strong>Waiting:</strong><br />
-“Waiting” is the default data availability status for studies added to the platform. This status means:  </p>
+"Waiting" is the default data availability status for studies added to the platform. This status means:  </p>
 <ul>
 <li>Data have not yet been submitted to a repository; or, </li>
 <li>The repository has not yet released the data; or, </li>
 <li>The study team has not yet provided the link to the data to the HEAL Data Platform. (To <a href="reporting-repo.md/#get-the-permalink-to-your-study">submit a data link, see our documentation about this</a>)</li>
 </ul>
 <p><strong>Available:</strong>
-“Available” means you are now able to access these data via the HEAL Data Platform, by <a href="downloading_files.md/#download-data-files-from-the-discovery-page">downloading them</a> and/or by <a href="../workspaces/heal_workspaces/">importing them in a workspace</a></p>
+"Available" means you are now able to access these data via the HEAL Data Platform, by <a href="downloading_files.md/#download-data-files-from-the-discovery-page">downloading them</a> and/or by <a href="../workspaces/heal_workspaces/">importing them in a workspace</a></p>
 <p><strong>Request Access:</strong>
-“Request Access” means that the data has been deposited in a repository and is available. To access the data, you will first need to visit the host repository to request access to it, following the repository’s standard procedures. Once that is complete, authorized users can then <a href="../workspaces/heal_workspaces/">bring these data into a HEAL workspace for analysis</a>.</p>
+"Request Access" means that the data has been deposited in a repository and is available. To access the data, you will first need to visit the host repository to request access to it, following the repository’s standard procedures. Once that is complete, authorized users can then <a href="../workspaces/heal_workspaces/">bring these data into a HEAL workspace for analysis</a>.</p>
 <p><strong>Not Available:</strong>
-“Not Available” means that no data will be made available for this study.</p>
+"Not Available" means that no data will be made available for this study.</p>
 <h2 id="select-files-on-the-discovery-page-and-bring-them-to-the-workspace">Select Files on the Discovery Page and bring them to the Workspace<a class="headerlink" href="#select-files-on-the-discovery-page-and-bring-them-to-the-workspace" title="Permanent link">&para;</a></h2>
 <p><img alt="Discovery_exporting_to_workspace" src="../img/discovery_exporting_to_workspace.gif" /></p>
 <p>The above gif shows the workflow used to select data files from the Discovery Page and bring them into the workspace using Jupyter Notebooks.  </p>
@@ -1087,9 +1100,9 @@ be embedded into the subsequent sections or have their own sections -->
 <p>Find and select the study by the project number (in this example: 1U2CDA050098-01_a) on the <a href="https://healdata.org/portal/discovery">Discovery Page</a>. Find other current open-access studies <a href="../platform_request_access/#current-open-access-studies">here</a>.  </p>
 </li>
 <li>
-<p>Click the “Open in Workspace” button in the upper right corner. This step will create a manifest folder which you can find later in the Workspace’s folder "data/healdata.org".<br />
+<p>Click the "Open in Workspace" button in the upper right corner. This step will create a manifest folder which you can find later in the Workspace’s folder "data/healdata.org".<br />
 <img alt="static_notebook_bacpac" src="../img/static_notebook_bacpac.png" /></p>
-<p>Select the study and click on “Open in Workspace”.</p>
+<p>Select the study and click on "Open in Workspace".</p>
 </li>
 <li>
 <p>Choose a workspace flavor and click "Launch". This step may take several minutes.  </p>
@@ -1098,7 +1111,7 @@ be embedded into the subsequent sections or have their own sections -->
 <p>Navigate to the <code>/pd/data/healdata.org/</code> folder and find the placeholder files there. Click on those placeholder files to find instructions how to download the files or see below.  </p>
 </li>
 <li>
-<p>From the directory <code>/pd</code>, users can now start a new notebook. Click “New” (upper right corner) or open a previously saved notebook on the landing drive to load the files into one of the cells, for example by running:</p>
+<p>From the directory <code>/pd</code>, users can now start a new notebook. Click "New" (upper right corner) or open a previously saved notebook on the landing drive to load the files into one of the cells, for example by running:</p>
 <blockquote>
 <p>! gen3 drs-pull object "guid"</p>
 <p>import pandas as pd   </p>
