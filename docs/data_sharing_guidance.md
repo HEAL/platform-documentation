@@ -30,6 +30,17 @@ When packaging your dataset, it can be helpful to keep your data sharing goal in
 
 While each of these goals has somewhat different needs and requirements, there are several general principles that apply across all of them. These are described below, organized into a set of minimal requirements followed by a list of additional best practices. We also provide several tips that you may find helpful when preparing and packaging your data for sharing.
 
+### **Common Data Elements**
+
+Considerable effort was put into identifying a set of common data elements (CDEs) for use in pain research, and encouraging their use among HEAL studies (these may be found in the [HEAL CDE Repository](https://heal.nih.gov/data/common-data-elements-repository)). Using CDEs not only increases the quality and consistency of measurement, but also permits pooling of data across studies for combined analyses. To ensure that data from CDEs can be combined and analyzed together, it is important to include the following when packaging and sharing your data:
+
+1. **Identify the source of the CDE**, including the specific version used (if applicable) and a link to where the CDE may be obtained (if available).
+2. **Describe important aspects of the way in which the instrument was administered**, such as the language used (e.g., English, Spanish), the mode of administration (e.g., personal interview, self-completed via REDCap or paper form, etc.), whether special instructions were given to the participant, etc.
+3. **Provide data and metadata for each individual item**. Many HEAL CDEs are multi-item instruments designed to measure a specific construct, and these are often used to generate an overall score for analysis. Even if an overall score is provided, it is important also to share the data for each individual item to permit secondary analysts to generate their own scores using a different method, to perform psychometric analyses, or to harmonize the CDE with other versions that may contain a slightly different set of items. It is also critical to share a complete description of each numeric code if the responses are encoded in the dataset using numbers rather than labels.
+4. **Label missing values** to indicate the source of the missingness (e.g., "Don't know", "Refused", "Left blank", "Not administered", "Legitimately skipped", etc.). This is important so that missing data can be addressed appropriately during secondary analyses.
+
+See below for more information on how to share both the data and metadata from CDEs (e.g., file structure, format, etc.).
+
 ### **Required items**
 
 These items are required to enable others to use your shared data.
