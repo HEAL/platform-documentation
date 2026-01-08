@@ -697,6 +697,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#common-data-elements" class="md-nav__link">
+    Common Data Elements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#required-items" class="md-nav__link">
     Required items
   </a>
@@ -989,6 +996,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#common-data-elements" class="md-nav__link">
+    Common Data Elements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#required-items" class="md-nav__link">
     Required items
   </a>
@@ -1087,6 +1101,15 @@
 <li><strong>Participating in a collaborative project</strong>: Submitting data from one site or study intended primarily to be analyzed and/or archived together with similar data from other sites or studies (e.g., as part of a planned meta- or mega-analysis or for archiving with a domain-specific repository). This typically requires preparing a dataset that meets very specific requirements, and may require harmonization.</li>
 </ol>
 <p>While each of these goals has somewhat different needs and requirements, there are several general principles that apply across all of them. These are described below, organized into a set of minimal requirements followed by a list of additional best practices. We also provide several tips that you may find helpful when preparing and packaging your data for sharing.</p>
+<h3 id="common-data-elements"><strong>Common Data Elements</strong><a class="headerlink" href="#common-data-elements" title="Permanent link">&para;</a></h3>
+<p>Considerable effort was put into identifying a set of common data elements (CDEs) for use in pain research, and encouraging their use among HEAL studies (these may be found in the <a href="https://heal.nih.gov/data/common-data-elements-repository">HEAL CDE Repository</a>). Using CDEs not only increases the quality and consistency of measurement, but also permits pooling of data across studies for combined analyses. To ensure that data from CDEs can be combined and analyzed together, it is important to include the following when packaging and sharing your data:</p>
+<ol>
+<li><strong>Identify the source of the CDE</strong>, including the specific version used (if applicable) and a link to where the CDE may be obtained (if available).</li>
+<li><strong>Describe important aspects of the way in which the instrument was administered</strong>, such as the language used (e.g., English, Spanish), the mode of administration (e.g., personal interview, self-completed via REDCap or paper form, etc.), whether special instructions were given to the participant, etc.</li>
+<li><strong>Provide data and metadata for each individual item</strong>. Many HEAL CDEs are multi-item instruments designed to measure a specific construct, and these are often used to generate an overall score for analysis. Even if an overall score is provided, it is important also to share the data for each individual item to permit secondary analysts to generate their own scores using a different method, to perform psychometric analyses, or to harmonize the CDE with other versions that may contain a slightly different set of items. It is also critical to share a complete description of each numeric code if the responses are encoded in the dataset using numbers rather than labels.</li>
+<li><strong>Label missing values</strong> to indicate the source of the missingness (e.g., "Don't know", "Refused", "Left blank", "Not administered", "Legitimately skipped", etc.). This is important so that missing data can be addressed appropriately during secondary analyses.</li>
+</ol>
+<p>See below for more information on how to share both the data and metadata from CDEs (e.g., file structure, format, etc.).</p>
 <h3 id="required-items"><strong>Required items</strong><a class="headerlink" href="#required-items" title="Permanent link">&para;</a></h3>
 <p>These items are required to enable others to use your shared data.</p>
 <ol>
