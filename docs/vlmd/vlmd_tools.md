@@ -6,7 +6,7 @@ A tool is available to help investigators generate HEAL-compliant variable-level
 - **Please note that “name” and “description” are required fields** in HEAL VLMD. If your data dictionary does not contain these two fields, it will not pass validation. 
 - Other fields in the VLMD schema such as title, type, constraints.enum, etc. are encouraged but not required. 
 
-Once you have a copy of your data dictionary or VLMD, you can translate it to HEAL-compliant VLMD or validate it using the VLMD tool.
+Once you have a copy of your data dictionary or VLMD, you can translate it to HEAL-compliant VLMD or validate it using the VLMD tool. **Additional guidance on preparing variable-level metadata [is available here](https://www.healdatafair.org/resources/dd-preparation-guidance#overview)**.  
 
 The instructions below describe how to either install and use the VLMD tool on your local machine, or how to use the tool in HEAL workspaces (no installation needed!).  
 
