@@ -20,7 +20,7 @@ Available workspaces on the HEAL Platform (top). Users may need to link their ac
 * **(Generic, User-licensed) Stata Notebook:** Choose this VM if you are familiar with Stata-based data analysis. This notebook requires a Stata license.
 * **Tutorial Notebooks:** Explore our Jupyter Notebook tutorials written in Python or RStudio, which pull data from various sources of the HEAL Data Ecosystem to leverage statistical programs and data analysis tools.  
 
-All interactive tutorial notebooks can be also found as [static version on the Notebook Browser tab](https://healdata.org/portal/resource-browser); read more in the section ["Example Analysis"](platform_example_analyses.md).  
+All interactive tutorial notebooks can be also found as [static version on the Notebook Browser tab](https://uc-cdis.github.io/heal-notebooks-pages/); read more in the section ["Example Analysis"](platform_example_analyses.md).  
 
 Feel free to edit and experiment with this collection of notebooks. They are your personal copies!  
 
