@@ -1,7 +1,7 @@
 
 # Example Analyses
 
-[The Example Analysis page](https://healdata.org/portal/resource-browser) contains a collection of view-only tutorial Jupyter Notebooks that provide demo analyses of datasets published on the HEAL platform.
+[The Example Analysis page](https://uc-cdis.github.io/heal-notebooks-pages/) contains a collection of view-only tutorial Jupyter Notebooks that provide demo analyses of datasets published on the HEAL platform.
 
 > This tab acts as a ['visual table of contents’](#currently-available-notebooks) of available HEAL datasets.
 
