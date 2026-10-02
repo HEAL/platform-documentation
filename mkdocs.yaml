@@ -74,6 +74,8 @@ markdown_extensions:
       baselevel: 1
   - pymdownx.superfences
   - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
 plugins:
   - search
   - redirects:

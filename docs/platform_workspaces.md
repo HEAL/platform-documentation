@@ -12,7 +12,7 @@ New to Jupyter? Learn more about the popular tool for data scientists on [Jupyte
 
 1. After navigating to <https://healdata.org/portal/workspace>, users will discover a list of pre-configured virtual machine (VM) images, as shown below.  
 
-![Workspace_flavors](img/workspace_flavors.png)
+![Workspace_flavors](img/HEAL_workspaces_flavors.png)
 
 Available workspaces on the HEAL Platform (top). Users may need to link their accounts from other repositories (bottom); click [here to see how](platform_request_access.md#linking-access-to-fair-enabled-repositories).
 
@@ -36,7 +36,7 @@ The status of launching the workspace is displayed after clicking on “Launch�
 3. After launching, the home folders are displayed, one of which is the user's persistent drive ("pd").  
 
 <figure markdown>
-  ![Workspace_data_folder](img/workspace_data_folder.png)
+  ![workspace_directories](img/workspace_directories.png)
   <figcaption> The /pd directory is a user’s persistent drive. </figcaption>
 </figure>      
 
