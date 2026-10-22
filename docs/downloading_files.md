@@ -12,6 +12,30 @@ Note that accessing data files requires linked access to all FAIR enabled reposi
 ![workspace_login_other_commons_discovery](img/workspace_login_other_commons_discovery.png){: style="height:250px"}
 
 Users are reminded to link the account to all other FAIR enabled repositories, [as described here](platform_request_access.md#linking-access-to-fair-enabled-repositories), to ensure they have maximum access to data available for download.
+    
+## Send Data Files Directly to Workspaces
+
+Instead of downloading files locally and uploading them to the workspace, users can download data files directly to the workspaces, as described below.  
+
+1.  Log in to the HEAL Data Platform at <https://healdata.org/portal/login>. Link your accounts to FAIR repositories [as described here](platform_request_access.md#linking-access-to-fair-enabled-repositories).  
+      
+    
+2.  Find and select one or multiple studies of interest on the [Discovery Page](https://healdata.org/portal/discovery). *Select "Data Availability" in the top right corner and click on “Available” to see all studies with data available.* Click "Open in Workspace".   
+      
+    ![Screenshot of discovery page showing an example search for an NIH project number, how to select the study, and pointing to the Open in Workspace button](img/open_in_workspace.png){: style="height:400px"}  
+      
+    
+4.  Select a workspace image and click "Launch".  
+    ![Screenshot of Workspace page showing different options for workspace images](img/HEAL_workspaces_flavors.png){: style="height:400px"}
+      
+5.  Your exported data manifest is in the `/data` folder, found in the navigation panel on the left after launching a workspace (see figure below). Open `/data` --> `/healdata.org` --> `/exported_manifests`. Find the folder with the timestamp corresponding to when you sent the data to the workspace from the Discovery page. When you open the appropriate manifest folder, it contains a `manifest.json` file and a `download_data.ipynb` Jupyter notebook. Double-click the notebook file to open it.  
+    ![Screenshot of workspace directories with arrow pointing at the data folder](img/workspace_data_folder.png){: style="height:200px"}
+
+6.  In the opened notebook, there are commands to list the files in the manifest and to download the data files into your workspace. To run these commands, click the cell with the command you want to run, then click the triangle icon at the top of the notebook. The gif below shows what to click, and demonstrates the data files in the directory after they are downloaded.  
+    
+    * Note: If you do not want to download all of the files, you can use the commands at the bottom of the notebook to only download selected files. (This is not shown in the gif.)  
+    
+    ![Recording of how to use the data download notebook](img/using_download_notebook.gif)
 
 ## Download Data Files Locally
 
@@ -148,10 +172,8 @@ Here is a guide to download data files using the Gen3-Client:
      ```bash
      2021/06/03 16:48:47 Total number of GUIDs: 1   2021/06/03 16:48:47 Preparing file info for each file, please wait...   1 / 1 [============================================] 100.00% 0s   2021/06/03 16:48:47 File info prepared successfully   arcos_all_washpost.tsv.gz 6.41 GiB / 6.41 GiB [=======================================================] 100.00% 0s
      ```
-
+     
 ### Download using the Gen3 Python SDK
-
-
 
 Here is a guide to download data files using the Gen3 SDK:
 
@@ -236,28 +258,3 @@ To download all the files in the manifest, run this:
 ```bash
 gen3 --endpoint ${endpoint} --auth ${creds} drs-pull manifest ${manifest}
 ```
-
-## Send Data Files Directly to Workspaces
-
-Instead of downloading files locally and uploading them to the workspace, users can download data files directly to the workspaces, as described below.  
-
-1.  Log in to the HEAL Data Platform at <https://healdata.org/portal/login>. Link your accounts to FAIR repositories [as described here](platform_request_access.md#linking-access-to-fair-enabled-repositories).  
-      
-    
-2.  Find and select one or multiple studies of interest on the [Discovery Page](https://healdata.org/portal/discovery). *Select "Data Availability" in the top right corner and click on “Available” to see all studies with data available.* Click "Open in Workspace".   
-      
-    ![Screenshot of discovery page showing an example search for an NIH project number, how to select the study, and pointing to the Open in Workspace button](img/open_in_workspace.png){: style="height:400px"}  
-      
-    
-4.  Select a workspace image and click "Launch".  
-    ![Screenshot of Workspace page showing different options for workspace images](img/HEAL_workspaces_flavors.png){: style="height:400px"}
-      
-5.  Your exported data manifest is in the `/data` folder, found in the navigation panel on the left after launching a workspace (see figure below). Open `/data` --> `/healdata.org` --> `/exported_manifests`. Find the folder with the timestamp corresponding to when you sent the data to the workspace from the Discovery page. When you open the appropriate manifest folder, it contains a `manifest.json` file and a `download_data.ipynb` Jupyter notebook. Double-click the notebook file to open it.  
-    ![Screenshot of workspace directories with arrow pointing at the data folder](img/workspace_data_folder.png){: style="height:200px"}
-
-6.  In the opened notebook, there are commands to list the files in the manifest and to download the data files into your workspace. To run these commands, click the cell with the command you want to run, then click the triangle icon at the top of the notebook. The gif below shows what to click, and demonstrates the data files in the directory after they are downloaded.  
-    
-    * Note: If you do not want to download all of the files, you can use the commands at the bottom of the notebook to only download selected files. (This is not shown in the gif.)  
-    
-    ![Recording of how to use the data download notebook](img/using_download_notebook.gif)
-    
