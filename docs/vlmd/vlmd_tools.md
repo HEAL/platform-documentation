@@ -23,7 +23,7 @@ The VLMD tool is pre-installed in workspaces on the HEAL Data Platform, so you c
       
        * If this is your first time accessing a workspace, you’ll first need to [request access](https://heal.github.io/platform-documentation/workspaces/heal_workspace_registration/).  
 
-        ![Screenshot showing workspace tab and login screen](../img/healsdk-workspace-login.png)
+        ![Screenshot showing workspace tab and login screen](../img/healsdk-workspace-login.png){: style="height:300px"}
 
 2. From within the workspace, launch the JupyterLab with Python and R Kernels workspace image.  
 
@@ -35,7 +35,7 @@ The VLMD tool is pre-installed in workspaces on the HEAL Data Platform, so you c
        * Once in /pd, click the Upload icon (#5) to upload your data dictionary file to be analyzed or converted. *Please note that only files saved to the /pd directory will persist after your workspace session is terminated.* 
        * Open a new Launcher tab by clicking the `+` next to the `heal-welcome.ipynb` tab. Click on the Python Jupyter notebook icon (#6) to open an empty notebook in the /pd.
 
-        ![Screenshot showing where to open /pd, upload the dictionary file, and open the Python notebook](../img/healsdk-workspace-pd-upload-nb.png)
+        ![Screenshot showing where to open /pd, upload the dictionary file, and open the Python notebook](../img/healsdk-workspace-pd-upload-nb.png){: style="height:250px"}
 
 Now you are ready to generate HEAL-compliant VLMD!
 
@@ -136,7 +136,7 @@ The VLMD tool can be installed and used directly on your local machine from the 
 
 3. Once the tool is installed, you are ready to generate HEAL-compliant VLMD from the command line!  
 
-![Screenshot of terminal with the installation command and output showing successful installation](../img/healsdk-install.png)
+![Screenshot of terminal with the installation command and output showing successful installation](../img/healsdk-install.png){: style="height:150px"}
 
 **View a list of available commands and options:**  
 Run the command **`heal vlmd --help`**
