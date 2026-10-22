@@ -1026,7 +1026,7 @@ Copy the example code below and paste it into a new Jupyter notebook cell. Updat
     <span class="nb">print</span><span class="p">(</span><span class="n">e_err</span><span class="p">)</span>
     <span class="c1"># handle extraction error</span>
 </code></pre></div>
-<p>By default, the Python tool extracts to a JSON file. But, there is an optional <code>output_types</code> argument that configures extraction to a CSV, or both a CSV and JSON file. Valid values for this parameter are strings or Python lists for single format (e.g., <code>"csv"</code> or <code>"json"</code>, or <code>["csv"]</code> or <code>["json"]</code>), or a Python list to export to both file types (<code>["csv, json"]</code>). It should be appended to the arguments in vlmd_extract, as shown in the example below:</p>
+<p>By default, the Python tool extracts to a JSON file. But, there is an optional <code>output_types</code> argument that configures extraction to a CSV, or both a CSV and JSON file. Valid values for this parameter are strings or Python lists for single format (e.g., <code>"csv"</code> or <code>"json"</code>, or <code>["csv"]</code> or <code>["json"]</code>), or a Python list to export to both file types (<code>["csv", "json"]</code>). It should be appended to the arguments in vlmd_extract, as shown in the example below:</p>
 <div class="highlight"><pre><span></span><code>try:
     vlmd_extract(
         &quot;vlmd_for_extraction.csv&quot;, 
