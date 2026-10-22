@@ -74,7 +74,7 @@ except ExtractionError as e_err:
     # handle extraction error
 ```
 
-By default, the Python tool extracts to a JSON file. But, there is an optional `output_types` argument that configures extraction to a CSV, or both a CSV and JSON file. Valid values for this parameter are strings or Python lists for single format (e.g., `"csv"` or `"json"`, or `["csv"]` or `["json"]`), or a Python list to export to both file types (`["csv, json"]`). It should be appended to the arguments in vlmd_extract, as shown in the example below:
+By default, the Python tool extracts to a JSON file. But, there is an optional `output_types` argument that configures extraction to a CSV, or both a CSV and JSON file. Valid values for this parameter are strings or Python lists for single format (e.g., `"csv"` or `"json"`, or `["csv"]` or `["json"]`), or a Python list to export to both file types (`["csv", "json"]`). It should be appended to the arguments in vlmd_extract, as shown in the example below:
 
 ```
 try:
