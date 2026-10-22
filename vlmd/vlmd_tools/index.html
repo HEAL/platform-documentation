@@ -474,15 +474,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#option-1-use-the-vlmd-tool-at-the-command-line" class="md-nav__link">
-    Option 1: Use the VLMD Tool at the Command Line
+  <a href="#option-1-use-the-tool-in-python" class="md-nav__link">
+    Option 1: Use the Tool in Python
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#option-2-use-the-tool-in-python" class="md-nav__link">
-    Option 2: Use the Tool in Python
+  <a href="#option-2-use-the-vlmd-tool-at-the-command-line" class="md-nav__link">
+    Option 2: Use the VLMD Tool at the Command Line
   </a>
   
 </li>
@@ -920,15 +920,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#option-1-use-the-vlmd-tool-at-the-command-line" class="md-nav__link">
-    Option 1: Use the VLMD Tool at the Command Line
+  <a href="#option-1-use-the-tool-in-python" class="md-nav__link">
+    Option 1: Use the Tool in Python
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#option-2-use-the-tool-in-python" class="md-nav__link">
-    Option 2: Use the Tool in Python
+  <a href="#option-2-use-the-vlmd-tool-at-the-command-line" class="md-nav__link">
+    Option 2: Use the VLMD Tool at the Command Line
   </a>
   
 </li>
@@ -958,77 +958,30 @@
 <h1 id="generate-a-heal-compliant-data-dictionary">Generate a HEAL-compliant Data Dictionary<a class="headerlink" href="#generate-a-heal-compliant-data-dictionary" title="Permanent link">&para;</a></h1>
 <p>A tool is available to help investigators generate HEAL-compliant variable-level metadata (VLMD) from an existing data dictionary or codebook. This VLMD tool - available as part of the HEAL Software Development Kit (HEAL-SDK) - takes CSV, TSV, JSON or REDCap CSV export files as inputs, and outputs a HEAL-compliant JSON VLMD file that can be uploaded to and associated with your study on the HEAL Data Platform.  </p>
 <ul>
-<li>VLMD templates that you can download and fill out, examples of valid and invalid HEAL VLMD, and the HEAL VLMD schemas are <a href="https://github.com/HEAL/heal-metadata-schemas/tree/main/variable-level-metadata-schema">available in GitHub</a>. </li>
-<li><strong>Please note that “name” and “description” are required fields</strong> in HEAL VLMD. If your data dictionary does not contain these two fields, it will not pass validation. </li>
-<li>Other fields in the VLMD schema such as title, type, constraints.enum, etc. are encouraged but not required. </li>
+<li>VLMD templates that you can download and fill out, examples of valid and invalid HEAL VLMD, and the HEAL VLMD schemas are <a href="https://github.com/HEAL/heal-metadata-schemas/tree/main/variable-level-metadata-schema">available in GitHub</a>.  </li>
+<li><strong>Please note that “name” and “description” are required fields</strong> in HEAL VLMD. If your data dictionary does not contain these two fields, it will not pass validation.  </li>
+<li>Other fields in the VLMD schema such as title, type, constraints.enum, etc. are encouraged but not required.  </li>
 </ul>
 <p>Once you have a copy of your data dictionary or VLMD, you can translate it to HEAL-compliant VLMD or validate it using the VLMD tool. <strong>Additional guidance on preparing variable-level metadata <a href="https://www.healdatafair.org/resources/dd-preparation-guidance#overview">is available here</a></strong>.  </p>
-<p>The instructions below describe how to either install and use the VLMD tool on your local machine, or how to use the tool in HEAL workspaces (no installation needed!).  </p>
-<h2 id="option-1-use-the-vlmd-tool-at-the-command-line">Option 1: Use the VLMD Tool at the Command Line<a class="headerlink" href="#option-1-use-the-vlmd-tool-at-the-command-line" title="Permanent link">&para;</a></h2>
-<p>The VLMD tool can be installed and used directly on your local machine from the command line. Install the tool by following the instructions below:  </p>
-<ol>
-<li>
-<p>Open your computer’s command prompt  </p>
-<ul>
-<li>On a Mac, click the Launchpad icon in the Dock, type “Terminal” in the search field and click on the Terminal icon  </li>
-<li>On a PC, type “Command Prompt” in the Windows search bar and click on the Command Prompt icon  </li>
-</ul>
-</li>
-<li>
-<p>In the command prompt, type <strong><code>pip install heal-sdk</code></strong> and push Return/Enter <em>(see yellow highlight in screenshot below)</em>. The installation process will take no more than a few minutes to complete.  </p>
-<ul>
-<li>This step requires Python to be installed; you can <a href="https://www.python.org/downloads/">download Python here</a> if needed.  </li>
-<li>Successful installation will report <code>Successfully installed heal-sdk</code>, as shown in the blue highlight below</li>
-</ul>
-</li>
-<li>
-<p>Once the tool is installed, you are ready to generate HEAL-compliant VLMD from the command line!  </p>
-</li>
-</ol>
-<p><img alt="Screenshot of terminal with the installation command and output showing successful installation" src="../../img/healsdk-install.png" /></p>
-<p><strong>View a list of available commands and options:</strong><br />
-Run the command <strong><code>heal vlmd --help</code></strong></p>
-<p><strong>Generate HEAL-compliant VLMD from an existing data dictionary:</strong><br />
-The VLMD tool can be used to extract HEAL-compliant VLMD from a CSV, TSV, JSON or REDCap CSV data dictionary. Use the following command to extract VLMD from an input file (here, the example file is called <code>vlmd_for_extraction.csv</code>):  </p>
-<p><strong><code>heal vlmd extract --input_file "vlmd_for_extraction.csv" --title "The dictionary title" --output_dir "./output"</code></strong></p>
-<ul>
-<li>Note that, if you are extracting VLMD from a JSON file that already includes a root-level title field, the root-level title will be included in the extracted VLMD, so the <code>title</code> argument in the command can be omitted.  </li>
-<li>Upon successful extraction, the resulting VLMD file will be saved to a subfolder called <code>output</code>. (See yellow highlight below)  </li>
-<li>
-<p>If you get an <code>input file does not exist</code> error, try including the path in the filename argument, as shown in the example below. To find the path:  </p>
-<ul>
-<li><strong>PC</strong>: Select the file in Windows File explorer, then select the three dots at the top of the file explorer window. You will then see an option to Copy Path, which will copy the path to that file location to your clipboard. Paste the path into the input file argument.  </li>
-<li><strong>Mac</strong>: Select the file or folder in Finder. Hold down the Option key, Right-click and select <code>Copy &lt;selected item&gt; as Pathname</code> to copy the full path to the clipboard. Paste the path into the input file argument. </li>
-</ul>
-</li>
-</ul>
-<p><img alt="Screenshot of terminal showing successful VLMD extraction with the VLMD took" src="../../img/healsdk-vlmd_extraction.png" /></p>
-<p><strong>Validate a VLMD file:</strong><br />
-Check (validate) an existing VLMD file to see if it follows the HEAL specifications after filling out a template or annotating after extracting from a different file format.</p>
-<p>Run the command <strong><code>heal vlmd validate --input_file "vlmd_for_validation.csv"</code></strong> <em>(where "vlmd_for_validation.csv" is the file name of the VLMD file you are trying to validate)</em></p>
-<ul>
-<li>If your VLMD file adheres to the HEAL VLMD schema, the output from this command will include a message that says <code>Valid</code>. (See yellow highlight below)  </li>
-<li>If your VLMD file does not validate against the HEAL VLMD schema, the output from this command will indicate what change(s) are necessary to adhere to the schema.  </li>
-</ul>
-<p><img alt="Screenshot of terminal showing successful VLMD validation with the VLMD took" src="../../img/healsdk-validate.png" /></p>
-<h2 id="option-2-use-the-tool-in-python">Option 2: Use the Tool in Python<a class="headerlink" href="#option-2-use-the-tool-in-python" title="Permanent link">&para;</a></h2>
+<p>The instructions below describe how to either use the tool in HEAL workspaces (no local installation needed!) or install and use the VLMD tool on your local machine.  </p>
+<h2 id="option-1-use-the-tool-in-python">Option 1: Use the Tool in Python<a class="headerlink" href="#option-1-use-the-tool-in-python" title="Permanent link">&para;</a></h2>
 <div class="admonition info">
 <p class="admonition-title">HEAL Workspace documentation</p>
 <p>Before using Workspace, please <a href="../../workspaces/heal_workspaces/">read our Workspace documentation</a> to learn more about Workspace features.</p>
 </div>
-<p>The VLMD tool also comes pre-installed in workspaces on the HEAL Data Platform, so you can use it without having to install it locally. Access a workspace to use the VLMD tool by following the instructions below:</p>
+<p>The VLMD tool is pre-installed in workspaces on the HEAL Data Platform, so you can use it without having to install it locally. Access a workspace to use the VLMD tool by following the instructions below:</p>
 <ol>
 <li>
 <p>Navigate to <a href="http://healdata.org">healdata.org</a> and click on the Workspaces tab, where you’ll be prompted to log in.  </p>
 <ul>
 <li>
 <p>If this is your first time accessing a workspace, you’ll first need to <a href="https://heal.github.io/platform-documentation/workspaces/heal_workspace_registration/">request access</a>.  </p>
-<p><img alt="Screenshot showing workspace tab and login screen" src="../../img/healsdk-workspace-login.png" /></p>
+<p><img alt="Screenshot showing workspace tab and login screen" src="../../img/healsdk-workspace-login.png" style="height:300px" /></p>
 </li>
 </ul>
 </li>
 <li>
-<p>From within the workspace, launch the (Generic) Jupyter Lab Notebook with R Kernel workspace image.  </p>
+<p>From within the workspace, launch the JupyterLab with Python and R Kernels workspace image.  </p>
 <p><img alt="Screenshot showing which notebook to launch" src="../../img/healsdk-workspace-launchR.png" /></p>
 </li>
 <li>
@@ -1037,19 +990,26 @@ Check (validate) an existing VLMD file to see if it follows the HEAL specificati
 <li>Double-click on the <code>/pd</code> (persistent drive) folder (#4) in the left navigation pane to change to the /pd directory</li>
 <li>Once in /pd, click the Upload icon (#5) to upload your data dictionary file to be analyzed or converted. <em>Please note that only files saved to the /pd directory will persist after your workspace session is terminated.</em> </li>
 <li>
-<p>Click on the Python Jupyter notebook icon (#6) to open an empty notebook in the /pd.</p>
-<p><img alt="Screenshot showing where to open /pd, upload the dictionary file, and open the Python notebook" src="../../img/healsdk-workspace-pd-upload-nb.png" /></p>
+<p>Open a new Launcher tab by clicking the <code>+</code> next to the <code>heal-welcome.ipynb</code> tab. Click on the Python Jupyter notebook icon (#6) to open an empty notebook in the /pd.</p>
+<p><img alt="Screenshot showing where to open /pd, upload the dictionary file, and open the Python notebook" src="../../img/healsdk-workspace-pd-upload-nb.png" style="height:250px" /></p>
 </li>
 </ul>
 </li>
 </ol>
 <p>Now you are ready to generate HEAL-compliant VLMD!</p>
+<p><strong>Retrieve any updates to the VLMD tool:</strong><br />
+To ensure the VLMD tool is fully updated, first paste and run this command into a cell of the notebook:<br />
+<code>!pip install --upgrade heal-sdk</code>  </p>
+<p>After updating the VLMD tool, you need to restart the kernel for the updates to be implemented in the workspace. To do that: Click on the <code>Kernel</code> menu in the menu bar at the top of the workspace and select <code>Restart Kernel</code>.  </p>
+<blockquote>
+<p>You can verify the version of the VLMD tool that is in use in the workspace by running <code>!pip show heal-sdk</code> in a new cell.  </p>
+</blockquote>
 <p><strong>Generate HEAL-compliant VLMD from an existing data dictionary:</strong><br />
-The extract module generates a HEAL-compliant VLMD file from a CSV, TSV, JSON or REDCap CSV data dictionary. Upon successful extraction, the resulting VLMD file will be saved to a subfolder called <code>output</code>; this folder will be in the /pd if you ran the notebook from inside the /pd. (See yellow highlight and red arrows below)  </p>
+Copy the example code below and paste it into a new Jupyter notebook cell. Update the filename and dictionary title for your data dictionary, then run the cell.  </p>
+<p>The extract module generates a HEAL-compliant VLMD file from a CSV, TSV, JSON or REDCap CSV data dictionary (filename "vlmd_for_extraction.csv" in the example below). Upon successful extraction, the resulting VLMD file will be saved to a subfolder called <code>output</code>; this folder will be in the /pd if you ran the notebook from inside the /pd. (See yellow highlight and red arrows below)  </p>
 <p>The <strong><code>vlmd_extract()</code></strong> method raises a <strong><code>jsonschema.ValidationError</code></strong> for an invalid input file, and raises <strong><code>ExtractionError</code></strong> for any other type of error.</p>
 <div class="highlight"><span class="filename">Example extraction code for HEAL workspace</span><pre><span></span><code><span class="kn">from</span> <span class="nn">jsonschema</span> <span class="kn">import</span> <span class="n">ValidationError</span>
-
-<span class="kn">from</span> <span class="nn">heal.vlmd</span> <span class="kn">import</span> <span class="n">vlmd_extract</span>
+<span class="kn">from</span> <span class="nn">heal.vlmd</span> <span class="kn">import</span> <span class="n">vlmd_extract</span><span class="p">,</span> <span class="n">ExtractionError</span>
 
 <span class="k">try</span><span class="p">:</span>
     <span class="n">vlmd_extract</span><span class="p">(</span>
@@ -1065,6 +1025,15 @@ The extract module generates a HEAL-compliant VLMD file from a CSV, TSV, JSON or
 <span class="k">except</span> <span class="n">ExtractionError</span> <span class="k">as</span> <span class="n">e_err</span><span class="p">:</span>
     <span class="nb">print</span><span class="p">(</span><span class="n">e_err</span><span class="p">)</span>
     <span class="c1"># handle extraction error</span>
+</code></pre></div>
+<p>By default, the Python tool extracts to a JSON file. But, there is an optional <code>output_types</code> argument that configures extraction to a CSV, or both a CSV and JSON file. Valid values for this parameter are strings or Python lists for single format (e.g., <code>"csv"</code> or <code>"json"</code>, or <code>["csv"]</code> or <code>["json"]</code>), or a Python list to export to both file types (<code>["csv, json"]</code>). It should be appended to the arguments in vlmd_extract, as shown in the example below:</p>
+<div class="highlight"><pre><span></span><code>try:
+    vlmd_extract(
+        &quot;vlmd_for_extraction.csv&quot;, 
+        title=&quot;The dictionary title&quot;, 
+        output_dir=&quot;./output&quot;,
+        output_type=[&quot;csv&quot;, &quot;json&quot;]
+    )
 </code></pre></div>
 <p><img alt="Screenshot of code in workspace extracting from a dictionary file and converting it" src="../../img/healsdk-workspace-extract.png" /></p>
 <p><strong>Validate a VLMD file:</strong><br />
@@ -1095,6 +1064,54 @@ This module checks (validates) an existing VLMD file to see if it follows the HE
 <li>If your VLMD file does not validate against the HEAL VLMD schema, the output from this command will indicate what change(s) are necessary to adhere to the schema.</li>
 </ul>
 <p><img alt="Screenshot of code in workspace validating a dictionary file" src="../../img/healsdk-workspace-validate.png" /></p>
+<h2 id="option-2-use-the-vlmd-tool-at-the-command-line">Option 2: Use the VLMD Tool at the Command Line<a class="headerlink" href="#option-2-use-the-vlmd-tool-at-the-command-line" title="Permanent link">&para;</a></h2>
+<p>The VLMD tool can be installed and used directly on your local machine from the command line. Install the tool by following the instructions below:  </p>
+<ol>
+<li>
+<p>Open your computer’s command prompt  </p>
+<ul>
+<li>On a Mac, click the Launchpad icon in the Dock, type “Terminal” in the search field and click on the Terminal icon  </li>
+<li>On a PC, type “Command Prompt” in the Windows search bar and click on the Command Prompt icon  </li>
+</ul>
+</li>
+<li>
+<p>In the command prompt, type <strong><code>pip install heal-sdk</code></strong> and push Return/Enter <em>(see yellow highlight in screenshot below)</em>. The installation process will take no more than a few minutes to complete. If you have already installed heal-sdk, then <strong>run <code>pip install --upgrade heal-sdk</code> to ensure you have the latest version of the tool</strong>.  </p>
+<ul>
+<li>This step requires Python to be installed; you can <a href="https://www.python.org/downloads/">download Python here</a> if needed.  </li>
+<li>Successful installation will report <code>Successfully installed heal-sdk</code>, as shown in the blue highlight below  </li>
+</ul>
+</li>
+<li>
+<p>Once the tool is installed, you are ready to generate HEAL-compliant VLMD from the command line!  </p>
+</li>
+</ol>
+<p><img alt="Screenshot of terminal with the installation command and output showing successful installation" src="../../img/healsdk-install.png" style="height:150px" /></p>
+<p><strong>View a list of available commands and options:</strong><br />
+Run the command <strong><code>heal vlmd --help</code></strong></p>
+<p><strong>Generate HEAL-compliant VLMD from an existing data dictionary:</strong><br />
+The VLMD tool can be used to extract HEAL-compliant VLMD from a CSV, TSV, JSON or REDCap CSV data dictionary. Use the following command to extract VLMD from an input file (here, the example file is called <code>vlmd_for_extraction.csv</code>):  </p>
+<p><strong><code>heal vlmd extract --input_file "vlmd_for_extraction.csv" --title "The dictionary title" --output_dir "./output"</code></strong></p>
+<ul>
+<li>Note that, if you are extracting VLMD from a JSON file that already includes a root-level title field, the root-level title will be included in the extracted VLMD, so the <code>title</code> argument in the command can be omitted.  </li>
+<li>By default, the tool extracts to a JSON file. But, there is an optional <code>--output_type</code> parameter that configures extraction to a CSV, or both a CSV and JSON file. This would be appended to the command above; eg, <code>heal vlmd extract --input_file "vlmd_for_extraction.csv" --title "The dictionary title" --output_dir "./output" --output_type "csv"</code>  or, to export to both file types, <code>...--output_type "csv, json"</code>.  </li>
+<li>Upon successful extraction, the resulting VLMD file will be saved to a subfolder called <code>output</code>. (See yellow highlight below)  </li>
+<li>
+<p>If you get an <code>input file does not exist</code> error, try including the path in the filename argument, as shown in the example below. To find the path:  </p>
+<ul>
+<li><strong>PC</strong>: Select the file in Windows File explorer, then select the three dots at the top of the file explorer window. You will then see an option to Copy Path, which will copy the path to that file location to your clipboard. Paste the path into the input file argument.  </li>
+<li><strong>Mac</strong>: Select the file or folder in Finder. Hold down the Option key, Right-click and select <code>Copy &lt;selected item&gt; as Pathname</code> to copy the full path to the clipboard. Paste the path into the input file argument. </li>
+</ul>
+</li>
+</ul>
+<p><img alt="Screenshot of terminal showing successful VLMD extraction with the VLMD took" src="../../img/healsdk-vlmd_extraction.png" /></p>
+<p><strong>Validate a VLMD file:</strong><br />
+Check (validate) an existing VLMD file to see if it follows the HEAL specifications after filling out a template or annotating after extracting from a different file format.</p>
+<p>Run the command <strong><code>heal vlmd validate --input_file "vlmd_for_validation.csv"</code></strong> <em>(where "vlmd_for_validation.csv" is the file name of the VLMD file you are trying to validate)</em></p>
+<ul>
+<li>If your VLMD file adheres to the HEAL VLMD schema, the output from this command will include a message that says <code>Valid</code>. (See yellow highlight below)  </li>
+<li>If your VLMD file does not validate against the HEAL VLMD schema, the output from this command will indicate what change(s) are necessary to adhere to the schema.  </li>
+</ul>
+<p><img alt="Screenshot of terminal showing successful VLMD validation with the VLMD took" src="../../img/healsdk-validate.png" /></p>
 <h2 id="next-steps">Next Steps<a class="headerlink" href="#next-steps" title="Permanent link">&para;</a></h2>
 <p>Once you’ve created your HEAL-compliant VLMD, you’re now ready to submit it to the HEAL Data Platform! Please see our instructions on submitting a data dictionary:</p>
 <ul>
