@@ -17,8 +17,10 @@ Once you have access to workspaces, use this guide below to get started with ana
 
       ![Screenshot of different workspace images](../img/HEAL_workspaces_flavors.png)
 
-      - **(Generic) Jupyter Notebook with R kernel:** Choose this VM if you are familiar with setting up Python- or R-based Notebooks, or if you just exported one or multiple studies from the Discovery Page and want to start your custom analysis.
-      - **Tutorial Notebooks:** Explore our [Jupyter Notebook tutorials](https://uc-cdis.github.io/heal-notebooks-pages/) written in Python or R, which analyze data pulled from various sources on the HEAL Data Platform These are excellent resources for code to use to analyze data from HEAL, and examples that illustrate the variety of data and analyses available through HEAL.
+      * **JupyterLab with Software Library:** This workspace VM is suitable for use with Python notebooks. If you just exported data from one or multiple studies from the Discovery Page and want to start your custom analysis with Python, select this VM. To facilitate your data analysis, it has a collection of Python software packages pre-installed and ready for import, and you can install additional packages. If you have your own Stata license, you can use it in this workspace VM.  
+      * **JupyterLab with Python and R Kernels:** This workspace VM is suitable for use with R and Python notebooks. If you just exported data from one or multiple studies from the Discovery Page and want to start your custom analysis with R, select this VM. You can install R packages for analysis.  
+      * **JupyterLab with Shared Stata License:** For users who do not have their own Stata license but wish to do Stata analyses in the workspace, we provide a limited shared license in this VM.
+      * **JupyterLab with User-Licensed Stata:** Users with their own Stata license can upload it to the `home` directory and use Stata for analyses in this VM.
 
 3. Click “Launch” on any of the workspace options to spin up a copy of that VM. The status of launching the workspace is displayed after clicking on “Launch”. Note: Launching the VM may take several minutes.
 
@@ -37,9 +39,9 @@ Once you have access to workspaces, use this guide below to get started with ana
       - The folder “healdata.org” in the “data” folder will host the data files you have exported from the Discovery Page. Move these files to the /pd directory if you do not want to have to export them again.
       - /pd has a capacity limit of 10GB.
 
-6. Start a new notebook under “Notebook” in the Launcher tab. Click the tiles in the launcher and choose between Python 3 or R Studio as the base programming language.
+6. Start a new notebook under “Notebook” in the Launcher tab. Click the tiles in the launcher and choose between Python 3 or R Studio (where available) as the base programming language.
 
-      *Note: You can open and run multiple notebooks in your workspace; however, the generic, tutorial and nextflow workspace images are currently separate Docker images. There is no functionality to combine them or run nextflow in the Tutorial or Generic images. This may be available in the future, after further testing and development activities.*
+      *Note: You can open and run multiple notebooks in your workspace; however, each workspace workspace image is a  separate Docker images. There is no functionality to combine them.*
 
       ![Start a new notebook under “Notebook” in the Launcher tab](../img/HEAL_workspaces_nb_launcher.png)
 
@@ -47,7 +49,7 @@ Once you have access to workspaces, use this guide below to get started with ana
 
       Results, including plots, tables, and graphics, can be generated in the workspace and downloaded as files.
 
-8. Do not forget to terminate your workspace when you are done with your session. Unterminated workspaces can continue to accrue computational costs. **Note: workspaces automatically shut down after 90 minutes of [idle time](#automatic-workspace-shutdown).**
+8. Do not forget to terminate your workspace when you are done with your session. Unterminated workspaces can continue to accrue computational costs. **Note: workspaces automatically shut down after 60 minutes of [idle time](#automatic-workspace-shutdown).**
 
 ![Screenshot for terminating your workspace](../img/HEAL_workspaces_terminate.png){: style="height:200px"}
 
@@ -67,9 +69,11 @@ You can then **download** notebooks by clicking "File" - "Download", as shown be
 
 ![Download notebook](../img/HEAL_workspaces_nb_download.png){: style="height:400px"}
 
-## Environments, Languages, and Tools
+## Analysis Tools Available in the HEAL Workspace
 
-The following **environments** are available in the workspaces:
+### Environments, Languages, and Tools
+
+The following **environments** are available in all the workspace VMs:
 
 - Jupyter Lab
 
@@ -77,20 +81,44 @@ The following **environments** are available in the workspaces:
 
 The following **programming languages** are available in Jupyter Notebooks:
 
-- R
 - Python 3
+- R (in some workspace VMs)
 
 The following **tools** are available in Jupyter Notebooks:
 
 - GitHub ([read GitHub documentation](https://docs.github.com/en))
 
-## Python 3 and R in Jupyter
+### Python 3 and R in Jupyter
 
-Both Python 3 and R are available in Jupyter Notebooks.
+Both Python 3 and R are available in Jupyter Notebooks that have an R kernel.
 
-Basic Python or R packages , such as PyPI or CRAN, as well as many tools typical for data analysis are already included in the base workspace images without further installation required. For Python and R, users can start a new notebook with one of the tiles under "Notebook", as shown below.
+Basic Python or R packages, such as PyPI or CRAN, as well as many tools typical for data analysis are already included in the base workspace images without further installation required. For Python and R, users can start a new notebook with one of the tiles under "Notebook", as shown below.
 
 ![Find Python 3 or R when starting a new notebook under “New”.](../img/HEAL_workspaces_nb_launcher.png)
+
+### Workspace Software Library
+
+The HEAL Workspace Software Library includes a wide variety of analytic and data management software that are pre-installed and ready to use. This includes up-to-date versions of commonly-used third-party packages for analytic systems such as Python and R^*^. Together, these will satisfy the needs of many analysts.  
+
+*<sup>\*</sup> R is not yet available in the software library workspace, but will be soon.*  
+
+To see what software is available, you can click the gear wheel icon at the bottom of the left sidebar (see screenshot below). There, you will see a list of software packages that have been pre-loaded (i.e., ready for use) at the top of the list, as well as additional modules that are installed and available for loading below.  
+
+![The icon to use the Software Library is the gearwheel on the left navigation panel](../img/HEAL_workspaces_software_lib_icon.png){: style="height:350px"}
+
+#### Loading and Unloading Modules for use in the Workspace
+
+You can click the software modules icon (shown in the screenshot above) to view what modules are pre-loaded, load additional modules, and unload modules. Use the search bar at the top to filter available modules. For any module in the library, it **must be loaded before it can be used** within Python or R.  
+
+If you already have a notebook or console open and you change the list of loaded modules (either by loading additional modules or unloading any), these changes do not take effect until you have shut down and reconnected to the kernel. To do that: Click on the `Kernel` menu in the menu bar at the top of the workspace and select `Shut Down Kernel`. After the shutdown completes, select `Reconnect to Kernel` in order to relaunch and connect to a new kernel. Note that using `Restart Kernel` (in the `Kernel` menu) is not sufficient to activate the change.  
+
+![You must shut down and reconnect to the kernel if you change the loaded modules when you have a notebook or console open. Click the Kernel menu, then Shut Down Kernel, then Reconnect to Kernel](../img/HEAL_workspaces_shut_down_kernel.png){: style="height:250px"}
+
+#### Installing Additional Modules
+
+If there is a piece of software you would like to use that has not been pre-installed, you can usually install the software yourself. Examples of additional software you may want to install include Python or R packages. Install the software into your `home` directory (for temporary use) or persistent drive (`/pd`; for use across multiple workspace sessions) using the installation procedures appropriate for the type of software. For example, you may use `pip install` to add additional Python packages (if you're installing from within a notebook, use `!pip install`).  
+
+Note: Software that you install yourself will not appear on the list of loaded modules in the software library; they do not need to be loaded before using them. However, you can always investigate what Python packages are installed but not shown in the list of loaded modules with `pip list` (or, if you're running in a notebook, `!pip list`). This will show all modules that are not shown in the Loaded Modules list (including any you installed) but are available for import.  
 
 ## Automatic Workspace Shutdown
 
@@ -98,7 +126,7 @@ Basic Python or R packages , such as PyPI or CRAN, as well as many tools typical
 
 **Warning:** Workspaces will also automatically shut down after 90 minutes of idle time. A pop-up window will remind users to navigate back to the workspaces page in order to save the data.
 
-![2' warning for shutdown for workspace](../img/workspace_shutdown_sign_2.png)
+![2 minute warning for shutdown for workspace](../img/workspace_shutdown_sign_2.png)
 
 <!-- Links and Images -->
 
