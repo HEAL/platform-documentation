@@ -10,8 +10,14 @@
       
         <link rel="canonical" href="https://heal-docs-dev.io/vlmd/schemas/json-data-dictionary/">
       
+      
+      
+      
+        
+      
+      
       <link rel="icon" href="../../../img/heal_logo.png">
-      <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.5.3">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.1">
     
     
       
@@ -19,15 +25,17 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.7a952b86.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.57a0d79d.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.cbb835fc.min.css">
-        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.fb2fffe2.min.css">
       
       
 
+
     
+    
+      
     
     
       
@@ -41,11 +49,10 @@
     
       <link rel="stylesheet" href="../../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
-    
     
     
   </head>
@@ -56,9 +63,8 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="heal_platform" data-md-color-primary="" data-md-color-accent="">
+    <body dir="ltr" data-md-color-scheme="heal_platform" data-md-color-primary="indigo" data-md-color-accent="indigo">
   
-    
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -78,7 +84,9 @@
     
       
 
-<header class="md-header" data-md-component="header">
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="https://healdata.org" title="HEAL Platform Documentation" class="md-header__button md-logo" aria-label="HEAL Platform Documentation" data-md-component="logo">
       
@@ -86,7 +94,8 @@
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
     </label>
     <div class="md-header__title" data-md-component="header-title">
       <div class="md-header__ellipsis">
@@ -105,40 +114,50 @@
       </div>
     </div>
     
+      
     
     
-      <label class="md-header__button md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
-      </label>
-      <div class="md-search" data-md-component="search" role="dialog">
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
       <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
       </label>
       <nav class="md-search__options" aria-label="Search">
         
         <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
         </button>
       </nav>
       
     </form>
     <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
             Initializing search
           </div>
-          <ol class="md-search-result__list"></ol>
+          <ol class="md-search-result__list" role="presentation"></ol>
         </div>
       </div>
     </div>
   </div>
 </div>
+      
     
     
   </nav>
@@ -163,6 +182,7 @@
                     
 
 
+
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="https://healdata.org" title="HEAL Platform Documentation" class="md-nav__button md-logo" aria-label="HEAL Platform Documentation" data-md-component="logo">
@@ -177,14 +197,26 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../.." class="md-nav__link">
-        Home
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
@@ -192,14 +224,26 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="https://healdata.org/" class="md-nav__link">
-        Return to Platform
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Return to Platform
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
@@ -207,14 +251,26 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../../logging-in/" class="md-nav__link">
-        Logging In
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Logging In
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
@@ -222,570 +278,971 @@
     
       
       
-      
-
+  
   
   
   
     
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
       
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
-      
-      
-      
-        
-          
-            
-          
-        
-          
-        
-          
-        
-      
-      
         
         
-        <div class="md-nav__link md-nav__link--index ">
-          <a href="../../../study-registration/">Study Registration</a>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
           
-            <label for="__nav_4">
-              <span class="md-nav__icon md-icon"></span>
-            </label>
-          
-        </div>
-      
-      <nav class="md-nav" aria-label="Study Registration" data-md-level="1">
-        <label class="md-nav__title" for="__nav_4">
-          <span class="md-nav__icon md-icon"></span>
-          Study Registration
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../study-registration/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Study Registration
+  
+
+    
+  </span>
+  
+  
+
+            </a>
             
               
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Study Registration
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../../study-registration/requesting-access/" class="md-nav__link">
-        Requesting Access
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Requesting Access
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../../study-registration/registering-your-study/" class="md-nav__link">
-        Registering Your Study
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Registering Your Study
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
+              
             
-          
-        </ul>
-      </nav>
+          </ul>
+        </nav>
+      
     </li>
   
 
     
       
       
-      
-
+  
   
   
   
     
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
       
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
-      
-      
-      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Study-Level Metadata Submission (CEDAR Form)
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
         
-          
-        
-      
-      
-        <label class="md-nav__link" for="__nav_5">
-          Study-Level Metadata Submission (CEDAR Form)
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Study-Level Metadata Submission (CEDAR Form)" data-md-level="1">
-        <label class="md-nav__title" for="__nav_5">
-          <span class="md-nav__icon md-icon"></span>
-          Study-Level Metadata Submission (CEDAR Form)
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Study-Level Metadata Submission (CEDAR Form)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../../slmd_submission/" class="md-nav__link">
-        Study-Level Metadata Submission
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Study-Level Metadata Submission
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../../cedar-getting-started/" class="md-nav__link">
-        CEDAR form: Getting Started
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CEDAR form: Getting Started
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
+              
             
-          
-        </ul>
-      </nav>
+          </ul>
+        </nav>
+      
     </li>
   
 
     
       
       
-      
-
+  
   
   
   
     
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
       
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
-      
-      
-      
-        
-          
-            
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-      
         
         
-        <div class="md-nav__link md-nav__link--index ">
-          <a href="../../">Variable-level Metadata Submission</a>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
           
-            <label for="__nav_6">
-              <span class="md-nav__icon md-icon"></span>
-            </label>
-          
-        </div>
-      
-      <nav class="md-nav" aria-label="Variable-level Metadata Submission" data-md-level="1">
-        <label class="md-nav__title" for="__nav_6">
-          <span class="md-nav__icon md-icon"></span>
-          Variable-level Metadata Submission
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Variable-level Metadata Submission
+  
+
+    
+  </span>
+  
+  
+
+            </a>
             
               
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Variable-level Metadata Submission
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../vlmd_request_access/" class="md-nav__link">
-        Request Access to Submit VLMD
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Request Access to Submit VLMD
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../vlmd_tools/" class="md-nav__link">
-        Generate a HEAL-compliant Data Dictionary
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Generate a HEAL-compliant Data Dictionary
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../vlmd_submission/" class="md-nav__link">
-        Submit a Data Dictionary
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Submit a Data Dictionary
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../vlmd_submit_CDE/" class="md-nav__link">
-        Submit HEAL CDEs
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Submit HEAL CDEs
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
+              
             
-          
-        </ul>
-      </nav>
+          </ul>
+        </nav>
+      
     </li>
   
 
     
       
       
-      
-
+  
   
   
   
     
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
       
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
-      
-      
-      
-        
-          
-            
-          
-        
-          
-        
-          
-        
-      
-      
         
         
-        <div class="md-nav__link md-nav__link--index ">
-          <a href="../../../workspaces/">Workspace User Guide</a>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
           
-            <label for="__nav_7">
-              <span class="md-nav__icon md-icon"></span>
-            </label>
-          
-        </div>
-      
-      <nav class="md-nav" aria-label="Workspace User Guide" data-md-level="1">
-        <label class="md-nav__title" for="__nav_7">
-          <span class="md-nav__icon md-icon"></span>
-          Workspace User Guide
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../workspaces/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Workspace User Guide
+  
+
+    
+  </span>
+  
+  
+
+            </a>
             
               
+              <label class="md-nav__link " for="__nav_7" id="__nav_7_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Workspace User Guide
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../../workspaces/heal_workspace_registration/" class="md-nav__link">
-        Register for HEAL Data Platform Workspaces
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Register for HEAL Data Platform Workspaces
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../../workspaces/heal_workspaces/" class="md-nav__link">
-        Using Workspaces on the HEAL Data Platform
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Using Workspaces on the HEAL Data Platform
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
+              
             
-          
-        </ul>
-      </nav>
+          </ul>
+        </nav>
+      
     </li>
   
 
     
       
       
-      
-
+  
   
   
   
     
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
       
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" >
-      
-      
-      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
         
           
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data and Repositories
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
         
-          
-        
-          
-        
-          
-        
-      
-      
-        <label class="md-nav__link" for="__nav_8">
-          Data and Repositories
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Data and Repositories" data-md-level="1">
-        <label class="md-nav__title" for="__nav_8">
-          <span class="md-nav__icon md-icon"></span>
-          Data and Repositories
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Data and Repositories
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../../hosted_data_types/" class="md-nav__link">
-        Types of Hosted Data
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Types of Hosted Data
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../../data_mgmt_and_repos/" class="md-nav__link">
-        Data Management and Repositories
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data Management and Repositories
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../../reporting-repo/" class="md-nav__link">
-        Reporting Repository Selection and Data Availability
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reporting Repository Selection and Data Availability
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../../data_sharing_guidance/" class="md-nav__link">
-        Data Sharing Guidance
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data Sharing Guidance
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
+              
             
-          
-        </ul>
-      </nav>
+          </ul>
+        </nav>
+      
     </li>
   
 
     
       
       
-      
-
+  
   
   
   
     
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
       
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" type="checkbox" id="__nav_9" >
-      
-      
-      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
         
           
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HEAL Platform Features
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
         
-          
-        
-          
-        
-          
-        
-          
-        
-      
-      
-        <label class="md-nav__link" for="__nav_9">
-          HEAL Platform Features
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="HEAL Platform Features" data-md-level="1">
-        <label class="md-nav__title" for="__nav_9">
-          <span class="md-nav__icon md-icon"></span>
-          HEAL Platform Features
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    HEAL Platform Features
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../../platform_discovery_page/" class="md-nav__link">
-        Discovery Page
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Discovery Page
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../../platform_request_access/" class="md-nav__link">
-        Access check/request
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Access check/request
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../../platform_workspaces/" class="md-nav__link">
-        Workspaces
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Workspaces
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../../platform_example_analyses/" class="md-nav__link">
-        Example Analysis Page
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Example Analysis Page
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../../platform_profile_page/" class="md-nav__link">
-        Profile Page
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Profile Page
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
+              
             
-          
-        </ul>
-      </nav>
+          </ul>
+        </nav>
+      
     </li>
   
 
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../../downloading_files/" class="md-nav__link">
-        Data File Downloads
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data File Downloads
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
@@ -793,14 +1250,26 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../../platform_tutorial_videos/" class="md-nav__link">
-        Tutorial Videos
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tutorial Videos
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
@@ -808,14 +1277,26 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../../faqs/" class="md-nav__link">
-        FAQs
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FAQs
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
@@ -823,14 +1304,26 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../../contact/" class="md-nav__link">
-        Contact
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contact
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
@@ -864,21 +1357,33 @@
       
         <li class="md-nav__item">
   <a href="#title-stringrequired" class="md-nav__link">
-    title (string,required)
+    <span class="md-ellipsis">
+      
+        title (string,required)
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#description-string" class="md-nav__link">
-    description (string)
+    <span class="md-ellipsis">
+      
+        description (string)
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#data_dictionary-arrayrequired" class="md-nav__link">
-    data_dictionary (array,required)
+    <span class="md-ellipsis">
+      
+        data_dictionary (array,required)
+      
+    </span>
   </a>
   
     <nav class="md-nav" aria-label="data_dictionary (array,required)">
@@ -886,7 +1391,11 @@
         
           <li class="md-nav__item">
   <a href="#properties-for-each-record" class="md-nav__link">
-    Properties for each record
+    <span class="md-ellipsis">
+      
+        Properties for each record
+      
+    </span>
   </a>
   
 </li>
@@ -906,16 +1415,18 @@
           
           
             <div class="md-content" data-md-component="content">
+              
               <article class="md-content__inner md-typeset">
                 
                   
 
 
-<h1 id="variable-level-metadata-data-dictionaries">Variable Level Metadata (Data Dictionaries)<a class="headerlink" href="#variable-level-metadata-data-dictionaries" title="Permanent link">&para;</a></h1>
+
+<div><h1 id="variable-level-metadata-data-dictionaries">Variable Level Metadata (Data Dictionaries)<a class="headerlink" href="#variable-level-metadata-data-dictionaries" title="Permanent link">¶</a></h1>
 <p>This schema defines the variable level metadata for one data dictionary for a given study. Note a given study can have multiple data dictionaries</p>
-<h3 id="title-stringrequired"><code>title</code> <em>(string,required)</em><a class="headerlink" href="#title-stringrequired" title="Permanent link">&para;</a></h3>
-<h3 id="description-string"><code>description</code> <em>(string)</em><a class="headerlink" href="#description-string" title="Permanent link">&para;</a></h3>
-<h3 id="data_dictionary-arrayrequired"><code>data_dictionary</code> <em>(array,required)</em><a class="headerlink" href="#data_dictionary-arrayrequired" title="Permanent link">&para;</a></h3>
+<h3 id="title-stringrequired"><code>title</code> <em>(string,required)</em><a class="headerlink" href="#title-stringrequired" title="Permanent link">¶</a></h3>
+<h3 id="description-string"><code>description</code> <em>(string)</em><a class="headerlink" href="#description-string" title="Permanent link">¶</a></h3>
+<h3 id="data_dictionary-arrayrequired"><code>data_dictionary</code> <em>(array,required)</em><a class="headerlink" href="#data_dictionary-arrayrequired" title="Permanent link">¶</a></h3>
 <p>Variable level metadata individual fields integrated into the variable level
 metadata object within the HEAL platform metadata service.</p>
 <div class="admonition note">
@@ -925,7 +1436,7 @@ metadata object within the HEAL platform metadata service.</p>
   For categorical variables, <code>constraints.enum</code> and <code>encodings</code> (where applicable) properties are highly encouraged. 
   For studies using HEAL or other common data elements (CDEs), <code>standardsMappings</code> information is highly encouraged.
   <code>type</code> and <code>format</code> properties may be particularly useful for some variable types (e.g. date-like variables)</p>
-<h4 id="properties-for-each-record">Properties for each record<a class="headerlink" href="#properties-for-each-record" title="Permanent link">&para;</a></h4>
+<h4 id="properties-for-each-record">Properties for each record<a class="headerlink" href="#properties-for-each-record" title="Permanent link">¶</a></h4>
 <p><strong><code>module</code></strong> <em>(string)</em>
  The section, form, survey instrument, set of measures  or other broad category used 
 to group variables.</p>
@@ -955,7 +1466,7 @@ to group variables.</p>
  An extended description of the variable. This could be the definition of a variable or the 
 question text (e.g., if a survey). </p>
 <p>Examples:</p>
-<div class="highlight"><pre><span></span><code>  The participant&#39;s age at the time of study enrollment
+<div class="highlight"><pre><span></span><code>  The participant's age at the time of study enrollment
 </code></pre></div>
 <div class="highlight"><pre><span></span><code>  What is the highest grade or level of school you have completed or the highest degree you have received?
 </code></pre></div>
@@ -1001,7 +1512,7 @@ or <a href="https://specs.frictionlessdata.io/table-schema/#time">Time</a>) - If
 See <a href="https://specs.frictionlessdata.io/table-schema/#types-and-formats">here</a> for more information about appropriate <code>format</code> values by variable <code>type</code>. </p>
 <p>[Additional information]</p>
 <p>Date Formats (date, datetime, time <code>type</code> variable):</p>
-<p>A format for a date variable (<code>date</code>,<code>time</code>,<code>datetime</code>).<br />
+<p>A format for a date variable (<code>date</code>,<code>time</code>,<code>datetime</code>).<br>
 <strong>default</strong>: An ISO8601 format string.
 <strong>any</strong>: Any parsable representation of a date/time/datetime. The implementing library can attempt to parse the datetime via a range of strategies.</p>
 <p><strong>{PATTERN}</strong>: The value can be parsed according to <code>{PATTERN}</code>,
@@ -1044,9 +1555,9 @@ C / Python <a href="http://strftime.org/">strftime</a> such as:</p>
 <p><strong><code>enum</code></strong> <em>(array)</em>
      Constrains possible values to a set of values.</p>
 <p>Examples:</p>
-<div class="highlight"><pre><span></span><code><span class="w">  </span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">4</span><span class="p">]</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="w">  </span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">4</span><span class="p">]</span>
 </code></pre></div>
-<div class="highlight"><pre><span></span><code><span class="w">  </span><span class="p">[</span><span class="err">&#39;Whi</span><span class="kc">te</span><span class="err">&#39;</span><span class="p">,</span><span class="w"> </span><span class="err">&#39;Black</span><span class="w"> </span><span class="err">or</span><span class="w"> </span><span class="err">A</span><span class="kc">fr</span><span class="err">ica</span><span class="kc">n</span><span class="w"> </span><span class="err">America</span><span class="kc">n</span><span class="err">&#39;</span><span class="p">,</span><span class="w"> </span><span class="err">&#39;America</span><span class="kc">n</span><span class="w"> </span><span class="err">I</span><span class="kc">n</span><span class="err">dia</span><span class="kc">n</span><span class="w"> </span><span class="err">or</span><span class="w"> </span><span class="err">Alaska</span><span class="w"> </span><span class="err">Na</span><span class="kc">t</span><span class="err">ive&#39;</span><span class="p">,</span><span class="w"> </span><span class="err">&#39;Na</span><span class="kc">t</span><span class="err">ive</span><span class="w"> </span><span class="err">Hawaiia</span><span class="kc">n</span><span class="w"> </span><span class="err">or</span><span class="w"> </span><span class="err">O</span><span class="kc">t</span><span class="err">her</span><span class="w"> </span><span class="err">Paci</span><span class="kc">f</span><span class="err">ic</span><span class="w"> </span><span class="err">Isla</span><span class="kc">n</span><span class="err">der&#39;</span><span class="p">,</span><span class="w"> </span><span class="err">&#39;Asia</span><span class="kc">n</span><span class="err">&#39;</span><span class="p">,</span><span class="w"> </span><span class="err">&#39;Some</span><span class="w"> </span><span class="err">o</span><span class="kc">t</span><span class="err">her</span><span class="w"> </span><span class="err">race&#39;</span><span class="p">,</span><span class="w"> </span><span class="err">&#39;Mul</span><span class="kc">t</span><span class="err">iracial&#39;</span><span class="p">]</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="w">  </span><span class="p">[</span><span class="err">'Whi</span><span class="kc">te</span><span class="err">'</span><span class="p">,</span><span class="w"> </span><span class="err">'Black</span><span class="w"> </span><span class="err">or</span><span class="w"> </span><span class="err">A</span><span class="kc">fr</span><span class="err">ica</span><span class="kc">n</span><span class="w"> </span><span class="err">America</span><span class="kc">n</span><span class="err">'</span><span class="p">,</span><span class="w"> </span><span class="err">'America</span><span class="kc">n</span><span class="w"> </span><span class="err">I</span><span class="kc">n</span><span class="err">dia</span><span class="kc">n</span><span class="w"> </span><span class="err">or</span><span class="w"> </span><span class="err">Alaska</span><span class="w"> </span><span class="err">Na</span><span class="kc">t</span><span class="err">ive'</span><span class="p">,</span><span class="w"> </span><span class="err">'Na</span><span class="kc">t</span><span class="err">ive</span><span class="w"> </span><span class="err">Hawaiia</span><span class="kc">n</span><span class="w"> </span><span class="err">or</span><span class="w"> </span><span class="err">O</span><span class="kc">t</span><span class="err">her</span><span class="w"> </span><span class="err">Paci</span><span class="kc">f</span><span class="err">ic</span><span class="w"> </span><span class="err">Isla</span><span class="kc">n</span><span class="err">der'</span><span class="p">,</span><span class="w"> </span><span class="err">'Asia</span><span class="kc">n</span><span class="err">'</span><span class="p">,</span><span class="w"> </span><span class="err">'Some</span><span class="w"> </span><span class="err">o</span><span class="kc">t</span><span class="err">her</span><span class="w"> </span><span class="err">race'</span><span class="p">,</span><span class="w"> </span><span class="err">'Mul</span><span class="kc">t</span><span class="err">iracial'</span><span class="p">]</span>
 </code></pre></div>
 </li>
 <li>
@@ -1074,9 +1585,9 @@ numerical values.</p>
 store categoricals that are stored as  "short" labels (such as
 abbreviations).</p>
 <p>Examples:</p>
-<div class="highlight"><pre><span></span><code><span class="w">  </span><span class="p">{</span><span class="err">&#39;</span><span class="mi">0</span><span class="err">&#39;</span><span class="p">:</span><span class="w"> </span><span class="err">&#39;No&#39;</span><span class="p">,</span><span class="w"> </span><span class="err">&#39;</span><span class="mi">1</span><span class="err">&#39;</span><span class="p">:</span><span class="w"> </span><span class="err">&#39;Yes&#39;</span><span class="p">}</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="w">  </span><span class="p">{</span><span class="err">'</span><span class="mi">0</span><span class="err">'</span><span class="p">:</span><span class="w"> </span><span class="err">'No'</span><span class="p">,</span><span class="w"> </span><span class="err">'</span><span class="mi">1</span><span class="err">'</span><span class="p">:</span><span class="w"> </span><span class="err">'Yes'</span><span class="p">}</span>
 </code></pre></div>
-<div class="highlight"><pre><span></span><code><span class="w">  </span><span class="p">{</span><span class="err">&#39;HW&#39;</span><span class="p">:</span><span class="w"> </span><span class="err">&#39;Hello</span><span class="w"> </span><span class="err">world&#39;</span><span class="p">,</span><span class="w"> </span><span class="err">&#39;GBW&#39;</span><span class="p">:</span><span class="w"> </span><span class="err">&#39;Good</span><span class="w"> </span><span class="err">bye</span><span class="w"> </span><span class="err">world&#39;</span><span class="p">,</span><span class="w"> </span><span class="err">&#39;HM&#39;</span><span class="p">:</span><span class="w"> </span><span class="err">&#39;Hi</span><span class="p">,</span><span class="w"> </span><span class="err">Mike&#39;</span><span class="p">}</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="w">  </span><span class="p">{</span><span class="err">'HW'</span><span class="p">:</span><span class="w"> </span><span class="err">'Hello</span><span class="w"> </span><span class="err">world'</span><span class="p">,</span><span class="w"> </span><span class="err">'GBW'</span><span class="p">:</span><span class="w"> </span><span class="err">'Good</span><span class="w"> </span><span class="err">bye</span><span class="w"> </span><span class="err">world'</span><span class="p">,</span><span class="w"> </span><span class="err">'HM'</span><span class="p">:</span><span class="w"> </span><span class="err">'Hi</span><span class="p">,</span><span class="w"> </span><span class="err">Mike'</span><span class="p">}</span>
 </code></pre></div>
 <p><strong><code>ordered</code></strong> <em>(boolean)</em>
  Indicates whether a categorical variable is ordered. This variable  is
@@ -1086,18 +1597,18 @@ necessarily  a numerical relationship (e.g., Strongly disagree &lt; Disagree
 <p><strong><code>missingValues</code></strong> <em>(array)</em>
  A list of missing values specific to a variable.</p>
 <p>Examples:</p>
-<div class="highlight"><pre><span></span><code><span class="w">  </span><span class="p">[</span><span class="err">&#39;Missi</span><span class="kc">n</span><span class="err">g&#39;</span><span class="p">,</span><span class="w"> </span><span class="err">&#39;Skipped&#39;</span><span class="p">,</span><span class="w"> </span><span class="err">&#39;No</span><span class="w"> </span><span class="err">pre</span><span class="kc">feren</span><span class="err">ce&#39;</span><span class="p">]</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="w">  </span><span class="p">[</span><span class="err">'Missi</span><span class="kc">n</span><span class="err">g'</span><span class="p">,</span><span class="w"> </span><span class="err">'Skipped'</span><span class="p">,</span><span class="w"> </span><span class="err">'No</span><span class="w"> </span><span class="err">pre</span><span class="kc">feren</span><span class="err">ce'</span><span class="p">]</span>
 </code></pre></div>
-<div class="highlight"><pre><span></span><code><span class="w">  </span><span class="p">[</span><span class="err">&#39;Missi</span><span class="kc">n</span><span class="err">g&#39;</span><span class="p">]</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="w">  </span><span class="p">[</span><span class="err">'Missi</span><span class="kc">n</span><span class="err">g'</span><span class="p">]</span>
 </code></pre></div>
 <p><strong><code>trueValues</code></strong> <em>(array)</em>
  For boolean (true) variable (as defined in type field), this field allows
 a physical string representation to be cast as true (increasing
 readability of the field). It can include one or more values.</p>
 <p>Examples:</p>
-<div class="highlight"><pre><span></span><code><span class="w">  </span><span class="p">[</span><span class="err">&#39;required&#39;</span><span class="p">,</span><span class="w"> </span><span class="err">&#39;Yes&#39;</span><span class="p">,</span><span class="w"> </span><span class="err">&#39;Checked&#39;</span><span class="p">]</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="w">  </span><span class="p">[</span><span class="err">'required'</span><span class="p">,</span><span class="w"> </span><span class="err">'Yes'</span><span class="p">,</span><span class="w"> </span><span class="err">'Checked'</span><span class="p">]</span>
 </code></pre></div>
-<div class="highlight"><pre><span></span><code><span class="w">  </span><span class="p">[</span><span class="err">&#39;required&#39;</span><span class="p">]</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="w">  </span><span class="p">[</span><span class="err">'required'</span><span class="p">]</span>
 </code></pre></div>
 <p><strong><code>falseValues</code></strong> <em>(array)</em>
  For boolean (false) variable (as defined in type field), this field allows
@@ -1142,7 +1653,14 @@ readability of the field) that is not a standard false value. It can include one
 <li>
 <p><strong><code>categoricalMarginals</code></strong> <em>(array)</em></p>
 </li>
-</ul>
+</ul></div>
+
+
+
+
+
+
+
 
 
 
@@ -1153,6 +1671,7 @@ readability of the field) that is not a standard false value. It can include one
             </div>
           
           
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
       </main>
@@ -1180,10 +1699,14 @@ readability of the field) that is not a standard false value. It can include one
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.indexes", "navigation.indexes", "navigation.tracking"], "search": "../../../assets/javascripts/workers/search.5bf1dace.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.37e9125f.min.js"></script>
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.indexes", "navigation.indexes", "navigation.tracking"], "search": "../../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
       
     
   </body>

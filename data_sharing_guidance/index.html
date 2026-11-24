@@ -10,8 +10,18 @@
       
         <link rel="canonical" href="https://heal-docs-dev.io/data_sharing_guidance/">
       
+      
+        <link rel="prev" href="../reporting-repo/">
+      
+      
+        <link rel="next" href="../platform_discovery_page/">
+      
+      
+        
+      
+      
       <link rel="icon" href="../img/heal_logo.png">
-      <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.5.3">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.1">
     
     
       
@@ -19,15 +29,17 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.7a952b86.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.57a0d79d.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.cbb835fc.min.css">
-        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.fb2fffe2.min.css">
       
       
 
+
     
+    
+      
     
     
       
@@ -41,11 +53,10 @@
     
       <link rel="stylesheet" href="../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
-    
     
     
   </head>
@@ -56,9 +67,8 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="heal_platform" data-md-color-primary="" data-md-color-accent="">
+    <body dir="ltr" data-md-color-scheme="heal_platform" data-md-color-primary="indigo" data-md-color-accent="indigo">
   
-    
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -78,7 +88,9 @@
     
       
 
-<header class="md-header" data-md-component="header">
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="https://healdata.org" title="HEAL Platform Documentation" class="md-header__button md-logo" aria-label="HEAL Platform Documentation" data-md-component="logo">
       
@@ -86,7 +98,8 @@
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
     </label>
     <div class="md-header__title" data-md-component="header-title">
       <div class="md-header__ellipsis">
@@ -105,40 +118,50 @@
       </div>
     </div>
     
+      
     
     
-      <label class="md-header__button md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
-      </label>
-      <div class="md-search" data-md-component="search" role="dialog">
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
       <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
       </label>
       <nav class="md-search__options" aria-label="Search">
         
         <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
         </button>
       </nav>
       
     </form>
     <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
             Initializing search
           </div>
-          <ol class="md-search-result__list"></ol>
+          <ol class="md-search-result__list" role="presentation"></ol>
         </div>
       </div>
     </div>
   </div>
 </div>
+      
     
     
   </nav>
@@ -163,6 +186,7 @@
                     
 
 
+
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="https://healdata.org" title="HEAL Platform Documentation" class="md-nav__button md-logo" aria-label="HEAL Platform Documentation" data-md-component="logo">
@@ -177,14 +201,26 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href=".." class="md-nav__link">
-        Home
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
@@ -192,14 +228,26 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="https://healdata.org/" class="md-nav__link">
-        Return to Platform
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Return to Platform
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
@@ -207,14 +255,26 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../logging-in/" class="md-nav__link">
-        Logging In
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Logging In
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
@@ -222,448 +282,759 @@
     
       
       
-      
-
+  
   
   
   
     
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
       
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
-      
-      
-      
-        
-          
-            
-          
-        
-          
-        
-          
-        
-      
-      
         
         
-        <div class="md-nav__link md-nav__link--index ">
-          <a href="../study-registration/">Study Registration</a>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
           
-            <label for="__nav_4">
-              <span class="md-nav__icon md-icon"></span>
-            </label>
-          
-        </div>
-      
-      <nav class="md-nav" aria-label="Study Registration" data-md-level="1">
-        <label class="md-nav__title" for="__nav_4">
-          <span class="md-nav__icon md-icon"></span>
-          Study Registration
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-          
+          <div class="md-nav__link md-nav__container">
+            <a href="../study-registration/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Study Registration
+  
+
+    
+  </span>
+  
+  
+
+            </a>
             
               
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Study Registration
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../study-registration/requesting-access/" class="md-nav__link">
-        Requesting Access
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Requesting Access
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../study-registration/registering-your-study/" class="md-nav__link">
-        Registering Your Study
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Registering Your Study
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
+              
             
-          
-        </ul>
-      </nav>
+          </ul>
+        </nav>
+      
     </li>
   
 
     
       
       
-      
-
+  
   
   
   
     
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
       
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
-      
-      
-      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Study-Level Metadata Submission (CEDAR Form)
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
         
-          
-        
-      
-      
-        <label class="md-nav__link" for="__nav_5">
-          Study-Level Metadata Submission (CEDAR Form)
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Study-Level Metadata Submission (CEDAR Form)" data-md-level="1">
-        <label class="md-nav__title" for="__nav_5">
-          <span class="md-nav__icon md-icon"></span>
-          Study-Level Metadata Submission (CEDAR Form)
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Study-Level Metadata Submission (CEDAR Form)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../slmd_submission/" class="md-nav__link">
-        Study-Level Metadata Submission
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Study-Level Metadata Submission
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../cedar-getting-started/" class="md-nav__link">
-        CEDAR form: Getting Started
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CEDAR form: Getting Started
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
+              
             
-          
-        </ul>
-      </nav>
+          </ul>
+        </nav>
+      
     </li>
   
 
     
       
       
-      
-
+  
   
   
   
     
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
       
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
-      
-      
-      
-        
-          
-            
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-      
         
         
-        <div class="md-nav__link md-nav__link--index ">
-          <a href="../vlmd/">Variable-level Metadata Submission</a>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
           
-            <label for="__nav_6">
-              <span class="md-nav__icon md-icon"></span>
-            </label>
-          
-        </div>
-      
-      <nav class="md-nav" aria-label="Variable-level Metadata Submission" data-md-level="1">
-        <label class="md-nav__title" for="__nav_6">
-          <span class="md-nav__icon md-icon"></span>
-          Variable-level Metadata Submission
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-          
+          <div class="md-nav__link md-nav__container">
+            <a href="../vlmd/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Variable-level Metadata Submission
+  
+
+    
+  </span>
+  
+  
+
+            </a>
             
               
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Variable-level Metadata Submission
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../vlmd/vlmd_request_access/" class="md-nav__link">
-        Request Access to Submit VLMD
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Request Access to Submit VLMD
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../vlmd/vlmd_tools/" class="md-nav__link">
-        Generate a HEAL-compliant Data Dictionary
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Generate a HEAL-compliant Data Dictionary
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../vlmd/vlmd_submission/" class="md-nav__link">
-        Submit a Data Dictionary
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Submit a Data Dictionary
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../vlmd/vlmd_submit_CDE/" class="md-nav__link">
-        Submit HEAL CDEs
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Submit HEAL CDEs
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
+              
             
-          
-        </ul>
-      </nav>
+          </ul>
+        </nav>
+      
     </li>
   
 
     
       
       
-      
-
+  
   
   
   
     
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
       
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
-      
-      
-      
-        
-          
-            
-          
-        
-          
-        
-          
-        
-      
-      
         
         
-        <div class="md-nav__link md-nav__link--index ">
-          <a href="../workspaces/">Workspace User Guide</a>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
           
-            <label for="__nav_7">
-              <span class="md-nav__icon md-icon"></span>
-            </label>
-          
-        </div>
-      
-      <nav class="md-nav" aria-label="Workspace User Guide" data-md-level="1">
-        <label class="md-nav__title" for="__nav_7">
-          <span class="md-nav__icon md-icon"></span>
-          Workspace User Guide
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-          
+          <div class="md-nav__link md-nav__container">
+            <a href="../workspaces/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Workspace User Guide
+  
+
+    
+  </span>
+  
+  
+
+            </a>
             
               
+              <label class="md-nav__link " for="__nav_7" id="__nav_7_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Workspace User Guide
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../workspaces/heal_workspace_registration/" class="md-nav__link">
-        Register for HEAL Data Platform Workspaces
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Register for HEAL Data Platform Workspaces
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../workspaces/heal_workspaces/" class="md-nav__link">
-        Using Workspaces on the HEAL Data Platform
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Using Workspaces on the HEAL Data Platform
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
+              
             
-          
-        </ul>
-      </nav>
+          </ul>
+        </nav>
+      
     </li>
   
 
     
       
       
-      
-
   
   
     
   
   
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
     
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" checked>
-      
-      
-      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
         
           
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data and Repositories
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
         
-          
-        
-          
-        
-          
-        
-      
-      
-        <label class="md-nav__link" for="__nav_8">
-          Data and Repositories
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Data and Repositories" data-md-level="1">
-        <label class="md-nav__title" for="__nav_8">
-          <span class="md-nav__icon md-icon"></span>
-          Data and Repositories
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Data and Repositories
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../hosted_data_types/" class="md-nav__link">
-        Types of Hosted Data
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Types of Hosted Data
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../data_mgmt_and_repos/" class="md-nav__link">
-        Data Management and Repositories
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data Management and Repositories
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../reporting-repo/" class="md-nav__link">
-        Reporting Repository Selection and Data Availability
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reporting Repository Selection and Data Availability
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
   
   
     
   
   
+  
     <li class="md-nav__item md-nav__item--active">
       
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
         
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Data Sharing Guidance
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data Sharing Guidance
+  
+
+    
+  </span>
+  
+  
+
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Data Sharing Guidance
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data Sharing Guidance
+  
+
+    
+  </span>
+  
+  
+
       </a>
       
         
@@ -683,14 +1054,22 @@
       
         <li class="md-nav__item">
   <a href="#introduction" class="md-nav__link">
-    Introduction
+    <span class="md-ellipsis">
+      
+        Introduction
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#data-packaging-what-to-share-and-when" class="md-nav__link">
-    Data Packaging: What to Share and When
+    <span class="md-ellipsis">
+      
+        Data Packaging: What to Share and When
+      
+    </span>
   </a>
   
     <nav class="md-nav" aria-label="Data Packaging: What to Share and When">
@@ -698,21 +1077,33 @@
         
           <li class="md-nav__item">
   <a href="#common-data-elements" class="md-nav__link">
-    Common Data Elements
+    <span class="md-ellipsis">
+      
+        Common Data Elements
+      
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#required-items" class="md-nav__link">
-    Required items
+    <span class="md-ellipsis">
+      
+        Required items
+      
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#best-practices-a-little-more-goes-a-long-way" class="md-nav__link">
-    Best Practices - A Little More Goes a Long Way
+    <span class="md-ellipsis">
+      
+        Best Practices - A Little More Goes a Long Way
+      
+    </span>
   </a>
   
 </li>
@@ -724,7 +1115,11 @@
       
         <li class="md-nav__item">
   <a href="#helpful-tips" class="md-nav__link">
-    Helpful Tips
+    <span class="md-ellipsis">
+      
+        Helpful Tips
+      
+    </span>
   </a>
   
     <nav class="md-nav" aria-label="Helpful Tips">
@@ -732,14 +1127,22 @@
         
           <li class="md-nav__item">
   <a href="#recommended-file-formats" class="md-nav__link">
-    Recommended file formats
+    <span class="md-ellipsis">
+      
+        Recommended file formats
+      
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#data-curation-and-quality-control" class="md-nav__link">
-    Data Curation and Quality Control
+    <span class="md-ellipsis">
+      
+        Data Curation and Quality Control
+      
+    </span>
   </a>
   
 </li>
@@ -751,14 +1154,22 @@
       
         <li class="md-nav__item">
   <a href="#data-sharing-resources" class="md-nav__link">
-    Data Sharing Resources
+    <span class="md-ellipsis">
+      
+        Data Sharing Resources
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#references" class="md-nav__link">
-    References
+    <span class="md-ellipsis">
+      
+        References
+      
+    </span>
   </a>
   
 </li>
@@ -770,140 +1181,243 @@
     </li>
   
 
+              
             
-          
-        </ul>
-      </nav>
+          </ul>
+        </nav>
+      
     </li>
   
 
     
       
       
-      
-
+  
   
   
   
     
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
       
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" type="checkbox" id="__nav_9" >
-      
-      
-      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
         
           
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HEAL Platform Features
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
         
-          
-        
-          
-        
-          
-        
-          
-        
-      
-      
-        <label class="md-nav__link" for="__nav_9">
-          HEAL Platform Features
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="HEAL Platform Features" data-md-level="1">
-        <label class="md-nav__title" for="__nav_9">
-          <span class="md-nav__icon md-icon"></span>
-          HEAL Platform Features
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    HEAL Platform Features
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../platform_discovery_page/" class="md-nav__link">
-        Discovery Page
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Discovery Page
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../platform_request_access/" class="md-nav__link">
-        Access check/request
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Access check/request
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../platform_workspaces/" class="md-nav__link">
-        Workspaces
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Workspaces
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../platform_example_analyses/" class="md-nav__link">
-        Example Analysis Page
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Example Analysis Page
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../platform_profile_page/" class="md-nav__link">
-        Profile Page
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Profile Page
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
 
+              
             
-          
-        </ul>
-      </nav>
+          </ul>
+        </nav>
+      
     </li>
   
 
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../downloading_files/" class="md-nav__link">
-        Data File Downloads
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data File Downloads
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
@@ -911,14 +1425,26 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../platform_tutorial_videos/" class="md-nav__link">
-        Tutorial Videos
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tutorial Videos
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
@@ -926,14 +1452,26 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../faqs/" class="md-nav__link">
-        FAQs
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FAQs
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
@@ -941,14 +1479,26 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../contact/" class="md-nav__link">
-        Contact
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contact
+  
+
+    
+  </span>
+  
+  
+
       </a>
     </li>
   
@@ -982,14 +1532,22 @@
       
         <li class="md-nav__item">
   <a href="#introduction" class="md-nav__link">
-    Introduction
+    <span class="md-ellipsis">
+      
+        Introduction
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#data-packaging-what-to-share-and-when" class="md-nav__link">
-    Data Packaging: What to Share and When
+    <span class="md-ellipsis">
+      
+        Data Packaging: What to Share and When
+      
+    </span>
   </a>
   
     <nav class="md-nav" aria-label="Data Packaging: What to Share and When">
@@ -997,21 +1555,33 @@
         
           <li class="md-nav__item">
   <a href="#common-data-elements" class="md-nav__link">
-    Common Data Elements
+    <span class="md-ellipsis">
+      
+        Common Data Elements
+      
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#required-items" class="md-nav__link">
-    Required items
+    <span class="md-ellipsis">
+      
+        Required items
+      
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#best-practices-a-little-more-goes-a-long-way" class="md-nav__link">
-    Best Practices - A Little More Goes a Long Way
+    <span class="md-ellipsis">
+      
+        Best Practices - A Little More Goes a Long Way
+      
+    </span>
   </a>
   
 </li>
@@ -1023,7 +1593,11 @@
       
         <li class="md-nav__item">
   <a href="#helpful-tips" class="md-nav__link">
-    Helpful Tips
+    <span class="md-ellipsis">
+      
+        Helpful Tips
+      
+    </span>
   </a>
   
     <nav class="md-nav" aria-label="Helpful Tips">
@@ -1031,14 +1605,22 @@
         
           <li class="md-nav__item">
   <a href="#recommended-file-formats" class="md-nav__link">
-    Recommended file formats
+    <span class="md-ellipsis">
+      
+        Recommended file formats
+      
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#data-curation-and-quality-control" class="md-nav__link">
-    Data Curation and Quality Control
+    <span class="md-ellipsis">
+      
+        Data Curation and Quality Control
+      
+    </span>
   </a>
   
 </li>
@@ -1050,14 +1632,22 @@
       
         <li class="md-nav__item">
   <a href="#data-sharing-resources" class="md-nav__link">
-    Data Sharing Resources
+    <span class="md-ellipsis">
+      
+        Data Sharing Resources
+      
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#references" class="md-nav__link">
-    References
+    <span class="md-ellipsis">
+      
+        References
+      
+    </span>
   </a>
   
 </li>
@@ -1072,13 +1662,15 @@
           
           
             <div class="md-content" data-md-component="content">
+              
               <article class="md-content__inner md-typeset">
                 
                   
 
 
-<h1 id="packaging-your-data-for-success">Packaging Your Data for Success<a class="headerlink" href="#packaging-your-data-for-success" title="Permanent link">&para;</a></h1>
-<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
+
+<div><h1 id="packaging-your-data-for-success">Packaging Your Data for Success<a class="headerlink" href="#packaging-your-data-for-success" title="Permanent link">¶</a></h1>
+<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">¶</a></h2>
 <p>This documentation describes general principles for sharing data with the research community in a manner consistent with NIH's 2023 Data Management and Sharing Policy, and with additional HEAL program requirements<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>. These principles should apply to nearly all HEAL-compliant repositories, some of which impose their own specific requirements for how these principles are to be implemented. </p>
 <p>Why align with requirements to manage and share your data?:</p>
 <ol>
@@ -1087,7 +1679,7 @@
 <li>Identifying and learning to use the latest, appropriate technologies can reduce the time and effort required to manage your data.</li>
 </ol>
 <p>To help you get started, we have identified minimal requirements and additional best practices to increase the scientific and analytic value of your datasets. </p>
-<h2 id="data-packaging-what-to-share-and-when">Data Packaging: What to Share and When<a class="headerlink" href="#data-packaging-what-to-share-and-when" title="Permanent link">&para;</a></h2>
+<h2 id="data-packaging-what-to-share-and-when">Data Packaging: What to Share and When<a class="headerlink" href="#data-packaging-what-to-share-and-when" title="Permanent link">¶</a></h2>
 <p>The 2023 NIH policy defines scientific data that must be shared as "the recorded factual material commonly accepted in the scientific community as of sufficient quality to validate and replicate research findings." This definition ties data sharing directly to your own analytic work (i.e., the data you share should permit someone to replicate your own published results) and includes not only data but other materials necessary for replication such as analysis code.</p>
 <p>Data repositories define <em>open access data</em> to be data which may be accessed or downloaded directly without going through a request and approval process. In contrast, <em>controlled access data</em> require that users submit a request which is then reviewed prior to granting approval (e.g., by a data access committee). In cases where a complete dataset requires controlled access to protect confidentiality, we encourage whenever possible creating a second version of the dataset containing only a subset of the data that can be made openly accessible. It is well-established that openly accessible datasets are used much more frequently than controlled access datasets.</p>
 <div class="admonition note">
@@ -1101,7 +1693,7 @@
 <li><strong>Participating in a collaborative project</strong>: Submitting data from one site or study intended primarily to be analyzed and/or archived together with similar data from other sites or studies (e.g., as part of a planned meta- or mega-analysis or for archiving with a domain-specific repository). This typically requires preparing a dataset that meets very specific requirements, and may require harmonization. </li>
 </ol>
 <p>While each of these goals has somewhat different needs and requirements, there are several general principles that apply across all of them. These are described below, organized into a set of minimal requirements followed by a list of additional best practices. We also provide several tips that you may find helpful when preparing and packaging your data for sharing.</p>
-<h3 id="common-data-elements"><strong>Common Data Elements</strong><a class="headerlink" href="#common-data-elements" title="Permanent link">&para;</a></h3>
+<h3 id="common-data-elements"><strong>Common Data Elements</strong><a class="headerlink" href="#common-data-elements" title="Permanent link">¶</a></h3>
 <p>Considerable effort was put into identifying a set of common data elements (CDEs) for use in pain research, and encouraging their use among HEAL studies (these may be found in the <a href="https://heal.nih.gov/data/common-data-elements-repository">HEAL CDE Repository</a>). Using CDEs not only increases the quality and consistency of measurement, but also permits pooling of data across studies for combined analyses. To ensure that data from CDEs can be combined and analyzed together, it is important to include the following when packaging and sharing your data:</p>
 <ol>
 <li><strong>Identify the source of the CDE</strong>, including the specific version used (if applicable) and a link to where the CDE may be obtained (if available).</li>
@@ -1110,7 +1702,7 @@
 <li><strong>Label missing values</strong> to indicate the source of the missingness (e.g., "Don't know", "Refused", "Left blank", "Not administered", "Legitimately skipped", etc.). This is important so that missing data can be addressed appropriately during secondary analyses.</li>
 </ol>
 <p>See below for more information on how to share both the data and metadata from CDEs (e.g., file structure, format, etc.).</p>
-<h3 id="required-items"><strong>Required items</strong><a class="headerlink" href="#required-items" title="Permanent link">&para;</a></h3>
+<h3 id="required-items"><strong>Required items</strong><a class="headerlink" href="#required-items" title="Permanent link">¶</a></h3>
 <p>These items are required to enable others to use your shared data.</p>
 <ol>
 <li><strong>Study-level metadata</strong>: A human-readable file (e.g., a README file) identifying the study or project that generated the dataset and describing the terms (including any restrictions) governing use of the data.</li>
@@ -1119,7 +1711,7 @@
 <li><strong>Data file(s)</strong>: The file(s) containing the shared data; these may contain raw, preprocessed data, post-processed or curated data, or files prepared for analysis</li>
 </ol>
 <p>Example of a high-quality dataset accompanied by sufficient information to access and replicate published findings: <a href="https://datashare.nida.nih.gov/study/nida-ctn-0095a2">NIDA-CTN-0095A2: Reducing Stigma toward People with Opioid Use Disorder among Primary Care Clinicians at NIDA Data Share</a></p>
-<h3 id="best-practices-a-little-more-goes-a-long-way"><strong>Best Practices - A Little More Goes a Long Way</strong><a class="headerlink" href="#best-practices-a-little-more-goes-a-long-way" title="Permanent link">&para;</a></h3>
+<h3 id="best-practices-a-little-more-goes-a-long-way"><strong>Best Practices - A Little More Goes a Long Way</strong><a class="headerlink" href="#best-practices-a-little-more-goes-a-long-way" title="Permanent link">¶</a></h3>
 <p><em>The following additional steps can add substantial scientific and analytic value to a shared dataset:</em></p>
 <ol>
 <li>Include persistent identifiers (e.g., DOIs) to publication(s) generated from the data; this not only aids in replication but can also provide additional documentation for the data with little or no extra work. </li>
@@ -1130,14 +1722,14 @@
 <li>Include pipelines to validate assertions about the data such as skip patterns (e.g., instances where a specific item is skipped based on responses to a previous item).</li>
 <li>Combine data, metadata, and code into a <em><a href="https://datapackage.org/">data package</a></em>—a specially organized folder containing one or more data files and corresponding JSON- or YAML-formatted metadata files. Data packages make it easy to validate data, to transform data, to read data into analytic software packages, and to share data.</li>
 </ol>
-<h2 id="helpful-tips">Helpful Tips<a class="headerlink" href="#helpful-tips" title="Permanent link">&para;</a></h2>
+<h2 id="helpful-tips">Helpful Tips<a class="headerlink" href="#helpful-tips" title="Permanent link">¶</a></h2>
 <p>A FAIR data package contains both the data files you intend to share and sufficient information for secondary users to understand and use those data files. As noted above, this additional information may include protocols, data collection instruments, code for manipulating or analyzing the data, discipline-specific metadata files describing the data, and additional documentation. </p>
-<h3 id="recommended-file-formats"><strong>Recommended file formats</strong><a class="headerlink" href="#recommended-file-formats" title="Permanent link">&para;</a></h3>
+<h3 id="recommended-file-formats"><strong>Recommended file formats</strong><a class="headerlink" href="#recommended-file-formats" title="Permanent link">¶</a></h3>
 <ol>
 <li><strong>Data files should be in a non-proprietary, commonly-used format</strong> such as CSV files with commas or tabs as delimiters and a header row containing column (i.e., variable) names. Nearly all software for data collection and/or data management is capable of exporting to CSV format, and this ensures that the data may be read by the widest possible range of software, both now and in the future. Data representing responses from a fixed set of choices (e.g., Yes/No items or individual items from a Likert scale) may be recorded as text labels (e.g., "Yes" or "No") or as integer codes, where the mapping between integers and labels is provided in an accompanying schema (see Item 2 immediately below).</li>
 <li><strong>Variable-level metadata (VLMD) should be provided in machine-readable form</strong>. The best way to do this is with a JSON- or YAML-format schema, though a data dictionary in CSV format may in some cases also be acceptable. The HEAL Data Ecosystem requires that variable-level metadata (VLMD) schemas include at a minimum the variable name and description, while also strongly encouraging inclusion of the following (for each variable): a title (i.e., a human-readable label for the variable), datatype (e.g., integer, float, date, string, boolean, etc.), and possible responses for each variable (e.g., range, list of choices, or constraints). Examples of valid and invalid VLMD files are available <a href="https://github.com/HEAL/heal-metadata-schemas/tree/main/variable-level-metadata-schema/examples">here</a>. Note: All variable-level metadata submitted to the HEAL Data Platform must adhere to this specification, and it is also strongly recommended when submitting data to a repository.</li>
 </ol>
-<h3 id="data-curation-and-quality-control"><strong>Data Curation and Quality Control</strong><a class="headerlink" href="#data-curation-and-quality-control" title="Permanent link">&para;</a></h3>
+<h3 id="data-curation-and-quality-control"><strong>Data Curation and Quality Control</strong><a class="headerlink" href="#data-curation-and-quality-control" title="Permanent link">¶</a></h3>
 <ol>
 <li>In addition to the VLMD described above, it is best practice for all data to be accompanied by the following minimal study-level metadata (e.g., in the README file):<ol>
 <li>Name of investigator(s)</li>
@@ -1177,7 +1769,7 @@
 </li>
 </ol>
 <p>In cases where this information was not recorded, the corresponding value should be left blank (i.e., the empty string). Such information should ideally always be recorded and provided when sharing data, since blank values can make a dataset difficult if not impossible to analyze.</p>
-<h2 id="data-sharing-resources">Data Sharing Resources<a class="headerlink" href="#data-sharing-resources" title="Permanent link">&para;</a></h2>
+<h2 id="data-sharing-resources">Data Sharing Resources<a class="headerlink" href="#data-sharing-resources" title="Permanent link">¶</a></h2>
 <ul>
 <li><a href="https://github.com/HEAL/heal-metadata-schemas/blob/main/variable-level-metadata-schema/schemas/data-dictionary.json">HEAL VLMD schema</a></li>
 <li><a href="https://github.com/HEAL/heal-metadata-schemas/tree/main/variable-level-metadata-schema/examples">Examples of valid and invalid VLMD</a></li>
@@ -1189,18 +1781,25 @@
 <li><a href="https://www.healdatafair.org/sensitive-data">HEAL Stewards Sensitive Data Guidance</a></li>
 <li><a href="https://www.healdatafair.org/resources/metadata">Metadata in the HEAL Data Ecosystem</a></li>
 </ul>
-<h2 id="references">References<a class="headerlink" href="#references" title="Permanent link">&para;</a></h2>
+<h2 id="references">References<a class="headerlink" href="#references" title="Permanent link">¶</a></h2>
 <div class="footnote">
-<hr />
+<hr>
 <ol>
 <li id="fn:1">
-<p>National Institutes of Health (2020). Final NIH Policy for Data Management and Sharing. <a href="https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html">https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html</a>.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+<p>National Institutes of Health (2020). Final NIH Policy for Data Management and Sharing. <a href="https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html">https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html</a>. <a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">↩</a></p>
 </li>
 <li id="fn:2">
-<p>Wilkinson, M.D., Dumontier, M., Aalbersberg, Ij.J., Appleton, G., Axton, M., Baak, A., Blomberg, N., Boiten, J.-W., da Silva Santos, L.B., Bourne, P.E., et al. (2016). The FAIR Guiding Principles for scientific data management and stewardship. Scientific Data 3, 160018. <a href="https://doi.org/10.1038/sdata.2016.18">https://doi.org/10.1038/sdata.2016.18</a>.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+<p>Wilkinson, M.D., Dumontier, M., Aalbersberg, Ij.J., Appleton, G., Axton, M., Baak, A., Blomberg, N., Boiten, J.-W., da Silva Santos, L.B., Bourne, P.E., et al. (2016). The FAIR Guiding Principles for scientific data management and stewardship. Scientific Data 3, 160018. <a href="https://doi.org/10.1038/sdata.2016.18">https://doi.org/10.1038/sdata.2016.18</a>. <a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">↩</a></p>
 </li>
 </ol>
-</div>
+</div></div>
+
+
+
+
+
+
+
 
 
 
@@ -1211,47 +1810,12 @@
             </div>
           
           
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
       </main>
       
         <footer class="md-footer">
-  
-    
-    <nav class="md-footer__inner md-grid" aria-label="Footer" >
-      
-        
-        <a href="../reporting-repo/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Reporting Repository Selection and Data Availability" rel="prev">
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
-          </div>
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Previous
-              </span>
-              Reporting Repository Selection and Data Availability
-            </div>
-          </div>
-        </a>
-      
-      
-        
-        <a href="../platform_discovery_page/" class="md-footer__link md-footer__link--next" aria-label="Next: Discovery Page" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              Discovery Page
-            </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
-          </div>
-        </a>
-      
-    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -1274,10 +1838,14 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.indexes", "navigation.indexes", "navigation.tracking"], "search": "../assets/javascripts/workers/search.5bf1dace.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.37e9125f.min.js"></script>
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.indexes", "navigation.indexes", "navigation.tracking"], "search": "../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.a5f9d56c.min.js"></script>
       
     
   </body>
