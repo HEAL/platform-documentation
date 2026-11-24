@@ -72,7 +72,7 @@ Users can import data files directly into the Notebook code after selecting file
   <figcaption> Do not forget to terminate your workspace once your work is finished. Unterminated workspaces continue to accrue computational costs.</figcaption>
 </figure>           
 
-Further reading: read more about how to download data files into the Workspaces [here](#DownloadFilesSDKWorkspaces).
+Further reading: read more about [how to download data files into the Workspaces here](platform_discovery_page.md#select-files-on-the-discovery-page-and-bring-them-to-the-workspace).
 
 ## Upload, save, and download Files/Notebooks
 
